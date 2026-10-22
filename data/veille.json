@@ -1,0 +1,471 @@
+{
+  "nouvautes": {
+    "semaine": "2026-10-19",
+    "fin": "2026-10-25",
+    "maj": "2026-10-22",
+    "messages_cles": [
+      "Arboviroses en métropole : ne pas exclure une infection autochtone par dengue, chikungunya ou West Nile devant une présentation compatible, même sans voyage.",
+      "Bactériémies : une cohorte publiée le 19 octobre montre la faible utilisation du relais oral ; son association à de meilleurs résultats ne prouve pas un bénéfice causal.",
+      "Début de saison respiratoire : surveiller les bulletins hebdomadaires et appliquer les indications vaccinales actualisées, notamment chez les patients fragiles."
+    ],
+    "nouveautes": [
+      {
+        "id": "n-arbo-2110",
+        "date": "2026-10-21",
+        "titre": "France : transmissions autochtones de dengue, chikungunya et West Nile",
+        "resume": "Santé publique France dénombre au 19 octobre 27 épisodes de transmission vectorielle de chikungunya ou dengue en France hexagonale ; 195 infections autochtones à virus West Nile sont également recensées.",
+        "impact_pratique": "Interroger sur les expositions locales et envisager le diagnostic même en l’absence de séjour à l’étranger. Les chiffres sont cumulatifs et dépendent de la surveillance.",
+        "niveau_impact": 3,
+        "categorie": "Alerte épidémio",
+        "pathologie": "Arboviroses",
+        "source": "Santé publique France",
+        "lien": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-27"
+      },
+      {
+        "id": "n-ira-2110",
+        "date": "2026-10-21",
+        "titre": "Grippe, COVID-19 et VRS : faible activité, surveillance hivernale engagée",
+        "resume": "Le bulletin national signale des indicateurs respiratoires globalement stables au niveau de base ; la grippe reste sporadique, le VRS au niveau de base malgré davantage de consultations pour bronchiolite.",
+        "impact_pratique": "Actualiser les recommandations de prévention et de vaccination ; ne pas interpréter ce bulletin comme une prédiction de l’intensité de l’hiver.",
+        "niveau_impact": 2,
+        "categorie": "Alerte épidémio",
+        "pathologie": "Infections respiratoires",
+        "source": "Santé publique France",
+        "lien": "https://www.santepubliquefrance.fr/infections-respiratoires-aigues/grippe/bulletin-national/infections-respiratoires-aigues-grippe-bronchiolite-covid-19-bulletin-du-21-octobre-2026"
+      },
+      {
+        "id": "n-oral-1910",
+        "date": "2026-10-19",
+        "titre": "Bactériémies : le relais IV–oral reste peu employé chez les patients éligibles",
+        "resume": "Analyse secondaire de cohortes prospectives multicentriques : parmi 742 patients éligibles et évaluables, 32,3 % ont bénéficié d’un relais oral avant J7. Le relais était associé à un séjour plus court.",
+        "impact_pratique": "Revoir les critères de relais et les freins organisationnels au sein de l’EMA. Étude observationnelle : ne pas inférer un effet causal sur mortalité ou durée de séjour.",
+        "niveau_impact": 3,
+        "categorie": "Publication",
+        "pathologie": "Antibiorésistance",
+        "source": "Nikolai et al., Open Forum Infectious Diseases",
+        "lien": "https://doi.org/10.1093/ofid/ofag666"
+      },
+      {
+        "id": "n-ecdc-2210",
+        "date": "2026-10-22",
+        "titre": "ECDC : rappel de prévention à l’entrée de la saison respiratoire",
+        "resume": "Le Centre européen insiste sur la prévention des infections respiratoires, dont grippe, VRS, COVID-19 et pneumocoque, particulièrement en présence de personnes vulnérables.",
+        "impact_pratique": "Profiter des consultations et de l’activité hospitalière pour vérifier les vaccinations pertinentes et les précautions adaptées au risque.",
+        "niveau_impact": 2,
+        "categorie": "Vaccination",
+        "pathologie": "Vaccinations de l’adulte",
+        "source": "ECDC",
+        "lien": "https://www.ecdc.europa.eu/en/news-events/respiratory-infections-season"
+      },
+      {
+        "id": "n-mers-1910",
+        "date": "2026-10-19",
+        "titre": "MERS-CoV : nouveaux cas notifiés en Arabie saoudite",
+        "resume": "Dans son suivi international du 19 octobre, l’ECDC mentionne six nouveaux cas saoudiens depuis la mise à jour du 29 septembre et huit cas signalés pour 2026 à cette date.",
+        "impact_pratique": "Conserver un interrogatoire de voyage et d’exposition en cas de pneumopathie sévère compatible ; appliquer les filières REB en cas de suspicion.",
+        "niveau_impact": 2,
+        "categorie": "Alerte épidémio",
+        "pathologie": "Pathologie du voyageur",
+        "source": "ECDC — Public health events",
+        "lien": "https://www.ecdc.europa.eu/en/public-health-events"
+      },
+      {
+        "id": "n-h5-1910",
+        "date": "2026-10-19",
+        "titre": "Grippe aviaire A(H5N1) : cas humain après exposition professionnelle",
+        "resume": "L’ECDC relaie un cas humain confirmé signalé le 15 octobre dans l’État de Washington, chez une personne exposée à des bovins laitiers infectés ; le cas a présenté une forme bénigne.",
+        "impact_pratique": "Chez un patient avec tableau grippal et exposition professionnelle aviaire/bovine pertinente, caractériser l’exposition et suivre les consignes de signalement.",
+        "niveau_impact": 2,
+        "categorie": "Alerte épidémio",
+        "pathologie": "Infections respiratoires",
+        "source": "ECDC — Public health events",
+        "lien": "https://www.ecdc.europa.eu/en/public-health-events"
+      },
+      {
+        "id": "n-idweek-2110",
+        "date": "2026-10-21",
+        "titre": "IDWeek 2026 : congrès en cours à Washington",
+        "resume": "Le congrès se tient du 21 au 24 octobre. Les abstracts ont fait l’objet d’une levée d’embargo le 21 octobre selon le calendrier officiel.",
+        "impact_pratique": "Repérer les communications pertinentes, sans assimiler des abstracts de congrès à des résultats confirmés par publication évaluée par les pairs.",
+        "niveau_impact": 1,
+        "categorie": "Congrès",
+        "pathologie": "Infectiologie générale",
+        "source": "IDWeek — calendrier officiel",
+        "lien": "https://www.idweek.org/abstracts"
+      },
+      {
+        "id": "n-ebola-2210",
+        "date": "2026-10-22",
+        "titre": "Ebola Bundibugyo : diffusion régionale et cas signalé au Nigeria",
+        "resume": "Selon l’ECDC (22 octobre), l’épidémie en RDC concerne aussi des cas au Kenya (9 cas confirmés) et un cas signalé au Nigeria chez une personne ayant voyagé en Ouganda. Le risque pour la population de l’UE/EEE reste estimé très faible.",
+        "impact_pratique": "Pour une exposition à risque ou un voyage récent pertinent, appliquer les procédures REB locales et consulter les données OMS/ECDC actualisées.",
+        "niveau_impact": 2,
+        "categorie": "Alerte épidémio",
+        "pathologie": "Pathologie du voyageur",
+        "source": "ECDC — situation épidémique du 22 octobre",
+        "lien": "https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-10-22"
+      }
+    ]
+  },
+  "archives": [
+    {
+      "semaine": "2026-10-12",
+      "fin": "2026-10-18",
+      "maj": "2026-10-18",
+      "messages_cles": [
+        "West Nile : forte circulation européenne à la mi-octobre.",
+        "Nouveau résultat d’essai sur le verrou antibiotique des cathéters longue durée.",
+        "Le calendrier vaccinal simplifié 2026 a été mis à jour par SpF."
+      ],
+      "nouveautes": [
+        {
+          "id": "a-wnv-1510",
+          "date": "2026-10-15",
+          "titre": "West Nile : saison 2026 exceptionnellement intense en Europe",
+          "resume": "L’ECDC décrit un nombre record de cas humains signalés au 7 octobre et une extension géographique vers le nord de l’Europe.",
+          "impact_pratique": "Évoquer les formes neuro-invasives chez les patients à risque et rester attentif aux transmissions autochtones.",
+          "niveau_impact": 3,
+          "categorie": "Alerte épidémio",
+          "pathologie": "Arboviroses",
+          "source": "ECDC",
+          "lien": "https://www.ecdc.europa.eu/en/news-events/record-high-west-nile-virus-infections-reported-amid-spread-new-parts-europe"
+        },
+        {
+          "id": "a-lock-1610",
+          "date": "2026-10-16",
+          "titre": "Essai randomisé : verrou minocycline–EDTA–éthanol sur cathéters",
+          "resume": "L’essai multicentrique rapporte une rétention du cathéter plus fréquente avec le verrou expérimental qu’avec le verrou standard (57 % contre 38 %).",
+          "impact_pratique": "Donnée intéressante pour les stratégies de conservation de cathéter, sans généralisation hors critères d’inclusion ni changement de protocole sans analyse complète.",
+          "niveau_impact": 2,
+          "categorie": "Publication",
+          "pathologie": "Infections de cathéter",
+          "source": "Chaftari et al., Clinical Infectious Diseases",
+          "lien": "https://doi.org/10.1093/cid/ciag660"
+        },
+        {
+          "id": "a-vacc-1410",
+          "date": "2026-10-14",
+          "titre": "Calendrier vaccinal simplifié 2026 : mise à jour de la fiche SpF",
+          "resume": "Santé publique France signale une mise à jour de sa fiche synthétique de vaccination par âge et situation particulière.",
+          "impact_pratique": "Se référer en priorité au calendrier ministériel complet et daté pour les situations à risque.",
+          "niveau_impact": 2,
+          "categorie": "Vaccination",
+          "pathologie": "Vaccinations de l’adulte",
+          "source": "Santé publique France",
+          "lien": "https://www.santepubliquefrance.fr/vaccination/carte-postale/calendrier-simplifie-des-vaccinations-2026-carte-postale"
+        }
+      ]
+    },
+    {
+      "semaine": "2026-09-07",
+      "fin": "2026-09-13",
+      "maj": "2026-09-13",
+      "messages_cles": [
+        "Publication des consensus IDSA/ESCMID sur les bactériémies à S. aureus."
+      ],
+      "nouveautes": [
+        {
+          "id": "a-sab-0909",
+          "date": "2026-09-09",
+          "titre": "IDSA/ESCMID : nouveaux consensus 2026 sur la bactériémie à S. aureus",
+          "resume": "La première partie formalise une évaluation dynamique du risque de foyers profonds, les hémocultures de contrôle, l’échocardiographie et l’adaptation de la durée au diagnostic final.",
+          "impact_pratique": "Revoir les algorithmes d’avis pour SAB, en distinguant risque accru et foyer profond réellement documenté. Consulter les sept textes sources associés.",
+          "niveau_impact": 3,
+          "categorie": "Recommandation",
+          "pathologie": "Endocardites",
+          "source": "IDSA / ESCMID",
+          "lien": "https://www.idsociety.org/practice-guideline/staphylococcus-aureus-bacteremia/"
+        }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "p-nikolai",
+      "date": "2026-10-19",
+      "titre": "Prevalence, determinants and outcomes of intravenous to oral switch of antibiotic therapy in hospitalized adults with bloodstream infection",
+      "auteur": "L. A. Nikolai",
+      "revue": "OFID",
+      "type": "Cohorte",
+      "pathologie": "Antibiorésistance",
+      "resume": "Analyse secondaire de deux cohortes prospectives multicentriques. Sur 742 patients évaluables et éligibles, 240 (32,3 %) ont reçu un relais oral à J7 ; plusieurs facteurs cliniques étaient associés à l'absence de relais.",
+      "message_cle": "Potentiel d’amélioration des pratiques ; les comparaisons de résultats restent observationnelles et confondues.",
+      "lien": "https://doi.org/10.1093/ofid/ofag666",
+      "acces": "Résumé éditeur consulté ; texte intégral non vérifié."
+    },
+    {
+      "id": "p-chaftari",
+      "date": "2026-10-16",
+      "titre": "Randomized Trial Comparing Minocycline-EDTA-Ethanol Lock to Standard-of-Care Antibiotic Lock for Management of Central Line-Associated Bloodstream Infection",
+      "auteur": "A.-M. Chaftari",
+      "revue": "Clinical Infectious Diseases",
+      "type": "Essai randomisé",
+      "pathologie": "Infections de cathéter",
+      "resume": "Essai randomisé multicentrique sur les verrous en cas de bactériémie associée à un cathéter central longue durée. Rétention du cathéter plus fréquente avec minocycline–EDTA–éthanol (57 % versus 38 %).",
+      "message_cle": "Résultat prometteur, mais avant toute transposition : analyser population, exclusions, microbiologie et sécurité du dispositif.",
+      "lien": "https://doi.org/10.1093/cid/ciag660",
+      "acces": "Résumé éditeur consulté ; texte intégral payant / non accessible."
+    },
+    {
+      "id": "p-seo",
+      "date": "2026-10-07",
+      "titre": "Fosfomycin as Oral Transition Therapy Versus Continued Intravenous β-Lactams for Complicated Urinary Tract Infections Caused by ESBL-Producing Enterobacterales",
+      "auteur": "J.-W. Seo",
+      "revue": "Clinical Infectious Diseases",
+      "type": "Essai randomisé",
+      "pathologie": "Infections urinaires",
+      "resume": "Essai coréen ouvert de non-infériorité : relais par fosfomycine orale quotidienne après 3–7 jours d’antibiothérapie IV pour infection urinaire compliquée à entérobactéries BLSE.",
+      "message_cle": "Question importante pour l’épargne des carbapénèmes ; ne pas extrapoler posologie ou résultat sans lire méthodes et critères de non-infériorité.",
+      "lien": "https://doi.org/10.1093/cid/ciag345",
+      "acces": "Résumé PubMed consulté ; analyse intégrale à faire."
+    },
+    {
+      "id": "p-chang",
+      "date": "2026-10-07",
+      "titre": "Three Months of Weekly Rifapentine and Isoniazid Versus Four Months of Daily Rifampicin for Tuberculosis Infection",
+      "auteur": "V. W. L. Chang",
+      "revue": "Clinical Infectious Diseases",
+      "type": "Essai randomisé",
+      "pathologie": "Tuberculose",
+      "resume": "Essai randomisé comparant deux stratégies de traitement de l’infection tuberculeuse latente : 3HP hebdomadaire et 4R quotidien.",
+      "message_cle": "Intérêt pour les choix de schémas de prévention, à analyser selon disponibilité, interactions et recommandations nationales.",
+      "lien": "https://doi.org/10.1093/cid/ciag306",
+      "acces": "Notice PubMed consultée ; texte intégral non relu."
+    },
+    {
+      "id": "p-rsv",
+      "date": "2026-10-07",
+      "titre": "Immunogenicity and Safety of Co-administration of Adjuvanted RSV Vaccine With 20-Valent Pneumococcal Conjugate Vaccine",
+      "auteur": "I. Leroux-Roels",
+      "revue": "Clinical Infectious Diseases",
+      "type": "Essai randomisé",
+      "pathologie": "Vaccinations de l’adulte",
+      "resume": "Étude randomisée de non-infériorité évaluant l’immunogénicité et la tolérance d’une coadministration vaccinale VRS–pneumocoque chez les adultes d’au moins 60 ans.",
+      "message_cle": "Données d’immunogénicité à distinguer d’une efficacité clinique directe.",
+      "lien": "https://doi.org/10.1093/cid/ciag250",
+      "acces": "Notice PubMed consultée ; texte intégral non relu."
+    },
+    {
+      "id": "p-ath",
+      "date": "2026-10-07",
+      "titre": "Safety, Efficacy, and Immunogenicity of a Multivalent Adjuvanted Staphylococcus aureus Vaccine in Adults With Recent Skin and Soft Tissue Infections",
+      "auteur": "E. Athan",
+      "revue": "Clinical Infectious Diseases",
+      "type": "Essai randomisé",
+      "pathologie": "Vaccinations de l’adulte",
+      "resume": "Essai multinational de phase 1/2, randomisé et contrôlé par placebo, sur un candidat vaccin multivalent contre S. aureus.",
+      "message_cle": "Recherche vaccinale exploratoire, sans implication actuelle pour les recommandations de pratique.",
+      "lien": "https://doi.org/10.1093/cid/ciag162",
+      "acces": "Notice PubMed consultée ; texte intégral non relu."
+    },
+    {
+      "id": "p-rhino",
+      "date": "2026-10-14",
+      "titre": "Inhaled PI4KB Inhibitor for Experimental Rhinovirus Infection in Patients With Asthma",
+      "auteur": "À compléter",
+      "revue": "Journal of Infectious Diseases",
+      "type": "Essai randomisé",
+      "pathologie": "Infections respiratoires",
+      "resume": "Étude de phase 1b avec inoculation expérimentale de rhinovirus chez des patients asthmatiques et administration d’un inhibiteur inhalé de PI4KB.",
+      "message_cle": "Résultats précoces non transposables aux soins courants.",
+      "lien": "https://doi.org/10.1093/infdis/jiag514",
+      "acces": "Résumé éditeur consulté ; texte intégral non relu."
+    },
+    {
+      "id": "p-ie",
+      "date": "2026-08-28",
+      "titre": "Response-Tailored or Standard-Duration Antibiotic Treatment for Infective Endocarditis",
+      "auteur": "À compléter",
+      "revue": "NEJM",
+      "type": "Essai randomisé",
+      "pathologie": "Endocardites",
+      "resume": "Essai randomisé ouvert étudiant l’arrêt de l’antibiothérapie après stabilisation et une durée préalable définie de 2 à 4 semaines chez certains patients avec endocardite gauche.",
+      "message_cle": "Essai potentiellement structurant ; aucune modification des durées ne peut être proposée ici sans vérification intégrale des résultats et exclusions.",
+      "lien": "https://doi.org/10.1056/NEJMoa2607887",
+      "acces": "Page éditeur identifiée ; texte intégral inaccessible (403)."
+    },
+    {
+      "id": "p-sab",
+      "date": "2026-09-09",
+      "titre": "IDSA/ESCMID 2026 Consensus Statements on Staphylococcus aureus Bacteremia",
+      "auteur": "C. Liu et al.",
+      "revue": "IDSA / ESCMID",
+      "type": "Recommandation",
+      "pathologie": "Endocardites",
+      "resume": "Première partie de sept consensus couvrant stratification du risque, hémocultures de contrôle, échocardiographie, imagerie et durée de traitement.",
+      "message_cle": "Ne pas confondre absence de foyer profond et absence de risque ; personnaliser l’évaluation diagnostique.",
+      "lien": "https://www.idsociety.org/practice-guideline/staphylococcus-aureus-bacteremia/",
+      "acces": "Texte institutionnel abrégé consulté ; liens vers manuscrits complets à explorer pour analyse exhaustive."
+    }
+  ],
+  "congres": [
+    {
+      "id": "c-idweek",
+      "nom": "IDWeek 2026",
+      "debut": "2026-10-21",
+      "fin": "2026-10-24",
+      "ville": "Washington, DC — États-Unis",
+      "abstract": "2026-04-30",
+      "source": "IDWeek (site officiel)",
+      "lien": "https://www.idweek.org/faqs/",
+      "retour": "Congrès en cours au 22/10/2026 : bilan scientifique consolidé à compléter après les présentations et publications."
+    },
+    {
+      "id": "c-ricai",
+      "nom": "RICAI 2026",
+      "debut": "2026-12-14",
+      "fin": "2026-12-15",
+      "ville": "Paris — France",
+      "abstract": "2026-09-06",
+      "source": "RICAI",
+      "lien": "https://www.ricai.fr/appel-a-communication"
+    },
+    {
+      "id": "c-croi",
+      "nom": "CROI 2027",
+      "debut": "2027-03-21",
+      "fin": "2027-03-24",
+      "ville": "San Diego — États-Unis",
+      "abstract": "2026-10-01",
+      "late": "2027-01-19",
+      "source": "CROI",
+      "lien": "https://www.croiconference.org/abstract-guidelines-and-submission/"
+    },
+    {
+      "id": "c-escmid",
+      "nom": "ESCMID Global 2027",
+      "debut": "2027-04-09",
+      "fin": "2027-04-13",
+      "ville": "Stockholm — Suède",
+      "abstract": "2026-11-18",
+      "late": "2027-02-12",
+      "source": "ESCMID",
+      "lien": "https://www.escmid.org/congress-events/escmid-global/abstracts/"
+    },
+    {
+      "id": "c-icar",
+      "nom": "40th International Conference on Antiviral Research (ICAR)",
+      "debut": "2027-04-12",
+      "fin": "2027-04-15",
+      "ville": "Calgary — Canada",
+      "abstract": "2026-11-20",
+      "source": "International Society for Antiviral Research",
+      "lien": "https://www.isar-icar.com/abstracts"
+    },
+    {
+      "id": "c-sf2h",
+      "nom": "37e Congrès SF2H",
+      "debut": "2027-06-02",
+      "fin": "2027-06-04",
+      "ville": "Strasbourg — France",
+      "abstract": "À compléter",
+      "source": "SF2H",
+      "lien": "https://www.sf2h.net/congres/37eme-congres-sf2h-strasbourg-2027.html"
+    },
+    {
+      "id": "c-jni",
+      "nom": "28es JNI",
+      "debut": "2027-06-09",
+      "fin": "2027-06-11",
+      "ville": "Lille — France",
+      "abstract": "2027-02-08",
+      "source": "SPILF / JNI",
+      "lien": "https://www.infectiologie.com/fr/annonce.html"
+    },
+    {
+      "id": "c-microbes",
+      "nom": "MICROBES 2027 — SFM",
+      "debut": "2027-10-13",
+      "fin": "2027-10-15",
+      "ville": "Toulouse — France",
+      "abstract": "À compléter",
+      "source": "SFM",
+      "lien": "https://www.sfm-microbiologie.org/"
+    }
+  ],
+  "alertes": [
+    {
+      "id": "al-fr-arbo",
+      "titre": "Chikungunya et dengue : transmissions autochtones",
+      "zone": "France",
+      "niveau": "Élevé — vigilance diagnostique",
+      "date": "2026-10-21",
+      "resume": "27 épisodes en France hexagonale depuis le début de la surveillance renforcée 2026, dont 22 épisodes de chikungunya et 5 de dengue (situation arrêtée au 19/10).",
+      "source": "Santé publique France",
+      "lien": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-27"
+    },
+    {
+      "id": "al-fr-wnv",
+      "titre": "West Nile : circulation autochtone en métropole",
+      "zone": "France",
+      "niveau": "Élevé — surveillance",
+      "date": "2026-10-21",
+      "resume": "195 cas autochtones signalés au 19 octobre dans plusieurs régions françaises ; chiffre cumulatif de saison.",
+      "source": "Santé publique France",
+      "lien": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-27"
+    },
+    {
+      "id": "al-fr-ira",
+      "titre": "Infections respiratoires : surveillance hivernale",
+      "zone": "France",
+      "niveau": "Surveillance",
+      "date": "2026-10-21",
+      "resume": "Grippe et VRS au niveau de base ; COVID-19 à faible impact sur les soins selon le bulletin hebdomadaire.",
+      "source": "Santé publique France",
+      "lien": "https://www.santepubliquefrance.fr/infections-respiratoires-aigues/grippe/bulletin-national/infections-respiratoires-aigues-grippe-bronchiolite-covid-19-bulletin-du-21-octobre-2026"
+    },
+    {
+      "id": "al-eu-wnv",
+      "titre": "West Nile : diffusion européenne inhabituelle",
+      "zone": "Europe",
+      "niveau": "Élevé — surveillance",
+      "date": "2026-10-15",
+      "resume": "L’ECDC rapporte une circulation intense et des cas autochtones dans de nouvelles régions plus septentrionales.",
+      "source": "ECDC",
+      "lien": "https://www.ecdc.europa.eu/en/news-events/record-high-west-nile-virus-infections-reported-amid-spread-new-parts-europe"
+    },
+    {
+      "id": "al-eu-mpox",
+      "titre": "Mpox : surveillance du clade I",
+      "zone": "Europe",
+      "niveau": "Surveillance",
+      "date": "2026-10-14",
+      "resume": "L’ECDC mentionne une augmentation des cas de clade I déclarés dans plusieurs pays européens durant septembre 2026.",
+      "source": "ECDC — Public health events",
+      "lien": "https://www.ecdc.europa.eu/en/public-health-events"
+    },
+    {
+      "id": "al-world-ebola",
+      "titre": "Ebola Bundibugyo : RDC, Kenya et Nigeria",
+      "zone": "Monde",
+      "niveau": "Vigilance REB — risque UE très faible",
+      "date": "2026-10-22",
+      "resume": "L’ECDC signale 9 cas confirmés au Kenya et un cas au Nigeria, dans le contexte de l’épidémie en RDC ; la probabilité d’infection en UE/EEE demeure jugée très faible.",
+      "source": "ECDC — Public health events (22/10)",
+      "lien": "https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-10-22"
+    },
+    {
+      "id": "al-world-mers",
+      "titre": "MERS-CoV : cas en Arabie saoudite",
+      "zone": "Monde",
+      "niveau": "Surveillance",
+      "date": "2026-10-19",
+      "resume": "Six nouveaux cas notifiés depuis le précédent bilan ECDC du 29 septembre.",
+      "source": "ECDC — Public health events",
+      "lien": "https://www.ecdc.europa.eu/en/public-health-events"
+    },
+    {
+      "id": "al-world-avian",
+      "titre": "Grippe aviaire A(H5N1) humaine",
+      "zone": "Monde",
+      "niveau": "Surveillance",
+      "date": "2026-10-19",
+      "resume": "Cas après exposition professionnelle à des bovins infectés aux États-Unis, signalé à l’ECDC.",
+      "source": "ECDC — Public health events",
+      "lien": "https://www.ecdc.europa.eu/en/public-health-events"
+    }
+  ],
+  "maj_auto": null,
+  "sources_automatiques": [],
+  "etat_collecte": "Initial : édition éditoriale embarquée, sans collecte automatique exécutée"
+}
