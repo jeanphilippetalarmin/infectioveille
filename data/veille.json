@@ -4,9 +4,9 @@
     "fin": "2026-10-25",
     "maj": "2026-10-23",
     "messages_cles": [
-      "À examiner : « Effectiveness of respiratory syncytial virus immunisation in practice. » (Europe PMC / PubMed · PMID 42901195).",
-      "À examiner : « Projected Effect of 2026 Federal Changes to the Childhood Immunization Schedule on Chronic Hepatitis B Virus Infections in the United States. » (Europe PMC / PubMed · PMID 42896183).",
-      "À examiner : « Ebola disease outbreak in the Democratic Republic of the Congo » (ECDC — mises à jour épidémiologiques)."
+      "Plasmodium falciparum resistance to current first-line treatments is threatening at-risk populations and underscores the urgent need for novel therapeutic targets and drugs.",
+      "Early period discussions were emphasized basic access and effectiveness questions, with more recent discussions (2022-2025) displaying increased attention to injectable and long-term safety considerations.",
+      "It was last updated on 20 October at 15:00. As of 19 October 2026, the Democratic Republic of the Congo (DRC) reported a total of 9 552 confirmed cases, including 4 602 related deaths (from data up until 18 October)."
     ],
     "nouveautes": [
       {
@@ -15,7 +15,7 @@
         "date_detection": "2026-10-23",
         "date_type": "Date de publication indexée",
         "titre": "Effectiveness of respiratory syncytial virus immunisation in practice.",
-        "resume": "Groenendijk RW · The Lancet. Infectious diseases · Article indexé (type non qualifié). Résumé disponible dans la notice PubMed ; non interprété automatiquement.",
+        "resume": "Respiratory syncytial virus (RSV) affects all ages, with infants and older adults most affected by severe disease. The RSV prevention landscape includes 39 candidates in clinical development, alongside setbacks such as the discontinuation of a promising paediatric live-attenuated vaccine candidate. Several products have been approved, including a maternal vaccine, infant monoclonal antibodies, and vaccines for older adults and adults at high risk.",
         "niveau_impact": 1,
         "categorie": "Publication",
         "pathologie": "Infections respiratoires",
@@ -26,7 +26,8 @@
         "type_etude": "Article indexé (type non qualifié)",
         "doi": "10.1016/s1473-3099(26)00466-4",
         "resume_disponible": true,
-        "statut": "Détection bibliographique — résultats et texte intégral non évalués"
+        "statut": "Extrait de la source primaire (langue originale) — non évalué",
+        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué"
       },
       {
         "id": "auto-pmid-42896183",
@@ -34,7 +35,7 @@
         "date_detection": "2026-10-23",
         "date_type": "Date de publication indexée",
         "titre": "Projected Effect of 2026 Federal Changes to the Childhood Immunization Schedule on Chronic Hepatitis B Virus Infections in the United States.",
-        "resume": "Mohareb AM · Annals of internal medicine · Article indexé (type non qualifié). Résumé disponible dans la notice PubMed ; non interprété automatiquement.",
+        "resume": "To project the effect of vaccine policy changes, if fully implemented, on chronic HBV infections. Compared with the universal birth-dose strategy (255 childhood infections [95% UI, 130 to 530]), the deferred and shared decision-making strategies would increase chronic HBV infections in the 2026 birth cohort by 19% to 303 (95% UI, 155 to 610) and by 83% to 467 (95% UI, 209 to 1032), respectively.",
         "niveau_impact": 1,
         "categorie": "Publication",
         "pathologie": "Hépatites virales",
@@ -45,21 +46,62 @@
         "type_etude": "Article indexé (type non qualifié)",
         "doi": "10.7326/annals-26-02135",
         "resume_disponible": true,
-        "statut": "Détection bibliographique — résultats et texte intégral non évalués"
+        "statut": "Extrait de la source primaire (langue originale) — non évalué",
+        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué"
+      },
+      {
+        "id": "auto-pmid-42900023",
+        "date": "2026-10-20",
+        "date_detection": "2026-10-23",
+        "date_type": "Date de publication indexée",
+        "titre": "Dual-stage inhibition of Plasmodium falciparum by a Skeletocutis -derived fungal metabolite targeting pyruvate kinase II.",
+        "resume": "Plasmodium falciparum resistance to current first-line treatments is threatening at-risk populations and underscores the urgent need for novel therapeutic targets and drugs. P. falciparum pyruvate kinases I and II are two essential enzymes with distinct roles and subcellular localizations within the parasite.",
+        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+        "niveau_impact": 1,
+        "categorie": "Publication",
+        "pathologie": "Pathologie du voyageur",
+        "source": "Europe PMC / PubMed · PMID 42900023",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42900023/",
+        "auteur": "Hervé L",
+        "revue": "Antimicrobial agents and chemotherapy",
+        "type_etude": "Article indexé (type non qualifié)",
+        "doi": "10.1128/aac.00160-26",
+        "resume_disponible": true,
+        "statut": "Extrait de la source primaire (langue originale) — non évalué"
+      },
+      {
+        "id": "auto-pmid-42899401",
+        "date": "2026-10-20",
+        "date_detection": "2026-10-23",
+        "date_type": "Date de publication indexée",
+        "titre": "Understanding community questions about HIV pre-exposure prophylaxis (PrEP): A thematic analysis of reddit threads to inform development of an AI chatbot for PrEP education.",
+        "resume": "Early period discussions were emphasized basic access and effectiveness questions, with more recent discussions (2022-2025) displaying increased attention to injectable and long-term safety considerations. Reddit users demonstrate persistent uncertainty about PrEP side effects, drug interactions and medication switching.",
+        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+        "niveau_impact": 1,
+        "categorie": "Publication",
+        "pathologie": "VIH, PrEP et IST",
+        "source": "Europe PMC / PubMed · PMID 42899401",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42899401/",
+        "auteur": "Vincent-Paulraj A",
+        "revue": "HIV medicine",
+        "type_etude": "Article indexé (type non qualifié)",
+        "doi": "10.1111/hiv.70332",
+        "resume_disponible": true,
+        "statut": "Extrait de la source primaire (langue originale) — non évalué"
       },
       {
         "id": "auto-rss-ba08ca4cdcb1813b8",
         "date": "2026-10-19",
         "date_detection": "2026-10-23",
         "titre": "Ebola disease outbreak in the Democratic Republic of the Congo",
-        "resume": "Publication institutionnelle récente repérée automatiquement. Les chiffres et conclusions nécessitent la lecture du bulletin officiel.",
-        "impact_pratique": "Contrôler la zone, la période, la définition des cas et les mesures recommandées dans la source primaire avant application.",
+        "resume": "It was last updated on 20 October at 15:00. As of 19 October 2026, the Democratic Republic of the Congo (DRC) reported a total of 9 552 confirmed cases, including 4 602 related deaths (from data up until 18 October).",
+        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
         "niveau_impact": 1,
         "categorie": "Alerte épidémio",
         "pathologie": "Surveillance et recommandations",
         "source": "ECDC — mises à jour épidémiologiques",
         "lien": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
-        "statut": "Référencement automatique — contenu non relu"
+        "statut": "Extrait de la source primaire (langue originale) — non évalué"
       },
       {
         "id": "auto-pmid-42895904",
@@ -67,7 +109,7 @@
         "date_detection": "2026-10-23",
         "date_type": "Date de publication indexée",
         "titre": "A randomized phase 2 study combining midostaurin, low-dose cytarabine and venetoclax in newly diagnosed AML ≥60 years.",
-        "resume": "Chua CC · Blood · Article indexé (type non qualifié). Résumé disponible dans la notice PubMed ; non interprété automatiquement.",
+        "resume": "In randomized studies, addition of FLT3 inhibitors failed to improve survival in older patients with FLT3-ITD AML unfit for intensive chemotherapy. Although hypomethylating agents or low-dose cytarabine combined with venetoclax is standard, FLT3-ITD is an important mechanism of resistance and a barrier to improved survival.",
         "niveau_impact": 1,
         "categorie": "Publication",
         "pathologie": "Immunodéprimés et hématologie",
@@ -78,7 +120,48 @@
         "type_etude": "Article indexé (type non qualifié)",
         "doi": "10.1182/blood.2026035389",
         "resume_disponible": true,
-        "statut": "Détection bibliographique — résultats et texte intégral non évalués"
+        "statut": "Extrait de la source primaire (langue originale) — non évalué",
+        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué"
+      },
+      {
+        "id": "auto-pmid-42896813",
+        "date": "2026-10-19",
+        "date_detection": "2026-10-23",
+        "date_type": "Date de publication indexée",
+        "titre": "Human Antibody Responses to Group A Streptococcus Infection: A Systematic Review.",
+        "resume": "Group A Streptococcus (GAS) is a leading global cause of infectious disease morbidity and mortality. Higher pre-infection titres of some antibodies (M protein, SpyCEP, SpyAD, SLO, DNase B, SpnA, T25, K4S2) correlated with subsequent protection from GAS infection or reduced severity of disease in three separate studies. This review synthesizes 77 years of heterogenous studies describing antibody responses to GAS infection.",
+        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+        "niveau_impact": 1,
+        "categorie": "Publication",
+        "pathologie": "Antibiorésistance",
+        "source": "Europe PMC / PubMed · PMID 42896813",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42896813/",
+        "auteur": "Barr R",
+        "revue": "The Journal of infection",
+        "type_etude": "Article indexé (type non qualifié)",
+        "doi": "10.1016/j.jinf.2026.106880",
+        "resume_disponible": true,
+        "statut": "Extrait de la source primaire (langue originale) — non évalué"
+      },
+      {
+        "id": "auto-pmid-42896148",
+        "date": "2026-10-19",
+        "date_detection": "2026-10-23",
+        "date_type": "Date de publication indexée",
+        "titre": "Not All Extrapulmonary Tuberculosis Is Equal: Site-Specific Mortality in a National Indian Cohort.",
+        "resume": "Among 777,512 Indian adults with extrapulmonary tuberculosis, in-treatment mortality varied over tenfold by site, highest for tuberculous meningitis (adjusted odds ratio 12.48 vs. lymph node TB), miliary (5.17), and pericardial TB (3.86). Associations of HIV, diabetes, alcohol, and tobacco use with mortality varied across sites. Risk-stratified, comorbidity-aware care is warranted.",
+        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+        "niveau_impact": 1,
+        "categorie": "Publication",
+        "pathologie": "Tuberculose et mycobactéries",
+        "source": "Europe PMC / PubMed · PMID 42896148",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42896148/",
+        "auteur": "Singh UB",
+        "revue": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "type_etude": "Article indexé (type non qualifié)",
+        "doi": "10.1093/cid/ciag677",
+        "resume_disponible": true,
+        "statut": "Extrait de la source primaire (langue originale) — non évalué"
       },
       {
         "id": "auto-pmid-42869289",
@@ -86,7 +169,7 @@
         "date_detection": "2026-10-23",
         "date_type": "Date de publication indexée",
         "titre": "How do I manage candiduria: practical algorithms and remaining conundrums in 2026.",
-        "resume": "Blez D · Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases · Article indexé (type non qualifié). Résumé disponible dans la notice PubMed ; non interprété automatiquement.",
+        "resume": "This review aims to provide a structured approach to the evaluation and management of candiduria, illustrated by a clinical vignette.",
         "niveau_impact": 1,
         "categorie": "Publication",
         "pathologie": "Mycologie invasive",
@@ -97,7 +180,8 @@
         "type_etude": "Article indexé (type non qualifié)",
         "doi": "10.1016/j.cmi.2026.08.011",
         "resume_disponible": true,
-        "statut": "Détection bibliographique — résultats et texte intégral non évalués"
+        "statut": "Extrait de la source primaire (langue originale) — non évalué",
+        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué"
       },
       {
         "id": "auto-pmid-42863477",
@@ -105,7 +189,7 @@
         "date_detection": "2026-10-23",
         "date_type": "Date de publication indexée",
         "titre": "Efficacy, safety, and immunogenicity of a nine-valent vaccine (ExPEC9V) for the prevention of invasive Escherichia coli disease in older adults: a phase 3, randomised, placebo-controlled trial (E.mbrace).",
-        "resume": "Bonten M · The Lancet. Infectious diseases · Article indexé (type non qualifié). Résumé disponible dans la notice PubMed ; non interprété automatiquement.",
+        "resume": "There were 24 IED cases (11 in vaccine and 13 in placebo groups) caused by ExPEC9V O-serotypes in blood or sterile sites, yielding a vaccine efficacy of 14·63% (95% CI -106·57 to 65·38), indicating no protective effect. In this large phase 3 trial of older adults, ExPEC9V did not demonstrate efficacy in preventing first IED caused by ExPEC9V O-serotypes, despite generating robust and sustained antibody responses.",
         "niveau_impact": 1,
         "categorie": "Publication",
         "pathologie": "Infections urinaires et digestives",
@@ -116,62 +200,8 @@
         "type_etude": "Article indexé (type non qualifié)",
         "doi": "10.1016/s1473-3099(26)00469-x",
         "resume_disponible": true,
-        "statut": "Détection bibliographique — résultats et texte intégral non évalués"
-      },
-      {
-        "id": "auto-pmid-42858895",
-        "date": "2026-10-10",
-        "date_detection": "2026-10-23",
-        "date_type": "Date de publication indexée",
-        "titre": "Non-invasive diagnosis of invasive aspergillosis in patients with haematological malignancies: a prospective diagnostic accuracy study.",
-        "resume": "Patil RH · Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases · Article indexé (type non qualifié). Résumé disponible dans la notice PubMed ; non interprété automatiquement.",
-        "niveau_impact": 1,
-        "categorie": "Publication",
-        "pathologie": "Mycologie invasive",
-        "source": "Europe PMC / PubMed · PMID 42858895",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42858895/",
-        "auteur": "Patil RH",
-        "revue": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
-        "type_etude": "Article indexé (type non qualifié)",
-        "doi": "10.1016/j.cmi.2026.10.002",
-        "resume_disponible": true,
-        "statut": "Détection bibliographique — résultats et texte intégral non évalués"
-      },
-      {
-        "id": "n-ecdc-2210",
-        "date": "2026-10-22",
-        "titre": "ECDC : rappel de prévention à l’entrée de la saison respiratoire",
-        "resume": "Le Centre européen insiste sur la prévention des infections respiratoires, dont grippe, VRS, COVID-19 et pneumocoque, particulièrement en présence de personnes vulnérables.",
-        "impact_pratique": "Profiter des consultations et de l’activité hospitalière pour vérifier les vaccinations pertinentes et les précautions adaptées au risque.",
-        "niveau_impact": 2,
-        "categorie": "Vaccination",
-        "pathologie": "Vaccinations de l’adulte",
-        "source": "ECDC",
-        "lien": "https://www.ecdc.europa.eu/en/news-events/respiratory-infections-season"
-      },
-      {
-        "id": "n-ebola-2210",
-        "date": "2026-10-22",
-        "titre": "Ebola Bundibugyo : diffusion régionale et cas signalé au Nigeria",
-        "resume": "Selon l’ECDC (22 octobre), l’épidémie en RDC concerne aussi des cas au Kenya (9 cas confirmés) et un cas signalé au Nigeria chez une personne ayant voyagé en Ouganda. Le risque pour la population de l’UE/EEE reste estimé très faible.",
-        "impact_pratique": "Pour une exposition à risque ou un voyage récent pertinent, appliquer les procédures REB locales et consulter les données OMS/ECDC actualisées.",
-        "niveau_impact": 2,
-        "categorie": "Alerte épidémio",
-        "pathologie": "Pathologie du voyageur",
-        "source": "ECDC — situation épidémique du 22 octobre",
-        "lien": "https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-10-22"
-      },
-      {
-        "id": "n-arbo-2110",
-        "date": "2026-10-21",
-        "titre": "France : transmissions autochtones de dengue, chikungunya et West Nile",
-        "resume": "Santé publique France dénombre au 19 octobre 27 épisodes de transmission vectorielle de chikungunya ou dengue en France hexagonale ; 195 infections autochtones à virus West Nile sont également recensées.",
-        "impact_pratique": "Interroger sur les expositions locales et envisager le diagnostic même en l’absence de séjour à l’étranger. Les chiffres sont cumulatifs et dépendent de la surveillance.",
-        "niveau_impact": 3,
-        "categorie": "Alerte épidémio",
-        "pathologie": "Arboviroses",
-        "source": "Santé publique France",
-        "lien": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-27"
+        "statut": "Extrait de la source primaire (langue originale) — non évalué",
+        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué"
       }
     ],
     "type_edition": "Repérage automatisé non validé cliniquement"
@@ -257,10 +287,12 @@
       "revue": "Infectious diseases now",
       "type": "Article indexé (type non qualifié)",
       "pathologie": "Antibiorésistance",
-      "resume": "Notice indexée dans PubMed : Jaberi K, Infectious diseases now. Type : Article indexé (type non qualifié). Résultats et texte intégral non analysés automatiquement.",
+      "resume": "To describe the frequency, species distribution, and in vitro antimicrobial susceptibility of Nocardia isolates retrieved from unique patients investigated for suspected TB at a referral center in Iran from March 2021 to March 2023. Imipenem susceptibility varied by species; 13/56 isolates (23%) were susceptible to moxifloxacin, and 20/56 (36%) to amoxicillin-clavulanate.",
       "message_cle": "Repérage bibliographique, pas une recommandation. Vérifier la méthode, les résultats et l'applicabilité clinique dans le texte intégral.",
       "lien": "https://pubmed.ncbi.nlm.nih.gov/42901405/",
-      "acces": "Métadonnées vérifiées via Europe PMC ; texte intégral non relu automatiquement."
+      "acces": "Résumé établi à partir de la notice publique ; texte intégral non relu automatiquement.",
+      "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+      "statut": "Extrait de la source primaire (langue originale) — non évalué"
     },
     {
       "id": "auto-pmid-42901195",
@@ -270,10 +302,12 @@
       "revue": "The Lancet. Infectious diseases",
       "type": "Article indexé (type non qualifié)",
       "pathologie": "Infections respiratoires",
-      "resume": "Groenendijk RW · The Lancet. Infectious diseases · Article indexé (type non qualifié). Résumé disponible dans la notice PubMed ; non interprété automatiquement.",
+      "resume": "Respiratory syncytial virus (RSV) affects all ages, with infants and older adults most affected by severe disease. The RSV prevention landscape includes 39 candidates in clinical development, alongside setbacks such as the discontinuation of a promising paediatric live-attenuated vaccine candidate. Several products have been approved, including a maternal vaccine, infant monoclonal antibodies, and vaccines for older adults and adults at high risk.",
       "message_cle": "",
       "lien": "https://pubmed.ncbi.nlm.nih.gov/42901195/",
-      "acces": "Métadonnées vérifiées via Europe PMC ; texte intégral non relu automatiquement."
+      "acces": "Résumé établi à partir de la notice publique ; texte intégral non relu automatiquement.",
+      "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+      "statut": "Extrait de la source primaire (langue originale) — non évalué"
     },
     {
       "id": "auto-pmid-42896183",
@@ -283,9 +317,37 @@
       "revue": "Annals of internal medicine",
       "type": "Article indexé (type non qualifié)",
       "pathologie": "Hépatites virales",
-      "resume": "Mohareb AM · Annals of internal medicine · Article indexé (type non qualifié). Résumé disponible dans la notice PubMed ; non interprété automatiquement.",
+      "resume": "To project the effect of vaccine policy changes, if fully implemented, on chronic HBV infections. Compared with the universal birth-dose strategy (255 childhood infections [95% UI, 130 to 530]), the deferred and shared decision-making strategies would increase chronic HBV infections in the 2026 birth cohort by 19% to 303 (95% UI, 155 to 610) and by 83% to 467 (95% UI, 209 to 1032), respectively.",
       "message_cle": "",
       "lien": "https://pubmed.ncbi.nlm.nih.gov/42896183/",
+      "acces": "Résumé établi à partir de la notice publique ; texte intégral non relu automatiquement.",
+      "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+      "statut": "Extrait de la source primaire (langue originale) — non évalué"
+    },
+    {
+      "id": "auto-pmid-42900023",
+      "date": "2026-10-20",
+      "titre": "Dual-stage inhibition of Plasmodium falciparum by a Skeletocutis -derived fungal metabolite targeting pyruvate kinase II.",
+      "auteur": "Hervé L",
+      "revue": "Antimicrobial agents and chemotherapy",
+      "type": "Article indexé (type non qualifié)",
+      "pathologie": "Pathologie du voyageur",
+      "resume": "Plasmodium falciparum resistance to current first-line treatments is threatening at-risk populations and underscores the urgent need for novel therapeutic targets and drugs. P. falciparum pyruvate kinases I and II are two essential enzymes with distinct roles and subcellular localizations within the parasite.",
+      "message_cle": "",
+      "lien": "https://pubmed.ncbi.nlm.nih.gov/42900023/",
+      "acces": "Métadonnées vérifiées via Europe PMC ; texte intégral non relu automatiquement."
+    },
+    {
+      "id": "auto-pmid-42899401",
+      "date": "2026-10-20",
+      "titre": "Understanding community questions about HIV pre-exposure prophylaxis (PrEP): A thematic analysis of reddit threads to inform development of an AI chatbot for PrEP education.",
+      "auteur": "Vincent-Paulraj A",
+      "revue": "HIV medicine",
+      "type": "Article indexé (type non qualifié)",
+      "pathologie": "VIH, PrEP et IST",
+      "resume": "Early period discussions were emphasized basic access and effectiveness questions, with more recent discussions (2022-2025) displaying increased attention to injectable and long-term safety considerations. Reddit users demonstrate persistent uncertainty about PrEP side effects, drug interactions and medication switching.",
+      "message_cle": "",
+      "lien": "https://pubmed.ncbi.nlm.nih.gov/42899401/",
       "acces": "Métadonnées vérifiées via Europe PMC ; texte intégral non relu automatiquement."
     },
     {
@@ -309,9 +371,37 @@
       "revue": "Blood",
       "type": "Article indexé (type non qualifié)",
       "pathologie": "Immunodéprimés et hématologie",
-      "resume": "Chua CC · Blood · Article indexé (type non qualifié). Résumé disponible dans la notice PubMed ; non interprété automatiquement.",
+      "resume": "In randomized studies, addition of FLT3 inhibitors failed to improve survival in older patients with FLT3-ITD AML unfit for intensive chemotherapy. Although hypomethylating agents or low-dose cytarabine combined with venetoclax is standard, FLT3-ITD is an important mechanism of resistance and a barrier to improved survival.",
       "message_cle": "",
       "lien": "https://pubmed.ncbi.nlm.nih.gov/42895904/",
+      "acces": "Résumé établi à partir de la notice publique ; texte intégral non relu automatiquement.",
+      "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+      "statut": "Extrait de la source primaire (langue originale) — non évalué"
+    },
+    {
+      "id": "auto-pmid-42896813",
+      "date": "2026-10-19",
+      "titre": "Human Antibody Responses to Group A Streptococcus Infection: A Systematic Review.",
+      "auteur": "Barr R",
+      "revue": "The Journal of infection",
+      "type": "Article indexé (type non qualifié)",
+      "pathologie": "Antibiorésistance",
+      "resume": "Group A Streptococcus (GAS) is a leading global cause of infectious disease morbidity and mortality. Higher pre-infection titres of some antibodies (M protein, SpyCEP, SpyAD, SLO, DNase B, SpnA, T25, K4S2) correlated with subsequent protection from GAS infection or reduced severity of disease in three separate studies. This review synthesizes 77 years of heterogenous studies describing antibody responses to GAS infection.",
+      "message_cle": "",
+      "lien": "https://pubmed.ncbi.nlm.nih.gov/42896813/",
+      "acces": "Métadonnées vérifiées via Europe PMC ; texte intégral non relu automatiquement."
+    },
+    {
+      "id": "auto-pmid-42896148",
+      "date": "2026-10-19",
+      "titre": "Not All Extrapulmonary Tuberculosis Is Equal: Site-Specific Mortality in a National Indian Cohort.",
+      "auteur": "Singh UB",
+      "revue": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+      "type": "Article indexé (type non qualifié)",
+      "pathologie": "Tuberculose et mycobactéries",
+      "resume": "Among 777,512 Indian adults with extrapulmonary tuberculosis, in-treatment mortality varied over tenfold by site, highest for tuberculous meningitis (adjusted odds ratio 12.48 vs. lymph node TB), miliary (5.17), and pericardial TB (3.86). Associations of HIV, diabetes, alcohol, and tobacco use with mortality varied across sites. Risk-stratified, comorbidity-aware care is warranted.",
+      "message_cle": "",
+      "lien": "https://pubmed.ncbi.nlm.nih.gov/42896148/",
       "acces": "Métadonnées vérifiées via Europe PMC ; texte intégral non relu automatiquement."
     },
     {
@@ -348,10 +438,12 @@
       "revue": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
       "type": "Article indexé (type non qualifié)",
       "pathologie": "Mycologie invasive",
-      "resume": "Blez D · Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases · Article indexé (type non qualifié). Résumé disponible dans la notice PubMed ; non interprété automatiquement.",
+      "resume": "This review aims to provide a structured approach to the evaluation and management of candiduria, illustrated by a clinical vignette.",
       "message_cle": "",
       "lien": "https://pubmed.ncbi.nlm.nih.gov/42869289/",
-      "acces": "Métadonnées vérifiées via Europe PMC ; texte intégral non relu automatiquement."
+      "acces": "Résumé établi à partir de la notice publique ; texte intégral non relu automatiquement.",
+      "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+      "statut": "Extrait de la source primaire (langue originale) — non évalué"
     },
     {
       "id": "auto-pmid-42863477",
@@ -361,10 +453,12 @@
       "revue": "The Lancet. Infectious diseases",
       "type": "Article indexé (type non qualifié)",
       "pathologie": "Infections urinaires et digestives",
-      "resume": "Bonten M · The Lancet. Infectious diseases · Article indexé (type non qualifié). Résumé disponible dans la notice PubMed ; non interprété automatiquement.",
+      "resume": "There were 24 IED cases (11 in vaccine and 13 in placebo groups) caused by ExPEC9V O-serotypes in blood or sterile sites, yielding a vaccine efficacy of 14·63% (95% CI -106·57 to 65·38), indicating no protective effect. In this large phase 3 trial of older adults, ExPEC9V did not demonstrate efficacy in preventing first IED caused by ExPEC9V O-serotypes, despite generating robust and sustained antibody responses.",
       "message_cle": "",
       "lien": "https://pubmed.ncbi.nlm.nih.gov/42863477/",
-      "acces": "Métadonnées vérifiées via Europe PMC ; texte intégral non relu automatiquement."
+      "acces": "Résumé établi à partir de la notice publique ; texte intégral non relu automatiquement.",
+      "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+      "statut": "Extrait de la source primaire (langue originale) — non évalué"
     },
     {
       "id": "auto-pmid-42858895",
@@ -374,9 +468,24 @@
       "revue": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
       "type": "Article indexé (type non qualifié)",
       "pathologie": "Mycologie invasive",
-      "resume": "Patil RH · Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases · Article indexé (type non qualifié). Résumé disponible dans la notice PubMed ; non interprété automatiquement.",
+      "resume": "To evaluate a non-invasive panel integrating urinary triacetylfusarinine C normalised to creatinine (uTafC/Cr), serum galactomannan (sGM) and serum pentraxin-3 (sPtx3) for detection of invasive aspergillosis (IA) in patients with haematological malignancies. sGM and uTafC/Cr showed no false positives in available control episodes (sGM, 0/98; uTafC/Cr, 0/111) and each detected 51.4% of IA episodes (19/37). sPtx3 alone showed sensitivity of 70.3% (26/37) and specificity of…",
       "message_cle": "",
       "lien": "https://pubmed.ncbi.nlm.nih.gov/42858895/",
+      "acces": "Résumé établi à partir de la notice publique ; texte intégral non relu automatiquement.",
+      "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+      "statut": "Extrait de la source primaire (langue originale) — non évalué"
+    },
+    {
+      "id": "auto-pmid-42847927",
+      "date": "2026-10-08",
+      "titre": "Investigation of suspected Candidozyma auris outbreaks in Malaysia using integrated genomic, clinical and antifungal susceptibility analyses (Investigation of Candidozyma auris outbreaks in Malaysia).",
+      "auteur": "Tan XT",
+      "revue": "Medical mycology",
+      "type": "Article indexé (type non qualifié)",
+      "pathologie": "Mycologie – diagnostic et antifongiques",
+      "resume": "Candidozyma auris (formerly Candida auris) is an emerging multidrug-resistant fungus with limited genomic epidemiological data from Malaysia. This study investigated the genomic epidemiology, clinical characteristics and antifungal susceptibility of C. auris outbreak isolates using an integrated whole-genome sequencing (WGS) approach.",
+      "message_cle": "",
+      "lien": "https://pubmed.ncbi.nlm.nih.gov/42847927/",
       "acces": "Métadonnées vérifiées via Europe PMC ; texte intégral non relu automatiquement."
     },
     {
@@ -430,6 +539,19 @@
       "message_cle": "Recherche vaccinale exploratoire, sans implication actuelle pour les recommandations de pratique.",
       "lien": "https://doi.org/10.1093/cid/ciag162",
       "acces": "Notice PubMed consultée ; texte intégral non relu."
+    },
+    {
+      "id": "auto-pmid-42841806",
+      "date": "2026-10-07",
+      "titre": "Does the DOOR Account for Post-randomization Treatment Modification or Incorporate It?",
+      "auteur": "Tirlangi PK",
+      "revue": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+      "type": "Article indexé (type non qualifié)",
+      "pathologie": "Mycologie invasive",
+      "resume": "This correspondence clarifies that DOOR incorporates, rather than causally accounts for, post-randomization treatment modification. In the voriconazole-amphotericin B trial, frequent treatment switching means the reported DOOR probability reflects treatment strategies as implemented, not sustained randomized monotherapy throughout the original trial.",
+      "message_cle": "",
+      "lien": "https://pubmed.ncbi.nlm.nih.gov/42841806/",
+      "acces": "Métadonnées vérifiées via Europe PMC ; texte intégral non relu automatiquement."
     },
     {
       "id": "p-sab",
@@ -610,10 +732,11 @@
       "zone": "Europe",
       "niveau": "À qualifier",
       "date": "2026-10-19",
-      "resume": "Signal publié par une institution. Gravité et portée clinique à évaluer dans le bulletin primaire.",
+      "resume": "It was last updated on 20 October at 15:00. As of 19 October 2026, the Democratic Republic of the Congo (DRC) reported a total of 9 552 confirmed cases, including 4 602 related deaths (from data up until 18 October).",
+      "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
       "source": "ECDC — mises à jour épidémiologiques",
       "lien": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
-      "statut": "Référencement automatique — risque non évalué"
+      "statut": "Référencement automatique — niveau d’alerte non évalué"
     },
     {
       "id": "al-eu-wnv",
@@ -636,7 +759,7 @@
       "lien": "https://www.ecdc.europa.eu/en/public-health-events"
     }
   ],
-  "maj_auto": "2026-10-23T12:12:33+02:00",
+  "maj_auto": "2026-10-23T12:34:13+02:00",
   "sources_automatiques": [
     "Santé publique France",
     "ECDC — mises à jour épidémiologiques",
@@ -806,5 +929,7 @@
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     }
-  }
+  },
+  "resume_enrichis": 7,
+  "mode_synthese": "Extraits source (sans clé API)"
 }
