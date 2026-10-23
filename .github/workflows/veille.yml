@@ -31,13 +31,35 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-traduction.txt
+
+      - name: Cache modèle Argos anglais-français
+        if: github.event_name != 'push'
+        uses: actions/cache@v4
+        with:
+          path: .argos-models
+          key: infectioveille-argos-en-fr-v1-${{ runner.os }}
+
+      - name: Installer traduction libre locale
+        if: github.event_name != 'push'
+        # Une panne de téléchargement ne doit pas casser la publication du site.
+        continue-on-error: true
+        env:
+          ARGOS_PACKAGES_DIR: ${{ github.workspace }}/.argos-models
+          ARGOS_DEVICE_TYPE: cpu
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check -r requirements-traduction.txt
+          python scripts/install_translation.py
 
       - name: Collecter, synchroniser et enregistrer la veille
         if: github.event_name != 'push'
         env:
-          # Facultatif : laisser non défini pour le mode sans IA.
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: gpt-4o-mini
+          ARGOS_PACKAGES_DIR: ${{ github.workspace }}/.argos-models
+          ARGOS_DEVICE_TYPE: cpu
+          ARGOS_COMPUTE_TYPE: int8
         shell: bash
         run: |
           set -euo pipefail
