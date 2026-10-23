@@ -4,15 +4,14 @@ on:
   push:
     branches: [main]
   schedule:
-    # Tous les jours : 07:17 UTC (08:17 en hiver / 09:17 en été, Paris).
-    # GitHub peut décaler une exécution planifiée.
+    # Déclenchement quotidien à 07:17 UTC (GitHub peut décaler l'exécution).
     - cron: '17 7 * * *'
   workflow_dispatch:
 
 permissions:
-  contents: write   # Enregistrer l'édition et l'historique JSON dans le dépôt.
-  pages: write      # Publier le site statique.
-  id-token: write   # Authentification OIDC requise par GitHub Pages.
+  contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: infectioveille-pages
@@ -22,38 +21,62 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Récupérer les fichiers du site
+      - name: Récupérer le dépôt
         uses: actions/checkout@v4
         with:
+          ref: main
           persist-credentials: true
+
       - name: Installer Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Collecter les nouvelles références (hors push initial)
+
+      - name: Collecter, synchroniser et enregistrer la veille
         if: github.event_name != 'push'
-        run: python scripts/update.py
-      - name: Enregistrer la nouvelle édition et les archives
-        if: github.event_name != 'push'
+        shell: bash
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/veille.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Veille: collecte automatique $(date -u +%F)"
-            git push origin HEAD:main
-          else
-            echo 'Aucune modification à enregistrer'
-          fi
-      - name: Préparer GitHub Pages
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          # Chaque tentative repart de la version la plus récente de main.
+          # Cela rend les relances idempotentes et évite le rejet non-fast-forward.
+          for tentative in 1 2 3; do
+            echo "Tentative $tentative/3 — synchronisation avec main"
+            git fetch --quiet origin main
+            git checkout -B main origin/main
+            python scripts/update.py
+            git add data/veille.json
+            if git diff --cached --quiet; then
+              echo 'Aucun changement de données : publication inchangée.'
+              break
+            fi
+            git commit -m "Veille : collecte automatique $(date -u +%F)"
+            if git push origin HEAD:main; then
+              echo 'Données mises à jour sur GitHub.'
+              break
+            fi
+            if [ "$tentative" -eq 3 ]; then
+              echo 'Impossible de synchroniser après trois tentatives.' >&2
+              exit 1
+            fi
+            echo 'Une autre modification est intervenue : nouvelle synchronisation.'
+            sleep 3
+          done
+
+      - name: Configurer GitHub Pages
         uses: actions/configure-pages@v5
-      - name: Préparer les fichiers publics
+
+      - name: Préparer les fichiers du site
+        shell: bash
         run: |
+          set -euo pipefail
           mkdir -p _site/data
           cp index.html _site/index.html
           cp data/veille.json _site/data/veille.json
           touch _site/.nojekyll
-      - name: Créer l'artefact GitHub Pages
+
+      - name: Créer le fichier de déploiement Pages
         uses: actions/upload-pages-artifact@v4
         with:
           path: _site
