@@ -27,7 +27,8 @@
         "doi": "10.1016/s1473-3099(26)00466-4",
         "resume_disponible": true,
         "statut": "Extrait de la source primaire (langue originale) — non évalué",
-        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué"
+        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+        "langue_resume": "en"
       },
       {
         "id": "auto-pmid-42896183",
@@ -47,7 +48,8 @@
         "doi": "10.7326/annals-26-02135",
         "resume_disponible": true,
         "statut": "Extrait de la source primaire (langue originale) — non évalué",
-        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué"
+        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+        "langue_resume": "en"
       },
       {
         "id": "auto-pmid-42900023",
@@ -67,7 +69,8 @@
         "type_etude": "Article indexé (type non qualifié)",
         "doi": "10.1128/aac.00160-26",
         "resume_disponible": true,
-        "statut": "Extrait de la source primaire (langue originale) — non évalué"
+        "statut": "Extrait de la source primaire (langue originale) — non évalué",
+        "langue_resume": "en"
       },
       {
         "id": "auto-pmid-42899401",
@@ -87,7 +90,8 @@
         "type_etude": "Article indexé (type non qualifié)",
         "doi": "10.1111/hiv.70332",
         "resume_disponible": true,
-        "statut": "Extrait de la source primaire (langue originale) — non évalué"
+        "statut": "Extrait de la source primaire (langue originale) — non évalué",
+        "langue_resume": "en"
       },
       {
         "id": "auto-rss-ba08ca4cdcb1813b8",
@@ -101,47 +105,8 @@
         "pathologie": "Surveillance et recommandations",
         "source": "ECDC — mises à jour épidémiologiques",
         "lien": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
-        "statut": "Extrait de la source primaire (langue originale) — non évalué"
-      },
-      {
-        "id": "auto-pmid-42895904",
-        "date": "2026-10-19",
-        "date_detection": "2026-10-23",
-        "date_type": "Date de publication indexée",
-        "titre": "A randomized phase 2 study combining midostaurin, low-dose cytarabine and venetoclax in newly diagnosed AML ≥60 years.",
-        "resume": "In randomized studies, addition of FLT3 inhibitors failed to improve survival in older patients with FLT3-ITD AML unfit for intensive chemotherapy. Although hypomethylating agents or low-dose cytarabine combined with venetoclax is standard, FLT3-ITD is an important mechanism of resistance and a barrier to improved survival.",
-        "niveau_impact": 1,
-        "categorie": "Publication",
-        "pathologie": "Immunodéprimés et hématologie",
-        "source": "Europe PMC / PubMed · PMID 42895904",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42895904/",
-        "auteur": "Chua CC",
-        "revue": "Blood",
-        "type_etude": "Article indexé (type non qualifié)",
-        "doi": "10.1182/blood.2026035389",
-        "resume_disponible": true,
         "statut": "Extrait de la source primaire (langue originale) — non évalué",
-        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué"
-      },
-      {
-        "id": "auto-pmid-42896813",
-        "date": "2026-10-19",
-        "date_detection": "2026-10-23",
-        "date_type": "Date de publication indexée",
-        "titre": "Human Antibody Responses to Group A Streptococcus Infection: A Systematic Review.",
-        "resume": "Group A Streptococcus (GAS) is a leading global cause of infectious disease morbidity and mortality. Higher pre-infection titres of some antibodies (M protein, SpyCEP, SpyAD, SLO, DNase B, SpnA, T25, K4S2) correlated with subsequent protection from GAS infection or reduced severity of disease in three separate studies. This review synthesizes 77 years of heterogenous studies describing antibody responses to GAS infection.",
-        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
-        "niveau_impact": 1,
-        "categorie": "Publication",
-        "pathologie": "Antibiorésistance",
-        "source": "Europe PMC / PubMed · PMID 42896813",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42896813/",
-        "auteur": "Barr R",
-        "revue": "The Journal of infection",
-        "type_etude": "Article indexé (type non qualifié)",
-        "doi": "10.1016/j.jinf.2026.106880",
-        "resume_disponible": true,
-        "statut": "Extrait de la source primaire (langue originale) — non évalué"
+        "langue_resume": "en"
       },
       {
         "id": "auto-pmid-42896148",
@@ -161,7 +126,8 @@
         "type_etude": "Article indexé (type non qualifié)",
         "doi": "10.1093/cid/ciag677",
         "resume_disponible": true,
-        "statut": "Extrait de la source primaire (langue originale) — non évalué"
+        "statut": "Extrait de la source primaire (langue originale) — non évalué",
+        "langue_resume": "en"
       },
       {
         "id": "auto-pmid-42869289",
@@ -181,27 +147,8 @@
         "doi": "10.1016/j.cmi.2026.08.011",
         "resume_disponible": true,
         "statut": "Extrait de la source primaire (langue originale) — non évalué",
-        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué"
-      },
-      {
-        "id": "auto-pmid-42863477",
-        "date": "2026-10-12",
-        "date_detection": "2026-10-23",
-        "date_type": "Date de publication indexée",
-        "titre": "Efficacy, safety, and immunogenicity of a nine-valent vaccine (ExPEC9V) for the prevention of invasive Escherichia coli disease in older adults: a phase 3, randomised, placebo-controlled trial (E.mbrace).",
-        "resume": "There were 24 IED cases (11 in vaccine and 13 in placebo groups) caused by ExPEC9V O-serotypes in blood or sterile sites, yielding a vaccine efficacy of 14·63% (95% CI -106·57 to 65·38), indicating no protective effect. In this large phase 3 trial of older adults, ExPEC9V did not demonstrate efficacy in preventing first IED caused by ExPEC9V O-serotypes, despite generating robust and sustained antibody responses.",
-        "niveau_impact": 1,
-        "categorie": "Publication",
-        "pathologie": "Infections urinaires et digestives",
-        "source": "Europe PMC / PubMed · PMID 42863477",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42863477/",
-        "auteur": "Bonten M",
-        "revue": "The Lancet. Infectious diseases",
-        "type_etude": "Article indexé (type non qualifié)",
-        "doi": "10.1016/s1473-3099(26)00469-x",
-        "resume_disponible": true,
-        "statut": "Extrait de la source primaire (langue originale) — non évalué",
-        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué"
+        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+        "langue_resume": "en"
       }
     ],
     "type_edition": "Repérage automatisé non validé cliniquement"
@@ -292,7 +239,8 @@
       "lien": "https://pubmed.ncbi.nlm.nih.gov/42901405/",
       "acces": "Résumé établi à partir de la notice publique ; texte intégral non relu automatiquement.",
       "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
-      "statut": "Extrait de la source primaire (langue originale) — non évalué"
+      "statut": "Extrait de la source primaire (langue originale) — non évalué",
+      "langue_resume": "en"
     },
     {
       "id": "auto-pmid-42901195",
@@ -307,7 +255,8 @@
       "lien": "https://pubmed.ncbi.nlm.nih.gov/42901195/",
       "acces": "Résumé établi à partir de la notice publique ; texte intégral non relu automatiquement.",
       "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
-      "statut": "Extrait de la source primaire (langue originale) — non évalué"
+      "statut": "Extrait de la source primaire (langue originale) — non évalué",
+      "langue_resume": "en"
     },
     {
       "id": "auto-pmid-42896183",
@@ -322,7 +271,8 @@
       "lien": "https://pubmed.ncbi.nlm.nih.gov/42896183/",
       "acces": "Résumé établi à partir de la notice publique ; texte intégral non relu automatiquement.",
       "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
-      "statut": "Extrait de la source primaire (langue originale) — non évalué"
+      "statut": "Extrait de la source primaire (langue originale) — non évalué",
+      "langue_resume": "en"
     },
     {
       "id": "auto-pmid-42900023",
@@ -362,34 +312,6 @@
       "message_cle": "Potentiel d’amélioration des pratiques ; les comparaisons de résultats restent observationnelles et confondues.",
       "lien": "https://doi.org/10.1093/ofid/ofag666",
       "acces": "Résumé éditeur consulté ; texte intégral non vérifié."
-    },
-    {
-      "id": "auto-pmid-42895904",
-      "date": "2026-10-19",
-      "titre": "A randomized phase 2 study combining midostaurin, low-dose cytarabine and venetoclax in newly diagnosed AML ≥60 years.",
-      "auteur": "Chua CC",
-      "revue": "Blood",
-      "type": "Article indexé (type non qualifié)",
-      "pathologie": "Immunodéprimés et hématologie",
-      "resume": "In randomized studies, addition of FLT3 inhibitors failed to improve survival in older patients with FLT3-ITD AML unfit for intensive chemotherapy. Although hypomethylating agents or low-dose cytarabine combined with venetoclax is standard, FLT3-ITD is an important mechanism of resistance and a barrier to improved survival.",
-      "message_cle": "",
-      "lien": "https://pubmed.ncbi.nlm.nih.gov/42895904/",
-      "acces": "Résumé établi à partir de la notice publique ; texte intégral non relu automatiquement.",
-      "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
-      "statut": "Extrait de la source primaire (langue originale) — non évalué"
-    },
-    {
-      "id": "auto-pmid-42896813",
-      "date": "2026-10-19",
-      "titre": "Human Antibody Responses to Group A Streptococcus Infection: A Systematic Review.",
-      "auteur": "Barr R",
-      "revue": "The Journal of infection",
-      "type": "Article indexé (type non qualifié)",
-      "pathologie": "Antibiorésistance",
-      "resume": "Group A Streptococcus (GAS) is a leading global cause of infectious disease morbidity and mortality. Higher pre-infection titres of some antibodies (M protein, SpyCEP, SpyAD, SLO, DNase B, SpnA, T25, K4S2) correlated with subsequent protection from GAS infection or reduced severity of disease in three separate studies. This review synthesizes 77 years of heterogenous studies describing antibody responses to GAS infection.",
-      "message_cle": "",
-      "lien": "https://pubmed.ncbi.nlm.nih.gov/42896813/",
-      "acces": "Métadonnées vérifiées via Europe PMC ; texte intégral non relu automatiquement."
     },
     {
       "id": "auto-pmid-42896148",
@@ -443,22 +365,8 @@
       "lien": "https://pubmed.ncbi.nlm.nih.gov/42869289/",
       "acces": "Résumé établi à partir de la notice publique ; texte intégral non relu automatiquement.",
       "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
-      "statut": "Extrait de la source primaire (langue originale) — non évalué"
-    },
-    {
-      "id": "auto-pmid-42863477",
-      "date": "2026-10-12",
-      "titre": "Efficacy, safety, and immunogenicity of a nine-valent vaccine (ExPEC9V) for the prevention of invasive Escherichia coli disease in older adults: a phase 3, randomised, placebo-controlled trial (E.mbrace).",
-      "auteur": "Bonten M",
-      "revue": "The Lancet. Infectious diseases",
-      "type": "Article indexé (type non qualifié)",
-      "pathologie": "Infections urinaires et digestives",
-      "resume": "There were 24 IED cases (11 in vaccine and 13 in placebo groups) caused by ExPEC9V O-serotypes in blood or sterile sites, yielding a vaccine efficacy of 14·63% (95% CI -106·57 to 65·38), indicating no protective effect. In this large phase 3 trial of older adults, ExPEC9V did not demonstrate efficacy in preventing first IED caused by ExPEC9V O-serotypes, despite generating robust and sustained antibody responses.",
-      "message_cle": "",
-      "lien": "https://pubmed.ncbi.nlm.nih.gov/42863477/",
-      "acces": "Résumé établi à partir de la notice publique ; texte intégral non relu automatiquement.",
-      "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
-      "statut": "Extrait de la source primaire (langue originale) — non évalué"
+      "statut": "Extrait de la source primaire (langue originale) — non évalué",
+      "langue_resume": "en"
     },
     {
       "id": "auto-pmid-42858895",
@@ -473,7 +381,8 @@
       "lien": "https://pubmed.ncbi.nlm.nih.gov/42858895/",
       "acces": "Résumé établi à partir de la notice publique ; texte intégral non relu automatiquement.",
       "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
-      "statut": "Extrait de la source primaire (langue originale) — non évalué"
+      "statut": "Extrait de la source primaire (langue originale) — non évalué",
+      "langue_resume": "en"
     },
     {
       "id": "auto-pmid-42847927",
@@ -539,19 +448,6 @@
       "message_cle": "Recherche vaccinale exploratoire, sans implication actuelle pour les recommandations de pratique.",
       "lien": "https://doi.org/10.1093/cid/ciag162",
       "acces": "Notice PubMed consultée ; texte intégral non relu."
-    },
-    {
-      "id": "auto-pmid-42841806",
-      "date": "2026-10-07",
-      "titre": "Does the DOOR Account for Post-randomization Treatment Modification or Incorporate It?",
-      "auteur": "Tirlangi PK",
-      "revue": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
-      "type": "Article indexé (type non qualifié)",
-      "pathologie": "Mycologie invasive",
-      "resume": "This correspondence clarifies that DOOR incorporates, rather than causally accounts for, post-randomization treatment modification. In the voriconazole-amphotericin B trial, frequent treatment switching means the reported DOOR probability reflects treatment strategies as implemented, not sustained randomized monotherapy throughout the original trial.",
-      "message_cle": "",
-      "lien": "https://pubmed.ncbi.nlm.nih.gov/42841806/",
-      "acces": "Métadonnées vérifiées via Europe PMC ; texte intégral non relu automatiquement."
     },
     {
       "id": "p-sab",
@@ -759,7 +655,7 @@
       "lien": "https://www.ecdc.europa.eu/en/public-health-events"
     }
   ],
-  "maj_auto": "2026-10-23T12:34:13+02:00",
+  "maj_auto": "2026-10-23T13:22:32+02:00",
   "sources_automatiques": [
     "Santé publique France",
     "ECDC — mises à jour épidémiologiques",
@@ -782,7 +678,7 @@
     "OMS – recommandations",
     "NIH – VIH opportunistes"
   ],
-  "etat_collecte": "Métadonnées actualisées automatiquement le 2026-10-23 (7 signalements, 32 sources répondantes).",
+  "etat_collecte": "Aucune nouvelle référence éligible : semaine en cours conservée.",
   "derniere_tentative": "2026-10-23",
   "erreurs_sources": [
     "Recommandations HAS – vaccination : <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
@@ -930,6 +826,7 @@
       "statut": "Index vérifié – aucun changement détecté"
     }
   },
-  "resume_enrichis": 7,
-  "mode_synthese": "Extraits source (sans clé API)"
+  "resume_enrichis": 9,
+  "mode_synthese": "Résumés en français par IA à partir des sources (non validés cliniquement)",
+  "references_hors_sujet_supprimees": 7
 }
