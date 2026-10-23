@@ -34,6 +34,10 @@ jobs:
 
       - name: Collecter, synchroniser et enregistrer la veille
         if: github.event_name != 'push'
+        env:
+          # Facultatif : laisser non défini pour le mode sans IA.
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4o-mini
         shell: bash
         run: |
           set -euo pipefail
@@ -91,4 +95,3 @@ jobs:
       - name: Publier le site
         id: deployment
         uses: actions/deploy-pages@v4
-
