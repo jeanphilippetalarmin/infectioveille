@@ -4,18 +4,101 @@
     "fin": "2026-10-25",
     "maj": "2026-10-23",
     "messages_cles": [
-      "Plasmodium falciparum resistance to current first-line treatments is threatening at-risk populations and underscores the urgent need for novel therapeutic targets and drugs.",
-      "Early period discussions were emphasized basic access and effectiveness questions, with more recent discussions (2022-2025) displaying increased attention to injectable and long-term safety considerations.",
-      "It was last updated on 20 October at 15:00. As of 19 October 2026, the Democratic Republic of the Congo (DRC) reported a total of 9 552 confirmed cases, including 4 602 related deaths (from data up until 18 October)."
+      "Un total de 246 échantillons de sérum et de 228 échantillons de BALF ont été obtenus chez des patients atteints d'IA (n = 229) et non atteints d'IA (n = 236) entre mars 2023 et juillet 2024.",
+      "Klebsiella pneumoniae est une cause importante d'infections humaines et est souvent résistante à plusieurs antibiotiques.",
+      "Cette étude a caractérisé les caractéristiques phénotypiques et génomiques des isolats d'Escherichia coli et de Klebsiella pneumoniae recueillis entre 2020 et 2022 dans quatre établissements de santé de Lima, au Pérou."
     ],
     "nouveautes": [
+      {
+        "id": "auto-pmid-42905455",
+        "date": "2026-10-21",
+        "date_detection": "2026-10-23",
+        "date_type": "Date de publication indexée",
+        "titre": "A Novel Aspergillus Galactomannan Chemiluminescence Immunoassay: Evaluation for Diagnosis of Invasive Pulmonary Aspergillosis in a Multicenter Controlled Study.",
+        "resume": "L'essai immunologique de chimioluminescence d'Aspergillus galactomannan (GM-CLIA) est un nouveau test non basé sur la culture appliqué dans la détection de l'antigène GM dans le sérum et le liquide de lavage broncho-alvéolaire (BALF). Cette étude multicentrique, rétrospective et contrôlée vise à étudier sa valeur diagnostique pour l'aspergillose invasive (IA). Un total de 246 échantillons de sérum et de 228 échantillons de BALF ont été obtenus chez des patients atteints d'IA (n = 229) et non atteints d'IA (n = 236) entre mars 2023 et juillet 2024.",
+        "resume_original": "The Aspergillus galactomannan chemiluminescence immunoassay (GM-CLIA) is a novel non-culture-based test applied in the detection of GM antigen in serum and bronchoalveolar lavage fluid (BALF). This multicenter, retrospective, and controlled study aims to investigate its diagnostic value for invasive aspergillosis (IA). A total of 246 serum and 228 BALF samples were obtained from IA patients (n = 229) and non-IA (n = 236) patients between March 2023 and July 2024.",
+        "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
+        "niveau_impact": 1,
+        "categorie": "Publication",
+        "pathologie": "Infections fongiques invasives",
+        "thematiques": [
+          "fongi"
+        ],
+        "source": "Xiao Y · Med Mycol · 2026; myag062",
+        "reference": "Xiao Y · Med Mycol · 2026; myag062",
+        "revue_abregee": "Med Mycol",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42905455/",
+        "auteur": "Xiao Y",
+        "revue": "Medical mycology",
+        "type_etude": "Article indexé (type non qualifié)",
+        "doi": "10.1093/mmy/myag062",
+        "resume_disponible": true,
+        "langue_resume": "fr",
+        "statut": "Traduction Argos de phrases extraites (français) — non validée"
+      },
+      {
+        "id": "auto-pmid-42905260",
+        "date": "2026-10-21",
+        "date_detection": "2026-10-23",
+        "date_type": "Date de publication indexée",
+        "titre": "A multivalent CPS-CRM197 conjugate vaccine protects against severe/fatal Klebsiella pneumoniae disease in a mouse infection model.",
+        "resume": "Klebsiella pneumoniae est une cause importante d'infections humaines et est souvent résistante à plusieurs antibiotiques. La plupart des infections surviennent chez les personnes ayant des comorbidités et/ou celles qui présentent des facteurs de risque d'infection. Bien que des progrès aient été accomplis, de nouvelles mesures thérapeutiques et préventives sont nécessaires.",
+        "resume_original": "Klebsiella pneumoniae is an important cause of human infections and is often resistant to multiple antibiotics. Most infections occur in individuals with co-morbidities and/or those who have risk factors for infection. Although progress has been made, new therapeutics and preventive measures are needed.",
+        "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
+        "niveau_impact": 1,
+        "categorie": "Publication",
+        "pathologie": "Infections respiratoires",
+        "thematiques": [
+          "resp",
+          "vacc"
+        ],
+        "source": "Malachowa N · Antimicrob Agents Chemother · 2026; e0068526",
+        "reference": "Malachowa N · Antimicrob Agents Chemother · 2026; e0068526",
+        "revue_abregee": "Antimicrob Agents Chemother",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42905260/",
+        "auteur": "Malachowa N",
+        "revue": "Antimicrobial agents and chemotherapy",
+        "type_etude": "Article indexé (type non qualifié)",
+        "doi": "10.1128/aac.00685-26",
+        "resume_disponible": true,
+        "langue_resume": "fr",
+        "statut": "Traduction Argos de phrases extraites (français) — non validée"
+      },
+      {
+        "id": "auto-pmid-42905258",
+        "date": "2026-10-21",
+        "date_detection": "2026-10-23",
+        "date_type": "Date de publication indexée",
+        "titre": "Expanding threat of carbapenemase-producing Escherichia coli and Klebsiella pneumoniae in Peru: genomic and phenotypic evidence of high-risk clones dissemination.",
+        "resume": "Les entérobactéries productrices de carbapénemase représentent une menace mondiale croissante en raison de leur grande résistance aux antimicrobiens et de leur diffusion rapide. Cette étude a caractérisé les caractéristiques phénotypiques et génomiques des isolats d'Escherichia coli et de Klebsiella pneumoniae recueillis entre 2020 et 2022 dans quatre établissements de santé de Lima, au Pérou.",
+        "resume_original": "Carbapenemase-producing Enterobacterales represent a growing global threat due to their extensive antimicrobial resistance and rapid dissemination. This study characterized the phenotypic and genomic features of Escherichia coli and Klebsiella pneumoniae isolates collected between 2020 and 2022 from four healthcare institutions in Lima, Peru.",
+        "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
+        "niveau_impact": 1,
+        "categorie": "Publication",
+        "pathologie": "Infections respiratoires",
+        "thematiques": [
+          "resp",
+          "bmr"
+        ],
+        "source": "Gonzales-Escalante E · Antimicrob Agents Chemother · 2026; e0060126",
+        "reference": "Gonzales-Escalante E · Antimicrob Agents Chemother · 2026; e0060126",
+        "revue_abregee": "Antimicrob Agents Chemother",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42905258/",
+        "auteur": "Gonzales-Escalante E",
+        "revue": "Antimicrobial agents and chemotherapy",
+        "type_etude": "Article indexé (type non qualifié)",
+        "doi": "10.1128/aac.00601-26",
+        "resume_disponible": true,
+        "langue_resume": "fr",
+        "statut": "Traduction Argos de phrases extraites (français) — non validée"
+      },
       {
         "id": "auto-pmid-42901195",
         "date": "2026-10-20",
         "date_detection": "2026-10-23",
         "date_type": "Date de publication indexée",
         "titre": "Effectiveness of respiratory syncytial virus immunisation in practice.",
-        "resume": "Respiratory syncytial virus (RSV) affects all ages, with infants and older adults most affected by severe disease. The RSV prevention landscape includes 39 candidates in clinical development, alongside setbacks such as the discontinuation of a promising paediatric live-attenuated vaccine candidate. Several products have been approved, including a maternal vaccine, infant monoclonal antibodies, and vaccines for older adults and adults at high risk.",
+        "resume": "Le virus respiratoire syncytial (VRS) affecte tous les âges, les nourrissons et les personnes âgées étant les plus touchés par une maladie grave. Le paysage de la prévention du VRS comprend 39 candidats en développement clinique, ainsi que des revers comme l'arrêt d'un candidat à un vaccin attendu vivant pédiatrique prometteur. Plusieurs produits ont été approuvés, dont un vaccin maternel, des anticorps monoclonaux pour nourrissons et des vaccins pour adultes âgés et adultes à risque élevé.",
         "niveau_impact": 1,
         "categorie": "Publication",
         "pathologie": "Infections respiratoires",
@@ -26,9 +109,10 @@
         "type_etude": "Article indexé (type non qualifié)",
         "doi": "10.1016/s1473-3099(26)00466-4",
         "resume_disponible": true,
-        "statut": "Extrait de la source primaire (langue originale) — non évalué",
-        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
-        "langue_resume": "en"
+        "statut": "Traduction Argos de phrases extraites (français) — non validée",
+        "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
+        "langue_resume": "fr",
+        "resume_original": "Respiratory syncytial virus (RSV) affects all ages, with infants and older adults most affected by severe disease. The RSV prevention landscape includes 39 candidates in clinical development, alongside setbacks such as the discontinuation of a promising paediatric live-attenuated vaccine candidate. Several products have been approved, including a maternal vaccine, infant monoclonal antibodies, and vaccines for older adults and adults at high risk."
       },
       {
         "id": "auto-pmid-42896183",
@@ -57,8 +141,8 @@
         "date_detection": "2026-10-23",
         "date_type": "Date de publication indexée",
         "titre": "Dual-stage inhibition of Plasmodium falciparum by a Skeletocutis -derived fungal metabolite targeting pyruvate kinase II.",
-        "resume": "Plasmodium falciparum resistance to current first-line treatments is threatening at-risk populations and underscores the urgent need for novel therapeutic targets and drugs. P. falciparum pyruvate kinases I and II are two essential enzymes with distinct roles and subcellular localizations within the parasite.",
-        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+        "resume": "La résistance au plasma falciparum aux traitements actuels de première intention menace les populations à risque et souligne le besoin urgent de nouveaux médicaments et cibles thérapeutiques. P. falciparum pyruvate kinases I et II sont deux enzymes essentielles ayant des rôles distincts et des localisations subcellulaires au sein du parasite.",
+        "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
         "niveau_impact": 1,
         "categorie": "Publication",
         "pathologie": "Pathologie du voyageur",
@@ -69,8 +153,9 @@
         "type_etude": "Article indexé (type non qualifié)",
         "doi": "10.1128/aac.00160-26",
         "resume_disponible": true,
-        "statut": "Extrait de la source primaire (langue originale) — non évalué",
-        "langue_resume": "en"
+        "statut": "Traduction Argos de phrases extraites (français) — non validée",
+        "langue_resume": "fr",
+        "resume_original": "Plasmodium falciparum resistance to current first-line treatments is threatening at-risk populations and underscores the urgent need for novel therapeutic targets and drugs. P. falciparum pyruvate kinases I and II are two essential enzymes with distinct roles and subcellular localizations within the parasite."
       },
       {
         "id": "auto-pmid-42899401",
@@ -78,8 +163,8 @@
         "date_detection": "2026-10-23",
         "date_type": "Date de publication indexée",
         "titre": "Understanding community questions about HIV pre-exposure prophylaxis (PrEP): A thematic analysis of reddit threads to inform development of an AI chatbot for PrEP education.",
-        "resume": "Early period discussions were emphasized basic access and effectiveness questions, with more recent discussions (2022-2025) displaying increased attention to injectable and long-term safety considerations. Reddit users demonstrate persistent uncertainty about PrEP side effects, drug interactions and medication switching.",
-        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+        "resume": "On a mis l'accent sur les questions d'accès et d'efficacité de base au début de la période, les discussions plus récentes (2022-2025) accordant une plus grande attention aux considérations d'innocuité injectable et à long terme. Les utilisateurs de Reddit démontrent une incertitude persistante quant aux effets secondaires de la PrEP, aux interactions médicamenteuses et au changement de traitement.",
+        "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
         "niveau_impact": 1,
         "categorie": "Publication",
         "pathologie": "VIH, PrEP et IST",
@@ -90,8 +175,9 @@
         "type_etude": "Article indexé (type non qualifié)",
         "doi": "10.1111/hiv.70332",
         "resume_disponible": true,
-        "statut": "Extrait de la source primaire (langue originale) — non évalué",
-        "langue_resume": "en"
+        "statut": "Traduction Argos de phrases extraites (français) — non validée",
+        "langue_resume": "fr",
+        "resume_original": "Early period discussions were emphasized basic access and effectiveness questions, with more recent discussions (2022-2025) displaying increased attention to injectable and long-term safety considerations. Reddit users demonstrate persistent uncertainty about PrEP side effects, drug interactions and medication switching."
       },
       {
         "id": "auto-rss-ba08ca4cdcb1813b8",
@@ -135,7 +221,7 @@
         "date_detection": "2026-10-23",
         "date_type": "Date de publication indexée",
         "titre": "How do I manage candiduria: practical algorithms and remaining conundrums in 2026.",
-        "resume": "This review aims to provide a structured approach to the evaluation and management of candiduria, illustrated by a clinical vignette.",
+        "resume": "Cette revue vise à fournir une approche structurée de l'évaluation et de la gestion de la candidature, illustrée par une vignette clinique.",
         "niveau_impact": 1,
         "categorie": "Publication",
         "pathologie": "Mycologie invasive",
@@ -146,9 +232,10 @@
         "type_etude": "Article indexé (type non qualifié)",
         "doi": "10.1016/j.cmi.2026.08.011",
         "resume_disponible": true,
-        "statut": "Extrait de la source primaire (langue originale) — non évalué",
-        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
-        "langue_resume": "en"
+        "statut": "Traduction Argos de phrases extraites (français) — non validée",
+        "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
+        "langue_resume": "fr",
+        "resume_original": "This review aims to provide a structured approach to the evaluation and management of candiduria, illustrated by a clinical vignette."
       }
     ],
     "type_edition": "Repérage automatisé non validé cliniquement"
@@ -227,6 +314,157 @@
   ],
   "publications": [
     {
+      "id": "auto-pmid-42905455",
+      "date": "2026-10-21",
+      "titre": "A Novel Aspergillus Galactomannan Chemiluminescence Immunoassay: Evaluation for Diagnosis of Invasive Pulmonary Aspergillosis in a Multicenter Controlled Study.",
+      "auteur": "Xiao Y",
+      "revue": "Medical mycology",
+      "revue_abregee": "Med Mycol",
+      "reference": "Xiao Y · Med Mycol · 2026; myag062",
+      "type": "Article indexé (type non qualifié)",
+      "pathologie": "Infections fongiques invasives",
+      "thematiques": [
+        "fongi"
+      ],
+      "doi": "10.1093/mmy/myag062",
+      "date_type": "Date de publication indexée",
+      "date_detection": "2026-10-23",
+      "resume": "L'essai immunologique de chimioluminescence d'Aspergillus galactomannan (GM-CLIA) est un nouveau test non basé sur la culture appliqué dans la détection de l'antigène GM dans le sérum et le liquide de lavage broncho-alvéolaire (BALF). Cette étude multicentrique, rétrospective et contrôlée vise à étudier sa valeur diagnostique pour l'aspergillose invasive (IA). Un total de 246 échantillons de sérum et de 228 échantillons de BALF ont été obtenus chez des patients atteints d'IA (n = 229) et non atteints d'IA (n = 236) entre mars 2023 et juillet 2024.",
+      "resume_original": "The Aspergillus galactomannan chemiluminescence immunoassay (GM-CLIA) is a novel non-culture-based test applied in the detection of GM antigen in serum and bronchoalveolar lavage fluid (BALF). This multicenter, retrospective, and controlled study aims to investigate its diagnostic value for invasive aspergillosis (IA). A total of 246 serum and 228 BALF samples were obtained from IA patients (n = 229) and non-IA (n = 236) patients between March 2023 and July 2024.",
+      "langue_resume": "fr",
+      "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
+      "message_cle": "",
+      "lien": "https://pubmed.ncbi.nlm.nih.gov/42905455/",
+      "acces": "Traduction automatique d’extraits de l’abstract ; texte intégral non relu."
+    },
+    {
+      "id": "auto-pmid-42905260",
+      "date": "2026-10-21",
+      "titre": "A multivalent CPS-CRM197 conjugate vaccine protects against severe/fatal Klebsiella pneumoniae disease in a mouse infection model.",
+      "auteur": "Malachowa N",
+      "revue": "Antimicrobial agents and chemotherapy",
+      "revue_abregee": "Antimicrob Agents Chemother",
+      "reference": "Malachowa N · Antimicrob Agents Chemother · 2026; e0068526",
+      "type": "Article indexé (type non qualifié)",
+      "pathologie": "Infections respiratoires",
+      "thematiques": [
+        "resp",
+        "vacc"
+      ],
+      "doi": "10.1128/aac.00685-26",
+      "date_type": "Date de publication indexée",
+      "date_detection": "2026-10-23",
+      "resume": "Klebsiella pneumoniae est une cause importante d'infections humaines et est souvent résistante à plusieurs antibiotiques. La plupart des infections surviennent chez les personnes ayant des comorbidités et/ou celles qui présentent des facteurs de risque d'infection. Bien que des progrès aient été accomplis, de nouvelles mesures thérapeutiques et préventives sont nécessaires.",
+      "resume_original": "Klebsiella pneumoniae is an important cause of human infections and is often resistant to multiple antibiotics. Most infections occur in individuals with co-morbidities and/or those who have risk factors for infection. Although progress has been made, new therapeutics and preventive measures are needed.",
+      "langue_resume": "fr",
+      "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
+      "message_cle": "",
+      "lien": "https://pubmed.ncbi.nlm.nih.gov/42905260/",
+      "acces": "Traduction automatique d’extraits de l’abstract ; texte intégral non relu."
+    },
+    {
+      "id": "auto-pmid-42905258",
+      "date": "2026-10-21",
+      "titre": "Expanding threat of carbapenemase-producing Escherichia coli and Klebsiella pneumoniae in Peru: genomic and phenotypic evidence of high-risk clones dissemination.",
+      "auteur": "Gonzales-Escalante E",
+      "revue": "Antimicrobial agents and chemotherapy",
+      "revue_abregee": "Antimicrob Agents Chemother",
+      "reference": "Gonzales-Escalante E · Antimicrob Agents Chemother · 2026; e0060126",
+      "type": "Article indexé (type non qualifié)",
+      "pathologie": "Infections respiratoires",
+      "thematiques": [
+        "resp",
+        "bmr"
+      ],
+      "doi": "10.1128/aac.00601-26",
+      "date_type": "Date de publication indexée",
+      "date_detection": "2026-10-23",
+      "resume": "Les entérobactéries productrices de carbapénemase représentent une menace mondiale croissante en raison de leur grande résistance aux antimicrobiens et de leur diffusion rapide. Cette étude a caractérisé les caractéristiques phénotypiques et génomiques des isolats d'Escherichia coli et de Klebsiella pneumoniae recueillis entre 2020 et 2022 dans quatre établissements de santé de Lima, au Pérou.",
+      "resume_original": "Carbapenemase-producing Enterobacterales represent a growing global threat due to their extensive antimicrobial resistance and rapid dissemination. This study characterized the phenotypic and genomic features of Escherichia coli and Klebsiella pneumoniae isolates collected between 2020 and 2022 from four healthcare institutions in Lima, Peru.",
+      "langue_resume": "fr",
+      "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
+      "message_cle": "",
+      "lien": "https://pubmed.ncbi.nlm.nih.gov/42905258/",
+      "acces": "Traduction automatique d’extraits de l’abstract ; texte intégral non relu."
+    },
+    {
+      "id": "auto-pmid-42864726",
+      "date": "2026-10-12",
+      "titre": "Early Invasive Fungal Infections in Liver Transplant Recipients Receiving Risk-Stratified Echinocandin Prophylaxis: A Descriptive Single-Center Cohort Study.",
+      "auteur": "Viero G",
+      "revue": "Transplant infectious disease : an official journal of the Transplantation Society",
+      "revue_abregee": "Transpl Infect Dis",
+      "reference": "Viero G · Transpl Infect Dis · 2026; e70338",
+      "type": "Article indexé (type non qualifié)",
+      "pathologie": "Infections fongiques invasives",
+      "thematiques": [
+        "fongi",
+        "immuno"
+      ],
+      "doi": "10.1111/tid.70338",
+      "date_type": "Date de publication indexée",
+      "date_detection": "2026-10-23",
+      "resume": "Parmi les 452 transplantations réalisées en 2017-2025, sept ont développé une aspergillose précoce au cours de quatre années civiles, sans variation significative de l'incidence annuelle (p = 0,146), jamais plus de deux cas dans une fenêtre de 90 jours (Monte Carlo p = 0,82) et aucune parmi les 117 transplantations des 28 mois suivants. Les IFI précoces sous la prophylaxie à l'échinocandine stratifiée à risque se concentraient chez les receveurs les plus malades et étaient dominées par la maladie des moisissures.",
+      "resume_original": "Among 452 transplants performed in 2017-2025, seven developed early aspergillosis across four calendar years, with no significant variation in annual incidence (p = 0.146), never more than two cases in any 90-day window (Monte Carlo p = 0.82) and none among the 117 transplants of the following 28 months. Early IFI under risk-stratified echinocandin prophylaxis concentrated in the sickest recipients and was dominated by mold disease.",
+      "langue_resume": "fr",
+      "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
+      "message_cle": "",
+      "lien": "https://pubmed.ncbi.nlm.nih.gov/42864726/",
+      "acces": "Traduction automatique d’extraits de l’abstract ; texte intégral non relu."
+    },
+    {
+      "id": "auto-pmid-42898829",
+      "date": "2026-10-08",
+      "titre": "Fungal Periprosthetic Joint Infection: A Systematic Review and Meta-analysis of Treatment Approaches and Clinical Outcomes.",
+      "auteur": "Pourghazi F",
+      "revue": "Open forum infectious diseases",
+      "revue_abregee": "Open Forum Infect Dis",
+      "reference": "Pourghazi F · Open Forum Infect Dis · 2026; 13(10):ofag657",
+      "type": "Article indexé (type non qualifié)",
+      "pathologie": "Infections fongiques invasives",
+      "thematiques": [
+        "fongi",
+        "ioam"
+      ],
+      "doi": "10.1093/ofid/ofag657",
+      "date_type": "Date de publication indexée",
+      "date_detection": "2026-10-23",
+      "resume": "L'infection articulaire par périprothèse fongique est une complication rare mais grave de l'arthroplastie articulaire, avec une gestion variable et des résultats mal définis. Nous avons procédé à un examen systématique et à une méta-analyse conformément aux lignes directrices de PRISMA, en cherchant Ovid MEDLINE, Embase, Scopus et Ovid Cochrane Central. Des études de cohorte ont été incluses dans la synthèse quantitative, tandis que des rapports de cas et des séries ont été examinés qualitativement.",
+      "resume_original": "Fungal periprosthetic joint infection (PJI) is a rare but serious complication of joint arthroplasty, with variable management and poorly defined outcomes. We conducted a systematic review and meta-analysis in accordance with PRISMA guidelines, searching Ovid MEDLINE, Embase, Scopus, and Ovid Cochrane Central. Cohort studies were included in the quantitative synthesis, while case reports and series were reviewed qualitatively.",
+      "langue_resume": "fr",
+      "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
+      "message_cle": "",
+      "lien": "https://pubmed.ncbi.nlm.nih.gov/42898829/",
+      "acces": "Traduction automatique d’extraits de l’abstract ; texte intégral non relu."
+    },
+    {
+      "id": "auto-pmid-42833631",
+      "date": "2026-10-05",
+      "titre": "Evaluation of a multiplex qPCR assay for rapid diagnosis of fungal pneumonia and tuberculosis in people with advanced HIV disease.",
+      "auteur": "de Moura da Costa TB",
+      "revue": "Medical mycology",
+      "revue_abregee": "Med Mycol",
+      "reference": "de Moura da Costa TB · Med Mycol · 2026; myag108",
+      "type": "Article indexé (type non qualifié)",
+      "pathologie": "Infections fongiques invasives",
+      "thematiques": [
+        "fongi",
+        "tb",
+        "vih",
+        "resp"
+      ],
+      "doi": "10.1093/mmy/myag108",
+      "date_type": "Date de publication indexée",
+      "date_detection": "2026-10-23",
+      "resume": "Les pneumonies fongiques et la tuberculose (TB) demeurent les principales causes de mortalité chez les personnes atteintes d'une maladie à VIH avancée. Leurs manifestations cliniques qui se chevauchent retardent le diagnostic dans des milieux développés et limités en ressources, avec un impact plus grand lorsque l'accès aux outils de diagnostic rapide est limité.",
+      "resume_original": "Fungal pneumonias and tuberculosis (TB) remain major causes of mortality among people living with advanced HIV disease (PLWHA). Their overlapping clinical manifestations delay diagnosis in developed and resource-limited settings, with greater impact where access to rapid diagnostic tools is limited.",
+      "langue_resume": "fr",
+      "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
+      "message_cle": "",
+      "lien": "https://pubmed.ncbi.nlm.nih.gov/42833631/",
+      "acces": "Traduction automatique d’extraits de l’abstract ; texte intégral non relu."
+    },
+    {
       "id": "auto-pmid-42901405",
       "date": "2026-10-20",
       "titre": "Species distribution and antimicrobial susceptibility of Nocardia isolates from patients in Iran with suspected tuberculosis: a two-year study.",
@@ -234,13 +472,14 @@
       "revue": "Infectious diseases now",
       "type": "Article indexé (type non qualifié)",
       "pathologie": "Antibiorésistance",
-      "resume": "To describe the frequency, species distribution, and in vitro antimicrobial susceptibility of Nocardia isolates retrieved from unique patients investigated for suspected TB at a referral center in Iran from March 2021 to March 2023. Imipenem susceptibility varied by species; 13/56 isolates (23%) were susceptible to moxifloxacin, and 20/56 (36%) to amoxicillin-clavulanate.",
+      "resume": "Décrire la fréquence, la distribution des espèces et la susceptibilité aux antimicrobiens in vitro des isolats de Nocardia récupérés chez des patients uniques qui ont fait l'objet d'une enquête sur des cas présumés de tuberculose dans un centre de référence en Iran de mars 2021 à mars 2023. La sensibilité à l'imipelem variait selon les espèces; 13/56 isolats (23 %) étaient sensibles à la moxifloxacine et 20/56 (36 %) à l'amoxicilline-clavulanate.",
       "message_cle": "Repérage bibliographique, pas une recommandation. Vérifier la méthode, les résultats et l'applicabilité clinique dans le texte intégral.",
       "lien": "https://pubmed.ncbi.nlm.nih.gov/42901405/",
-      "acces": "Résumé établi à partir de la notice publique ; texte intégral non relu automatiquement.",
-      "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
-      "statut": "Extrait de la source primaire (langue originale) — non évalué",
-      "langue_resume": "en"
+      "acces": "Traduction automatique d’extraits de la source ; texte intégral non analysé.",
+      "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
+      "statut": "Traduction Argos de phrases extraites (français) — non validée",
+      "langue_resume": "fr",
+      "resume_original": "To describe the frequency, species distribution, and in vitro antimicrobial susceptibility of Nocardia isolates retrieved from unique patients investigated for suspected TB at a referral center in Iran from March 2021 to March 2023. Imipenem susceptibility varied by species; 13/56 isolates (23%) were susceptible to moxifloxacin, and 20/56 (36%) to amoxicillin-clavulanate."
     },
     {
       "id": "auto-pmid-42901195",
@@ -250,13 +489,14 @@
       "revue": "The Lancet. Infectious diseases",
       "type": "Article indexé (type non qualifié)",
       "pathologie": "Infections respiratoires",
-      "resume": "Respiratory syncytial virus (RSV) affects all ages, with infants and older adults most affected by severe disease. The RSV prevention landscape includes 39 candidates in clinical development, alongside setbacks such as the discontinuation of a promising paediatric live-attenuated vaccine candidate. Several products have been approved, including a maternal vaccine, infant monoclonal antibodies, and vaccines for older adults and adults at high risk.",
+      "resume": "Le virus respiratoire syncytial (VRS) affecte tous les âges, les nourrissons et les personnes âgées étant les plus touchés par une maladie grave. Le paysage de la prévention du VRS comprend 39 candidats en développement clinique, ainsi que des revers comme l'arrêt d'un candidat à un vaccin attendu vivant pédiatrique prometteur. Plusieurs produits ont été approuvés, dont un vaccin maternel, des anticorps monoclonaux pour nourrissons et des vaccins pour adultes âgés et adultes à risque élevé.",
       "message_cle": "",
       "lien": "https://pubmed.ncbi.nlm.nih.gov/42901195/",
-      "acces": "Résumé établi à partir de la notice publique ; texte intégral non relu automatiquement.",
-      "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
-      "statut": "Extrait de la source primaire (langue originale) — non évalué",
-      "langue_resume": "en"
+      "acces": "Traduction automatique d’extraits de la source ; texte intégral non analysé.",
+      "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
+      "statut": "Traduction Argos de phrases extraites (français) — non validée",
+      "langue_resume": "fr",
+      "resume_original": "Respiratory syncytial virus (RSV) affects all ages, with infants and older adults most affected by severe disease. The RSV prevention landscape includes 39 candidates in clinical development, alongside setbacks such as the discontinuation of a promising paediatric live-attenuated vaccine candidate. Several products have been approved, including a maternal vaccine, infant monoclonal antibodies, and vaccines for older adults and adults at high risk."
     },
     {
       "id": "auto-pmid-42896183",
@@ -360,13 +600,14 @@
       "revue": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
       "type": "Article indexé (type non qualifié)",
       "pathologie": "Mycologie invasive",
-      "resume": "This review aims to provide a structured approach to the evaluation and management of candiduria, illustrated by a clinical vignette.",
+      "resume": "Cette revue vise à fournir une approche structurée de l'évaluation et de la gestion de la candidature, illustrée par une vignette clinique.",
       "message_cle": "",
       "lien": "https://pubmed.ncbi.nlm.nih.gov/42869289/",
-      "acces": "Résumé établi à partir de la notice publique ; texte intégral non relu automatiquement.",
-      "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
-      "statut": "Extrait de la source primaire (langue originale) — non évalué",
-      "langue_resume": "en"
+      "acces": "Traduction automatique d’extraits de la source ; texte intégral non analysé.",
+      "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
+      "statut": "Traduction Argos de phrases extraites (français) — non validée",
+      "langue_resume": "fr",
+      "resume_original": "This review aims to provide a structured approach to the evaluation and management of candiduria, illustrated by a clinical vignette."
     },
     {
       "id": "auto-pmid-42858895",
@@ -376,13 +617,14 @@
       "revue": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
       "type": "Article indexé (type non qualifié)",
       "pathologie": "Mycologie invasive",
-      "resume": "To evaluate a non-invasive panel integrating urinary triacetylfusarinine C normalised to creatinine (uTafC/Cr), serum galactomannan (sGM) and serum pentraxin-3 (sPtx3) for detection of invasive aspergillosis (IA) in patients with haematological malignancies. sGM and uTafC/Cr showed no false positives in available control episodes (sGM, 0/98; uTafC/Cr, 0/111) and each detected 51.4% of IA episodes (19/37). sPtx3 alone showed sensitivity of 70.3% (26/37) and specificity of…",
+      "resume": "Pour évaluer un panneau non invasif intégrant la triacétylfusarinine C urinaire normalisée en créatinine (uTafC/Cr), le galactomannan sérique (sGM) et la pentraxine-3 sérique (sPtx3) pour la détection de l'aspergillose invasive (IA) chez les patients présentant des tumeurs malignes hématologiques. sGM et uTafC/Cr n'ont montré aucun faux positif dans les épisodes témoins disponibles (sGM, 0/98; uTafC/Cr, 0/111) et chacun a détecté 51,4% des épisodes IA (19/37). sPtx3 seul a montré une sensibilité de 70,3% (26/37) et une spécificité de...",
       "message_cle": "",
       "lien": "https://pubmed.ncbi.nlm.nih.gov/42858895/",
-      "acces": "Résumé établi à partir de la notice publique ; texte intégral non relu automatiquement.",
-      "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
-      "statut": "Extrait de la source primaire (langue originale) — non évalué",
-      "langue_resume": "en"
+      "acces": "Traduction automatique d’extraits de la source ; texte intégral non analysé.",
+      "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
+      "statut": "Traduction Argos de phrases extraites (français) — non validée",
+      "langue_resume": "fr",
+      "resume_original": "To evaluate a non-invasive panel integrating urinary triacetylfusarinine C normalised to creatinine (uTafC/Cr), serum galactomannan (sGM) and serum pentraxin-3 (sPtx3) for detection of invasive aspergillosis (IA) in patients with haematological malignancies. sGM and uTafC/Cr showed no false positives in available control episodes (sGM, 0/98; uTafC/Cr, 0/111) and each detected 51.4% of IA episodes (19/37). sPtx3 alone showed sensitivity of 70.3% (26/37) and specificity of…"
     },
     {
       "id": "auto-pmid-42847927",
@@ -655,7 +897,7 @@
       "lien": "https://www.ecdc.europa.eu/en/public-health-events"
     }
   ],
-  "maj_auto": "2026-10-23T13:22:32+02:00",
+  "maj_auto": "2026-10-23T14:15:00+02:00",
   "sources_automatiques": [
     "Santé publique France",
     "ECDC — mises à jour épidémiologiques",
@@ -678,7 +920,7 @@
     "OMS – recommandations",
     "NIH – VIH opportunistes"
   ],
-  "etat_collecte": "Aucune nouvelle référence éligible : semaine en cours conservée.",
+  "etat_collecte": "Métadonnées actualisées automatiquement le 2026-10-23 (6 signalements, 32 sources répondantes).",
   "derniere_tentative": "2026-10-23",
   "erreurs_sources": [
     "Recommandations HAS – vaccination : <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
@@ -826,7 +1068,10 @@
       "statut": "Index vérifié – aucun changement détecté"
     }
   },
-  "resume_enrichis": 9,
-  "mode_synthese": "Résumés en français par IA à partir des sources (non validés cliniquement)",
-  "references_hors_sujet_supprimees": 7
+  "resume_enrichis": 6,
+  "mode_synthese": "Traduction locale Argos anglais-français — non validée cliniquement",
+  "references_hors_sujet_supprimees": 0,
+  "traductions_fr_reussies": 13,
+  "traductions_fr_echecs": 5,
+  "avertissement_traduction": "ValueError: chiffres modifiés ou supprimés pendant la traduction"
 }
