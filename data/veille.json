@@ -2,13 +2,37 @@
   "nouvautes": {
     "semaine": "2026-10-19",
     "fin": "2026-10-25",
-    "maj": "2026-10-22",
+    "maj": "2026-10-23",
     "messages_cles": [
-      "Arboviroses en métropole : ne pas exclure une infection autochtone par dengue, chikungunya ou West Nile devant une présentation compatible, même sans voyage.",
-      "Bactériémies : une cohorte publiée le 19 octobre montre la faible utilisation du relais oral ; son association à de meilleurs résultats ne prouve pas un bénéfice causal.",
-      "Début de saison respiratoire : surveiller les bulletins hebdomadaires et appliquer les indications vaccinales actualisées, notamment chez les patients fragiles."
+      "À examiner : « ECDC : rappel de prévention à l’entrée de la saison respiratoire » (ECDC).",
+      "À examiner : « Ebola Bundibugyo : diffusion régionale et cas signalé au Nigeria » (ECDC — situation épidémique du 22 octobre).",
+      "À examiner : « France : transmissions autochtones de dengue, chikungunya et West Nile » (Santé publique France)."
     ],
     "nouveautes": [
+      {
+        "id": "n-ecdc-2210",
+        "date": "2026-10-22",
+        "titre": "ECDC : rappel de prévention à l’entrée de la saison respiratoire",
+        "resume": "Le Centre européen insiste sur la prévention des infections respiratoires, dont grippe, VRS, COVID-19 et pneumocoque, particulièrement en présence de personnes vulnérables.",
+        "impact_pratique": "Profiter des consultations et de l’activité hospitalière pour vérifier les vaccinations pertinentes et les précautions adaptées au risque.",
+        "niveau_impact": 2,
+        "categorie": "Vaccination",
+        "pathologie": "Vaccinations de l’adulte",
+        "source": "ECDC",
+        "lien": "https://www.ecdc.europa.eu/en/news-events/respiratory-infections-season"
+      },
+      {
+        "id": "n-ebola-2210",
+        "date": "2026-10-22",
+        "titre": "Ebola Bundibugyo : diffusion régionale et cas signalé au Nigeria",
+        "resume": "Selon l’ECDC (22 octobre), l’épidémie en RDC concerne aussi des cas au Kenya (9 cas confirmés) et un cas signalé au Nigeria chez une personne ayant voyagé en Ouganda. Le risque pour la population de l’UE/EEE reste estimé très faible.",
+        "impact_pratique": "Pour une exposition à risque ou un voyage récent pertinent, appliquer les procédures REB locales et consulter les données OMS/ECDC actualisées.",
+        "niveau_impact": 2,
+        "categorie": "Alerte épidémio",
+        "pathologie": "Pathologie du voyageur",
+        "source": "ECDC — situation épidémique du 22 octobre",
+        "lien": "https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-10-22"
+      },
       {
         "id": "n-arbo-2110",
         "date": "2026-10-21",
@@ -34,6 +58,34 @@
         "lien": "https://www.santepubliquefrance.fr/infections-respiratoires-aigues/grippe/bulletin-national/infections-respiratoires-aigues-grippe-bronchiolite-covid-19-bulletin-du-21-octobre-2026"
       },
       {
+        "id": "n-idweek-2110",
+        "date": "2026-10-21",
+        "titre": "IDWeek 2026 : congrès en cours à Washington",
+        "resume": "Le congrès se tient du 21 au 24 octobre. Les abstracts ont fait l’objet d’une levée d’embargo le 21 octobre selon le calendrier officiel.",
+        "impact_pratique": "Repérer les communications pertinentes, sans assimiler des abstracts de congrès à des résultats confirmés par publication évaluée par les pairs.",
+        "niveau_impact": 1,
+        "categorie": "Congrès",
+        "pathologie": "Infectiologie générale",
+        "source": "IDWeek — calendrier officiel",
+        "lien": "https://www.idweek.org/abstracts"
+      },
+      {
+        "id": "auto-pmid-42901405",
+        "date": "2026-10-20",
+        "titre": "Species distribution and antimicrobial susceptibility of Nocardia isolates from patients in Iran with suspected tuberculosis: a two-year study.",
+        "resume": "Notice indexée dans PubMed : Jaberi K, Infectious diseases now. Type : Article indexé (type non qualifié). Résultats et texte intégral non analysés automatiquement.",
+        "impact_pratique": "Repérage bibliographique, pas une recommandation. Vérifier la méthode, les résultats et l'applicabilité clinique dans le texte intégral.",
+        "niveau_impact": 1,
+        "categorie": "Publication",
+        "pathologie": "Antibiorésistance",
+        "source": "PubMed / Infectious diseases now — PMID 42901405",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42901405/",
+        "auteur": "Jaberi K",
+        "revue": "Infectious diseases now",
+        "type_etude": "Article indexé (type non qualifié)",
+        "statut": "Référencement automatique — non évalué"
+      },
+      {
         "id": "n-oral-1910",
         "date": "2026-10-19",
         "titre": "Bactériémies : le relais IV–oral reste peu employé chez les patients éligibles",
@@ -44,18 +96,6 @@
         "pathologie": "Antibiorésistance",
         "source": "Nikolai et al., Open Forum Infectious Diseases",
         "lien": "https://doi.org/10.1093/ofid/ofag666"
-      },
-      {
-        "id": "n-ecdc-2210",
-        "date": "2026-10-22",
-        "titre": "ECDC : rappel de prévention à l’entrée de la saison respiratoire",
-        "resume": "Le Centre européen insiste sur la prévention des infections respiratoires, dont grippe, VRS, COVID-19 et pneumocoque, particulièrement en présence de personnes vulnérables.",
-        "impact_pratique": "Profiter des consultations et de l’activité hospitalière pour vérifier les vaccinations pertinentes et les précautions adaptées au risque.",
-        "niveau_impact": 2,
-        "categorie": "Vaccination",
-        "pathologie": "Vaccinations de l’adulte",
-        "source": "ECDC",
-        "lien": "https://www.ecdc.europa.eu/en/news-events/respiratory-infections-season"
       },
       {
         "id": "n-mers-1910",
@@ -82,30 +122,20 @@
         "lien": "https://www.ecdc.europa.eu/en/public-health-events"
       },
       {
-        "id": "n-idweek-2110",
-        "date": "2026-10-21",
-        "titre": "IDWeek 2026 : congrès en cours à Washington",
-        "resume": "Le congrès se tient du 21 au 24 octobre. Les abstracts ont fait l’objet d’une levée d’embargo le 21 octobre selon le calendrier officiel.",
-        "impact_pratique": "Repérer les communications pertinentes, sans assimiler des abstracts de congrès à des résultats confirmés par publication évaluée par les pairs.",
+        "id": "auto-rss-ba08ca4cdcb1813b8",
+        "date": "2026-10-19",
+        "titre": "Ebola disease outbreak in the Democratic Republic of the Congo",
+        "resume": "Publication institutionnelle récente repérée automatiquement. Les chiffres et conclusions nécessitent la lecture du bulletin officiel.",
+        "impact_pratique": "Contrôler la zone, la période, la définition des cas et les mesures recommandées dans la source primaire avant application.",
         "niveau_impact": 1,
-        "categorie": "Congrès",
-        "pathologie": "Infectiologie générale",
-        "source": "IDWeek — calendrier officiel",
-        "lien": "https://www.idweek.org/abstracts"
-      },
-      {
-        "id": "n-ebola-2210",
-        "date": "2026-10-22",
-        "titre": "Ebola Bundibugyo : diffusion régionale et cas signalé au Nigeria",
-        "resume": "Selon l’ECDC (22 octobre), l’épidémie en RDC concerne aussi des cas au Kenya (9 cas confirmés) et un cas signalé au Nigeria chez une personne ayant voyagé en Ouganda. Le risque pour la population de l’UE/EEE reste estimé très faible.",
-        "impact_pratique": "Pour une exposition à risque ou un voyage récent pertinent, appliquer les procédures REB locales et consulter les données OMS/ECDC actualisées.",
-        "niveau_impact": 2,
         "categorie": "Alerte épidémio",
-        "pathologie": "Pathologie du voyageur",
-        "source": "ECDC — situation épidémique du 22 octobre",
-        "lien": "https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-10-22"
+        "pathologie": "Surveillance et recommandations",
+        "source": "ECDC — mises à jour épidémiologiques",
+        "lien": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+        "statut": "Référencement automatique — contenu non relu"
       }
-    ]
+    ],
+    "type_edition": "Repérage automatisé non validé cliniquement"
   },
   "archives": [
     {
@@ -181,6 +211,19 @@
   ],
   "publications": [
     {
+      "id": "auto-pmid-42901405",
+      "date": "2026-10-20",
+      "titre": "Species distribution and antimicrobial susceptibility of Nocardia isolates from patients in Iran with suspected tuberculosis: a two-year study.",
+      "auteur": "Jaberi K",
+      "revue": "Infectious diseases now",
+      "type": "Article indexé (type non qualifié)",
+      "pathologie": "Antibiorésistance",
+      "resume": "Notice indexée dans PubMed : Jaberi K, Infectious diseases now. Type : Article indexé (type non qualifié). Résultats et texte intégral non analysés automatiquement.",
+      "message_cle": "Repérage bibliographique, pas une recommandation. Vérifier la méthode, les résultats et l'applicabilité clinique dans le texte intégral.",
+      "lien": "https://pubmed.ncbi.nlm.nih.gov/42901405/",
+      "acces": "Métadonnées vérifiées via Europe PMC ; texte intégral non relu automatiquement."
+    },
+    {
       "id": "p-nikolai",
       "date": "2026-10-19",
       "titre": "Prevalence, determinants and outcomes of intravenous to oral switch of antibiotic therapy in hospitalized adults with bloodstream infection",
@@ -205,6 +248,19 @@
       "message_cle": "Résultat prometteur, mais avant toute transposition : analyser population, exclusions, microbiologie et sécurité du dispositif.",
       "lien": "https://doi.org/10.1093/cid/ciag660",
       "acces": "Résumé éditeur consulté ; texte intégral payant / non accessible."
+    },
+    {
+      "id": "p-rhino",
+      "date": "2026-10-14",
+      "titre": "Inhaled PI4KB Inhibitor for Experimental Rhinovirus Infection in Patients With Asthma",
+      "auteur": "À compléter",
+      "revue": "Journal of Infectious Diseases",
+      "type": "Essai randomisé",
+      "pathologie": "Infections respiratoires",
+      "resume": "Étude de phase 1b avec inoculation expérimentale de rhinovirus chez des patients asthmatiques et administration d’un inhibiteur inhalé de PI4KB.",
+      "message_cle": "Résultats précoces non transposables aux soins courants.",
+      "lien": "https://doi.org/10.1093/infdis/jiag514",
+      "acces": "Résumé éditeur consulté ; texte intégral non relu."
     },
     {
       "id": "p-seo",
@@ -259,17 +315,17 @@
       "acces": "Notice PubMed consultée ; texte intégral non relu."
     },
     {
-      "id": "p-rhino",
-      "date": "2026-10-14",
-      "titre": "Inhaled PI4KB Inhibitor for Experimental Rhinovirus Infection in Patients With Asthma",
-      "auteur": "À compléter",
-      "revue": "Journal of Infectious Diseases",
-      "type": "Essai randomisé",
-      "pathologie": "Infections respiratoires",
-      "resume": "Étude de phase 1b avec inoculation expérimentale de rhinovirus chez des patients asthmatiques et administration d’un inhibiteur inhalé de PI4KB.",
-      "message_cle": "Résultats précoces non transposables aux soins courants.",
-      "lien": "https://doi.org/10.1093/infdis/jiag514",
-      "acces": "Résumé éditeur consulté ; texte intégral non relu."
+      "id": "p-sab",
+      "date": "2026-09-09",
+      "titre": "IDSA/ESCMID 2026 Consensus Statements on Staphylococcus aureus Bacteremia",
+      "auteur": "C. Liu et al.",
+      "revue": "IDSA / ESCMID",
+      "type": "Recommandation",
+      "pathologie": "Endocardites",
+      "resume": "Première partie de sept consensus couvrant stratification du risque, hémocultures de contrôle, échocardiographie, imagerie et durée de traitement.",
+      "message_cle": "Ne pas confondre absence de foyer profond et absence de risque ; personnaliser l’évaluation diagnostique.",
+      "lien": "https://www.idsociety.org/practice-guideline/staphylococcus-aureus-bacteremia/",
+      "acces": "Texte institutionnel abrégé consulté ; liens vers manuscrits complets à explorer pour analyse exhaustive."
     },
     {
       "id": "p-ie",
@@ -283,19 +339,6 @@
       "message_cle": "Essai potentiellement structurant ; aucune modification des durées ne peut être proposée ici sans vérification intégrale des résultats et exclusions.",
       "lien": "https://doi.org/10.1056/NEJMoa2607887",
       "acces": "Page éditeur identifiée ; texte intégral inaccessible (403)."
-    },
-    {
-      "id": "p-sab",
-      "date": "2026-09-09",
-      "titre": "IDSA/ESCMID 2026 Consensus Statements on Staphylococcus aureus Bacteremia",
-      "auteur": "C. Liu et al.",
-      "revue": "IDSA / ESCMID",
-      "type": "Recommandation",
-      "pathologie": "Endocardites",
-      "resume": "Première partie de sept consensus couvrant stratification du risque, hémocultures de contrôle, échocardiographie, imagerie et durée de traitement.",
-      "message_cle": "Ne pas confondre absence de foyer profond et absence de risque ; personnaliser l’évaluation diagnostique.",
-      "lien": "https://www.idsociety.org/practice-guideline/staphylococcus-aureus-bacteremia/",
-      "acces": "Texte institutionnel abrégé consulté ; liens vers manuscrits complets à explorer pour analyse exhaustive."
     }
   ],
   "congres": [
@@ -385,6 +428,16 @@
   ],
   "alertes": [
     {
+      "id": "al-world-ebola",
+      "titre": "Ebola Bundibugyo : RDC, Kenya et Nigeria",
+      "zone": "Monde",
+      "niveau": "Vigilance REB — risque UE très faible",
+      "date": "2026-10-22",
+      "resume": "L’ECDC signale 9 cas confirmés au Kenya et un cas au Nigeria, dans le contexte de l’épidémie en RDC ; la probabilité d’infection en UE/EEE demeure jugée très faible.",
+      "source": "ECDC — Public health events (22/10)",
+      "lien": "https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-10-22"
+    },
+    {
       "id": "al-fr-arbo",
       "titre": "Chikungunya et dengue : transmissions autochtones",
       "zone": "France",
@@ -415,36 +468,6 @@
       "lien": "https://www.santepubliquefrance.fr/infections-respiratoires-aigues/grippe/bulletin-national/infections-respiratoires-aigues-grippe-bronchiolite-covid-19-bulletin-du-21-octobre-2026"
     },
     {
-      "id": "al-eu-wnv",
-      "titre": "West Nile : diffusion européenne inhabituelle",
-      "zone": "Europe",
-      "niveau": "Élevé — surveillance",
-      "date": "2026-10-15",
-      "resume": "L’ECDC rapporte une circulation intense et des cas autochtones dans de nouvelles régions plus septentrionales.",
-      "source": "ECDC",
-      "lien": "https://www.ecdc.europa.eu/en/news-events/record-high-west-nile-virus-infections-reported-amid-spread-new-parts-europe"
-    },
-    {
-      "id": "al-eu-mpox",
-      "titre": "Mpox : surveillance du clade I",
-      "zone": "Europe",
-      "niveau": "Surveillance",
-      "date": "2026-10-14",
-      "resume": "L’ECDC mentionne une augmentation des cas de clade I déclarés dans plusieurs pays européens durant septembre 2026.",
-      "source": "ECDC — Public health events",
-      "lien": "https://www.ecdc.europa.eu/en/public-health-events"
-    },
-    {
-      "id": "al-world-ebola",
-      "titre": "Ebola Bundibugyo : RDC, Kenya et Nigeria",
-      "zone": "Monde",
-      "niveau": "Vigilance REB — risque UE très faible",
-      "date": "2026-10-22",
-      "resume": "L’ECDC signale 9 cas confirmés au Kenya et un cas au Nigeria, dans le contexte de l’épidémie en RDC ; la probabilité d’infection en UE/EEE demeure jugée très faible.",
-      "source": "ECDC — Public health events (22/10)",
-      "lien": "https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-10-22"
-    },
-    {
       "id": "al-world-mers",
       "titre": "MERS-CoV : cas en Arabie saoudite",
       "zone": "Monde",
@@ -463,9 +486,48 @@
       "resume": "Cas après exposition professionnelle à des bovins infectés aux États-Unis, signalé à l’ECDC.",
       "source": "ECDC — Public health events",
       "lien": "https://www.ecdc.europa.eu/en/public-health-events"
+    },
+    {
+      "id": "al-auto-ba08ca4cdcb1813b8",
+      "titre": "Ebola disease outbreak in the Democratic Republic of the Congo",
+      "zone": "Europe",
+      "niveau": "À qualifier",
+      "date": "2026-10-19",
+      "resume": "Signal publié par une institution. Gravité et portée clinique à évaluer dans le bulletin primaire.",
+      "source": "ECDC — mises à jour épidémiologiques",
+      "lien": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+      "statut": "Référencement automatique — risque non évalué"
+    },
+    {
+      "id": "al-eu-wnv",
+      "titre": "West Nile : diffusion européenne inhabituelle",
+      "zone": "Europe",
+      "niveau": "Élevé — surveillance",
+      "date": "2026-10-15",
+      "resume": "L’ECDC rapporte une circulation intense et des cas autochtones dans de nouvelles régions plus septentrionales.",
+      "source": "ECDC",
+      "lien": "https://www.ecdc.europa.eu/en/news-events/record-high-west-nile-virus-infections-reported-amid-spread-new-parts-europe"
+    },
+    {
+      "id": "al-eu-mpox",
+      "titre": "Mpox : surveillance du clade I",
+      "zone": "Europe",
+      "niveau": "Surveillance",
+      "date": "2026-10-14",
+      "resume": "L’ECDC mentionne une augmentation des cas de clade I déclarés dans plusieurs pays européens durant septembre 2026.",
+      "source": "ECDC — Public health events",
+      "lien": "https://www.ecdc.europa.eu/en/public-health-events"
     }
   ],
-  "maj_auto": null,
-  "sources_automatiques": [],
-  "etat_collecte": "Initial : édition éditoriale embarquée, sans collecte automatique exécutée"
+  "maj_auto": "2026-10-23T09:54:54+02:00",
+  "sources_automatiques": [
+    "Santé publique France",
+    "ECDC — mises à jour épidémiologiques",
+    "ECDC — bulletin des menaces sanitaires",
+    "ECDC — recommandations",
+    "Europe PMC / PubMed"
+  ],
+  "etat_collecte": "Métadonnées actualisées automatiquement le 2026-10-23 (2 signalements, 13 sources répondantes).",
+  "derniere_tentative": "2026-10-23",
+  "erreurs_sources": []
 }
