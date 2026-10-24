@@ -146,7 +146,7 @@ KEYWORDS = re.compile(
     r'palud|malaria|cholera|choléra|hiv|vih|infection respiratoire|'
     r'fungal|champignon|outbreak|épidémi|epidemi)', re.I)
 
-UA = 'InfectioVeille/6.0 (+https://www.ebi.ac.uk/europepmc/webservices/rest/; public-source-metadata)'
+UA = 'InfectioVeille/7.0 (+https://www.ebi.ac.uk/europepmc/webservices/rest/; public-source-metadata)'
 
 
 def fetch(url: str, timeout: int = 20, method: str = 'GET') -> bytes:
@@ -406,7 +406,7 @@ def summary_from_source(title: str, source: str, raw: str, kind: str) -> tuple[s
     if len(excerpt) < 70:
         return '', ''
     french = translate_excerpt(excerpt)
-    if french:
+    if french and not BAD_TRANSLATION.search(french):
         return french, 'Traduction Argos de phrases extraites (français) — non validée'
     # Conserver le repli anglais uniquement pour une carte déjà publiée.
     return excerpt, 'Extrait de la source primaire (anglais) — traduction indisponible'
@@ -550,6 +550,50 @@ CONTEXT_INFECTIOUS = re.compile(
  r"candid\w*|viral|virus|bacterial|bacteremia|influenza|pneumoni\w*|covid|hiv|"
  r"hepatit\w*|mycobact\w*|tubercul\w*|pathogen\w*|sepsis|fungal|"
  r"respiratory syncytial|rsv)\b", re.I)
+# Éviter les articles périphériques : recherche de base, communication,
+# technologies éducatives et études sans résultat infectiologique clinique.
+# La liste est volontairement courte pour ne pas exclure les essais infectieux.
+OUT_OF_SCOPE = re.compile(
+    r'(?:\breddit\b|\bchatbot\b|\bchatbots\b|\bsocial media\b|'
+    r'thematic analysis of.*(?:threads|posts)|'
+    r'\bpyruvate kinase\b|\bfungal metabolite\b|'
+    r'\bmouse infection model\b|\bmurine model\b|\bpreclinical\b)', re.I)
+# Formules qui n'apportent aucune information clinique vérifiable.
+LOW_INFORMATION = re.compile(
+    r'(?:this (?:review|study|paper) aims? to|this (?:review|study) (?:provides|describes) '
+    r'(?:a (?:structured )?approach|an overview)|'
+    r'\baims to (?:provide|explore|investigate|describe|evaluate)\b|'
+    r'\bneed for (?:novel|new) (?:therapeutic|treatment)|'
+    r'\bunderscores? the (?:urgent )?need\b|'
+    r'\bremains? a (?:major|significant|global) (?:challenge|threat)\b)', re.I)
+# Erreurs typiques réellement observées avec le modèle de traduction local.
+BAD_TRANSLATION = re.compile(
+    r'\bplasma falciparum\b|\bgestion de la candidature\b|'
+    r'\bprise en charge de la candidature\b|'
+    r'\bles utilisateurs de reddit\b|\bon a mis l.accent sur les questions\b', re.I)
+
+
+def eligible_clinical_article(title: str, abstract: str) -> bool:
+    """Un titre infectieux ne suffit pas : éliminer sujets non cliniques et
+    abstracts de pure intention, sans résultat exploitable.
+    """
+    if OUT_OF_SCOPE.search(title):
+        return False
+    if not classify_infectious(title, abstract):
+        return False
+    if NON_CLINICAL.search(title):
+        return False
+    excerpt = substantive_excerpt(abstract, 'article')
+    if len(excerpt) < 90:
+        return False
+    if LOW_INFORMATION.search(excerpt) and not re.search(
+        r'\b(?:results?|found|observed|associated|mortality|incidence|'
+        r'sensitivity|specificity|significant|risk ratio|odds ratio|'
+        r'reduced|increased|efficacy|effective|non.inferior|difference)\b|'
+        r'(?<![A-Za-z])\d+(?:[.,]\d+)?\s*%', excerpt, re.I):
+        return False
+    return True
+
 NON_CLINICAL = re.compile(r"\b(?:in vitro|in silico|molecular docking|murine|mice|mouse model|cell line|enzyme inhibitor|fungal metabolite|biochemical characterization|proteomics|genomic assembly)\b", re.I)
 IMMUNE_CONTEXT = re.compile(
     r"\b(?:neutropeni\w*|hematolog\w*|haematolog\w*|leukemi\w*|leukaemi\w*|"
@@ -618,9 +662,19 @@ def clean_automatic_entries(data: dict) -> int:
     for records in (data.get('publications',[]),data.get('nouvautes',{}).get('nouveautes',[])):
         kept=[]
         for r in records:
-            if str(r.get('id','')).startswith('auto-pmid-') and not classify_infectious(r.get('titre',''),r.get('resume','')):
-                removed += 1
-                continue
+            if str(r.get('id','')).startswith('auto-pmid-'):
+                title=str(r.get('titre',''))
+                abstract=str(r.get('resume_original') or r.get('resume') or '')
+                if (not classify_infectious(title, abstract)
+                    or OUT_OF_SCOPE.search(title)
+                    or NON_CLINICAL.search(title)):
+                    removed += 1
+                    continue
+                # Une revue dont le seul résumé indique son objectif n'est pas une news.
+                # La référence reste néanmoins disponible dans les archives.
+                if LOW_INFORMATION.search(abstract) and len(abstract)<350:
+                    removed += 1
+                    continue
             kept.append(r)
         records[:]=kept
     return removed
@@ -661,7 +715,7 @@ def collect_publications(data: dict | None = None) -> tuple[list[dict], int, lis
                 # Ne pas publier des cartes vides : exigence de contenu.
                 if not has_abstract: continue
                 themes = classify_infectious(title, abstract)
-                if not themes: continue
+                if not themes or not eligible_clinical_article(title, abstract): continue
                 # Les études purement précliniques (sans patient) sont moins prioritaires.
                 preclinical = bool(NON_CLINICAL.search(title))
                 # Pondération explicite, sans prétendre apprécier la validité des résultats.
@@ -695,6 +749,7 @@ def collect_publications(data: dict | None = None) -> tuple[list[dict], int, lis
     for x in chosen:
         resume, mode = summary_from_source(x['title'], x['journal'], x['abstract'], 'article')
         if not resume or not mode.startswith('Traduction Argos'): continue
+        if BAD_TRANSLATION.search(resume): continue
         output.append({
             'id':'auto-pmid-'+x['pmid'], 'date':x['date'], 'date_detection': TODAY.isoformat(), 'date_type':'Date de publication indexée',
             'titre':x['title'], 'resume':resume, 'resume_original':substantive_excerpt(x['abstract'],'article'), 'resume_mode':mode,
@@ -858,7 +913,7 @@ def enrich_existing(data: dict, max_items: int = 22) -> int:
                 summary = translate_excerpt(original)
                 mode = ('Traduction Argos de phrases extraites (français) — non validée'
                         if summary else '')
-            if not summary:
+            if not summary or BAD_TRANSLATION.search(summary):
                 continue
             for row in rows:
                 if row.get('langue_resume') == 'fr' or row.get('resume_mode','').startswith('Traduction Argos'):
@@ -918,18 +973,8 @@ def update_data(data: dict, news: list[dict], alerts: list[dict], n_sources: int
         # tout en ajoutant les métadonnées documentaires auto-détectées.
         cards = merge_by_id(current.get('nouveautes', []), news, limit=10)
         # Les premières éditions manuelles étaient plus riches : ne pas les effacer.
-    # Remplacer les titres répétés par de courts repères issus de la source.
-    # Une synthèse automatique n'est pas une validation clinique.
+    # Aucune synthèse de tête n'est déduite d'un tri de résumés.
     three = []
-    for x in cards:
-        summary = x.get('resume','').strip()
-        if not summary or BOILERPLATE.search(summary): continue
-        short = substantive_excerpt(summary,'bulletin',max_chars=220)
-        if not short: short = summary[:215].rsplit(' ',1)[0] + ('…' if len(summary)>215 else '')
-        three.append(short)
-        if len(three)>=3: break
-    if not three:
-        three = ["Aucune référence nouvelle conforme aux critères de collecte cette semaine ; consulter directement les sources officielles."]
     data['nouvautes'] = {
         'semaine': date_key,
         'fin': (MONDAY + dt.timedelta(days=6)).isoformat(),
