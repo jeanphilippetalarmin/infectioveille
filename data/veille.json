@@ -37,34 +37,6 @@
         "statut": "Traduction Argos de phrases extraites (français) — non validée"
       },
       {
-        "id": "auto-pmid-42905260",
-        "date": "2026-10-21",
-        "date_detection": "2026-10-23",
-        "date_type": "Date de publication indexée",
-        "titre": "A multivalent CPS-CRM197 conjugate vaccine protects against severe/fatal Klebsiella pneumoniae disease in a mouse infection model.",
-        "resume": "Klebsiella pneumoniae est une cause importante d'infections humaines et est souvent résistante à plusieurs antibiotiques. La plupart des infections surviennent chez les personnes ayant des comorbidités et/ou celles qui présentent des facteurs de risque d'infection. Bien que des progrès aient été accomplis, de nouvelles mesures thérapeutiques et préventives sont nécessaires.",
-        "resume_original": "Klebsiella pneumoniae is an important cause of human infections and is often resistant to multiple antibiotics. Most infections occur in individuals with co-morbidities and/or those who have risk factors for infection. Although progress has been made, new therapeutics and preventive measures are needed.",
-        "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
-        "niveau_impact": 1,
-        "categorie": "Publication",
-        "pathologie": "Infections respiratoires",
-        "thematiques": [
-          "resp",
-          "vacc"
-        ],
-        "source": "Malachowa N · Antimicrob Agents Chemother · 2026; e0068526",
-        "reference": "Malachowa N · Antimicrob Agents Chemother · 2026; e0068526",
-        "revue_abregee": "Antimicrob Agents Chemother",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42905260/",
-        "auteur": "Malachowa N",
-        "revue": "Antimicrobial agents and chemotherapy",
-        "type_etude": "Article indexé (type non qualifié)",
-        "doi": "10.1128/aac.00685-26",
-        "resume_disponible": true,
-        "langue_resume": "fr",
-        "statut": "Traduction Argos de phrases extraites (français) — non validée"
-      },
-      {
         "id": "auto-pmid-42905258",
         "date": "2026-10-21",
         "date_detection": "2026-10-23",
@@ -136,50 +108,6 @@
         "langue_resume": "en"
       },
       {
-        "id": "auto-pmid-42900023",
-        "date": "2026-10-20",
-        "date_detection": "2026-10-23",
-        "date_type": "Date de publication indexée",
-        "titre": "Dual-stage inhibition of Plasmodium falciparum by a Skeletocutis -derived fungal metabolite targeting pyruvate kinase II.",
-        "resume": "La résistance au plasma falciparum aux traitements actuels de première intention menace les populations à risque et souligne le besoin urgent de nouveaux médicaments et cibles thérapeutiques. P. falciparum pyruvate kinases I et II sont deux enzymes essentielles ayant des rôles distincts et des localisations subcellulaires au sein du parasite.",
-        "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
-        "niveau_impact": 1,
-        "categorie": "Publication",
-        "pathologie": "Pathologie du voyageur",
-        "source": "Europe PMC / PubMed · PMID 42900023",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42900023/",
-        "auteur": "Hervé L",
-        "revue": "Antimicrobial agents and chemotherapy",
-        "type_etude": "Article indexé (type non qualifié)",
-        "doi": "10.1128/aac.00160-26",
-        "resume_disponible": true,
-        "statut": "Traduction Argos de phrases extraites (français) — non validée",
-        "langue_resume": "fr",
-        "resume_original": "Plasmodium falciparum resistance to current first-line treatments is threatening at-risk populations and underscores the urgent need for novel therapeutic targets and drugs. P. falciparum pyruvate kinases I and II are two essential enzymes with distinct roles and subcellular localizations within the parasite."
-      },
-      {
-        "id": "auto-pmid-42899401",
-        "date": "2026-10-20",
-        "date_detection": "2026-10-23",
-        "date_type": "Date de publication indexée",
-        "titre": "Understanding community questions about HIV pre-exposure prophylaxis (PrEP): A thematic analysis of reddit threads to inform development of an AI chatbot for PrEP education.",
-        "resume": "On a mis l'accent sur les questions d'accès et d'efficacité de base au début de la période, les discussions plus récentes (2022-2025) accordant une plus grande attention aux considérations d'innocuité injectable et à long terme. Les utilisateurs de Reddit démontrent une incertitude persistante quant aux effets secondaires de la PrEP, aux interactions médicamenteuses et au changement de traitement.",
-        "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
-        "niveau_impact": 1,
-        "categorie": "Publication",
-        "pathologie": "VIH, PrEP et IST",
-        "source": "Europe PMC / PubMed · PMID 42899401",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42899401/",
-        "auteur": "Vincent-Paulraj A",
-        "revue": "HIV medicine",
-        "type_etude": "Article indexé (type non qualifié)",
-        "doi": "10.1111/hiv.70332",
-        "resume_disponible": true,
-        "statut": "Traduction Argos de phrases extraites (français) — non validée",
-        "langue_resume": "fr",
-        "resume_original": "Early period discussions were emphasized basic access and effectiveness questions, with more recent discussions (2022-2025) displaying increased attention to injectable and long-term safety considerations. Reddit users demonstrate persistent uncertainty about PrEP side effects, drug interactions and medication switching."
-      },
-      {
         "id": "auto-rss-ba08ca4cdcb1813b8",
         "date": "2026-10-19",
         "date_detection": "2026-10-23",
@@ -214,28 +142,6 @@
         "resume_disponible": true,
         "statut": "Extrait de la source primaire (langue originale) — non évalué",
         "langue_resume": "en"
-      },
-      {
-        "id": "auto-pmid-42869289",
-        "date": "2026-10-13",
-        "date_detection": "2026-10-23",
-        "date_type": "Date de publication indexée",
-        "titre": "How do I manage candiduria: practical algorithms and remaining conundrums in 2026.",
-        "resume": "Cette revue vise à fournir une approche structurée de l'évaluation et de la gestion de la candidature, illustrée par une vignette clinique.",
-        "niveau_impact": 1,
-        "categorie": "Publication",
-        "pathologie": "Mycologie invasive",
-        "source": "Europe PMC / PubMed · PMID 42869289",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42869289/",
-        "auteur": "Blez D",
-        "revue": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
-        "type_etude": "Article indexé (type non qualifié)",
-        "doi": "10.1016/j.cmi.2026.08.011",
-        "resume_disponible": true,
-        "statut": "Traduction Argos de phrases extraites (français) — non validée",
-        "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
-        "langue_resume": "fr",
-        "resume_original": "This review aims to provide a structured approach to the evaluation and management of candiduria, illustrated by a clinical vignette."
       }
     ],
     "type_edition": "Repérage automatisé non validé cliniquement"
@@ -335,31 +241,6 @@
       "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
       "message_cle": "",
       "lien": "https://pubmed.ncbi.nlm.nih.gov/42905455/",
-      "acces": "Traduction automatique d’extraits de l’abstract ; texte intégral non relu."
-    },
-    {
-      "id": "auto-pmid-42905260",
-      "date": "2026-10-21",
-      "titre": "A multivalent CPS-CRM197 conjugate vaccine protects against severe/fatal Klebsiella pneumoniae disease in a mouse infection model.",
-      "auteur": "Malachowa N",
-      "revue": "Antimicrobial agents and chemotherapy",
-      "revue_abregee": "Antimicrob Agents Chemother",
-      "reference": "Malachowa N · Antimicrob Agents Chemother · 2026; e0068526",
-      "type": "Article indexé (type non qualifié)",
-      "pathologie": "Infections respiratoires",
-      "thematiques": [
-        "resp",
-        "vacc"
-      ],
-      "doi": "10.1128/aac.00685-26",
-      "date_type": "Date de publication indexée",
-      "date_detection": "2026-10-23",
-      "resume": "Klebsiella pneumoniae est une cause importante d'infections humaines et est souvent résistante à plusieurs antibiotiques. La plupart des infections surviennent chez les personnes ayant des comorbidités et/ou celles qui présentent des facteurs de risque d'infection. Bien que des progrès aient été accomplis, de nouvelles mesures thérapeutiques et préventives sont nécessaires.",
-      "resume_original": "Klebsiella pneumoniae is an important cause of human infections and is often resistant to multiple antibiotics. Most infections occur in individuals with co-morbidities and/or those who have risk factors for infection. Although progress has been made, new therapeutics and preventive measures are needed.",
-      "langue_resume": "fr",
-      "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
-      "message_cle": "",
-      "lien": "https://pubmed.ncbi.nlm.nih.gov/42905260/",
       "acces": "Traduction automatique d’extraits de l’abstract ; texte intégral non relu."
     },
     {
@@ -515,32 +396,6 @@
       "langue_resume": "en"
     },
     {
-      "id": "auto-pmid-42900023",
-      "date": "2026-10-20",
-      "titre": "Dual-stage inhibition of Plasmodium falciparum by a Skeletocutis -derived fungal metabolite targeting pyruvate kinase II.",
-      "auteur": "Hervé L",
-      "revue": "Antimicrobial agents and chemotherapy",
-      "type": "Article indexé (type non qualifié)",
-      "pathologie": "Pathologie du voyageur",
-      "resume": "Plasmodium falciparum resistance to current first-line treatments is threatening at-risk populations and underscores the urgent need for novel therapeutic targets and drugs. P. falciparum pyruvate kinases I and II are two essential enzymes with distinct roles and subcellular localizations within the parasite.",
-      "message_cle": "",
-      "lien": "https://pubmed.ncbi.nlm.nih.gov/42900023/",
-      "acces": "Métadonnées vérifiées via Europe PMC ; texte intégral non relu automatiquement."
-    },
-    {
-      "id": "auto-pmid-42899401",
-      "date": "2026-10-20",
-      "titre": "Understanding community questions about HIV pre-exposure prophylaxis (PrEP): A thematic analysis of reddit threads to inform development of an AI chatbot for PrEP education.",
-      "auteur": "Vincent-Paulraj A",
-      "revue": "HIV medicine",
-      "type": "Article indexé (type non qualifié)",
-      "pathologie": "VIH, PrEP et IST",
-      "resume": "Early period discussions were emphasized basic access and effectiveness questions, with more recent discussions (2022-2025) displaying increased attention to injectable and long-term safety considerations. Reddit users demonstrate persistent uncertainty about PrEP side effects, drug interactions and medication switching.",
-      "message_cle": "",
-      "lien": "https://pubmed.ncbi.nlm.nih.gov/42899401/",
-      "acces": "Métadonnées vérifiées via Europe PMC ; texte intégral non relu automatiquement."
-    },
-    {
       "id": "p-nikolai",
       "date": "2026-10-19",
       "titre": "Prevalence, determinants and outcomes of intravenous to oral switch of antibiotic therapy in hospitalized adults with bloodstream infection",
@@ -591,23 +446,6 @@
       "message_cle": "Résultats précoces non transposables aux soins courants.",
       "lien": "https://doi.org/10.1093/infdis/jiag514",
       "acces": "Résumé éditeur consulté ; texte intégral non relu."
-    },
-    {
-      "id": "auto-pmid-42869289",
-      "date": "2026-10-13",
-      "titre": "How do I manage candiduria: practical algorithms and remaining conundrums in 2026.",
-      "auteur": "Blez D",
-      "revue": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
-      "type": "Article indexé (type non qualifié)",
-      "pathologie": "Mycologie invasive",
-      "resume": "Cette revue vise à fournir une approche structurée de l'évaluation et de la gestion de la candidature, illustrée par une vignette clinique.",
-      "message_cle": "",
-      "lien": "https://pubmed.ncbi.nlm.nih.gov/42869289/",
-      "acces": "Traduction automatique d’extraits de la source ; texte intégral non analysé.",
-      "resume_mode": "Traduction Argos de phrases extraites (français) — non validée",
-      "statut": "Traduction Argos de phrases extraites (français) — non validée",
-      "langue_resume": "fr",
-      "resume_original": "This review aims to provide a structured approach to the evaluation and management of candiduria, illustrated by a clinical vignette."
     },
     {
       "id": "auto-pmid-42858895",
@@ -897,7 +735,7 @@
       "lien": "https://www.ecdc.europa.eu/en/public-health-events"
     }
   ],
-  "maj_auto": "2026-10-24T09:47:44+02:00",
+  "maj_auto": "2026-10-24T12:39:05+02:00",
   "sources_automatiques": [
     "Santé publique France",
     "ECDC — mises à jour épidémiologiques",
@@ -1084,7 +922,7 @@
   },
   "resume_enrichis": 0,
   "mode_synthese": "Traduction locale Argos anglais-français — non validée cliniquement",
-  "references_hors_sujet_supprimees": 0,
+  "references_hors_sujet_supprimees": 8,
   "traductions_fr_reussies": 0,
   "traductions_fr_echecs": 4,
   "avertissement_traduction": "ValueError: chiffres modifiés ou supprimés pendant la traduction"
