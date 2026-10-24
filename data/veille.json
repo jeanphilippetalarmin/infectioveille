@@ -897,7 +897,7 @@
       "lien": "https://www.ecdc.europa.eu/en/public-health-events"
     }
   ],
-  "maj_auto": "2026-10-23T14:15:00+02:00",
+  "maj_auto": "2026-10-24T09:47:44+02:00",
   "sources_automatiques": [
     "Santé publique France",
     "ECDC — mises à jour épidémiologiques",
@@ -920,13 +920,27 @@
     "OMS – recommandations",
     "NIH – VIH opportunistes"
   ],
-  "etat_collecte": "Métadonnées actualisées automatiquement le 2026-10-23 (6 signalements, 32 sources répondantes).",
-  "derniere_tentative": "2026-10-23",
+  "etat_collecte": "Aucune nouvelle référence éligible : semaine en cours conservée.",
+  "derniere_tentative": "2026-10-24",
   "erreurs_sources": [
-    "Recommandations HAS – vaccination : <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
-    "Recommandations ISHAM – mycologie : catalogue non exploitable : 0 liens de référence",
-    "Recommandations ANRS-MIE – VIH : <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "Recommandations SFM – antibiogramme : catalogue non exploitable : 2 liens de référence"
+    "Europe PMC (Bactériémies et endocardites) : HTTP Error 503: ",
+    "Europe PMC (Bon usage des anti-infectieux) : HTTP Error 503: ",
+    "Europe PMC (Antibiorésistance) : HTTP Error 503: ",
+    "Europe PMC (Immunodéprimés et hématologie) : HTTP Error 503: ",
+    "Europe PMC (Mycologie invasive) : HTTP Error 503: ",
+    "Europe PMC (Mycologie – diagnostic et antifongiques) : HTTP Error 503: ",
+    "Europe PMC (Tuberculose et mycobactéries) : HTTP Error 503: ",
+    "Europe PMC (VIH, PrEP et IST) : HTTP Error 503: ",
+    "Europe PMC (Hépatites virales) : HTTP Error 503: ",
+    "Europe PMC (Infections ostéo-articulaires) : HTTP Error 503: ",
+    "Europe PMC (Infections respiratoires) : HTTP Error 503: ",
+    "Europe PMC (Infections urinaires et digestives) : HTTP Error 503: ",
+    "Europe PMC (Vaccinations) : HTTP Error 503: ",
+    "Europe PMC (Arboviroses et infections émergentes) : HTTP Error 503: ",
+    "Europe PMC (Pathologie du voyageur) : HTTP Error 503: ",
+    "Europe PMC (Infections associées aux soins) : HTTP Error 503: ",
+    "Europe PMC (Tularémie et zoonoses) : HTTP Error 503: ",
+    "Recommandations HAS – vaccination : <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
   ],
   "suivi_recommandations": {
     "index-1e5fe8a9fc24a27b0": {
@@ -935,7 +949,7 @@
       "lien": "https://www.infectiologie.com/fr/recommandations.html",
       "empreinte": "147414405c061aea450e6930490cb60baa809577f3fe8a01744c3d4b5df6d73f",
       "nombre_liens": 66,
-      "dernier_controle": "2026-10-23",
+      "dernier_controle": "2026-10-24",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -952,7 +966,7 @@
       "lien": "https://www.idsociety.org/practice-guideline/all-practice-guidelines/",
       "empreinte": "5131fe35cbca0e6109aa7acb35f7525a7a34b39c8302ed1ca3467ca79126df49",
       "nombre_liens": 135,
-      "dernier_controle": "2026-10-23",
+      "dernier_controle": "2026-10-24",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -962,7 +976,7 @@
       "lien": "https://www.escmid.org/guidelines-journals/guidelines/published-guidelines/",
       "empreinte": "56b54fc072cec0f85619512cedf89679a5f85842d95af4d719a484ff72f0d649",
       "nombre_liens": 18,
-      "dernier_controle": "2026-10-23",
+      "dernier_controle": "2026-10-24",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -972,7 +986,7 @@
       "lien": "https://ecil-leukaemia.com/en/resources/publications",
       "empreinte": "19539d9a63ee89ca5b464ff377e4e585cfd02cb7a4ae1ef331ae1b7ea1a7aa7d",
       "nombre_liens": 3,
-      "dernier_controle": "2026-10-23",
+      "dernier_controle": "2026-10-24",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -982,7 +996,7 @@
       "lien": "https://www.ecil-leukaemia.com/en/resources/resources-ecil",
       "empreinte": "0eaed879c7553a1d411fceceb4ab421a00ff853e27708ef65d5daa9dfa4f3f3c",
       "nombre_liens": 78,
-      "dernier_controle": "2026-10-23",
+      "dernier_controle": "2026-10-24",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -992,7 +1006,7 @@
       "lien": "https://www.ecmm.info/guidelines/",
       "empreinte": "bca918d69a27c5877db4328ffa62166546d186145231e54097054a9a8603f467",
       "nombre_liens": 9,
-      "dernier_controle": "2026-10-23",
+      "dernier_controle": "2026-10-24",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -1009,7 +1023,7 @@
       "lien": "https://www.eacsociety.org/guidelines/eacs-guidelines/",
       "empreinte": "bbd24d6841ff4f5b027e0b5eb67d35773e6d400d5b7e031ca9272399331a4d13",
       "nombre_liens": 11,
-      "dernier_controle": "2026-10-23",
+      "dernier_controle": "2026-10-24",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -1019,7 +1033,7 @@
       "lien": "https://bhiva.org/clinical-guidelines/",
       "empreinte": "ea2b4cb3f594f442d2ab71173df2daafde6776e0f49414de574958db0b49a438",
       "nombre_liens": 14,
-      "dernier_controle": "2026-10-23",
+      "dernier_controle": "2026-10-24",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -1036,7 +1050,7 @@
       "lien": "https://www.sf2h.net/publications.html",
       "empreinte": "c5121978fdff3072025edaa88c34bd4868733cc801c920cd82aaf0cd863c030c",
       "nombre_liens": 17,
-      "dernier_controle": "2026-10-23",
+      "dernier_controle": "2026-10-24",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -1053,7 +1067,7 @@
       "lien": "https://www.who.int/publications/who-guidelines",
       "empreinte": "a1ed8abd4f4f4fafdeddd6edb03020f8eb49346f5254bf6e97512814c06cbff2",
       "nombre_liens": 23,
-      "dernier_controle": "2026-10-23",
+      "dernier_controle": "2026-10-24",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -1063,15 +1077,15 @@
       "lien": "https://clinicalinfo.hiv.gov/en/guidelines",
       "empreinte": "fd96d908565af2fbf226785c3cf63375f392596ffb12f540a0435b035b47ccdf",
       "nombre_liens": 20,
-      "dernier_controle": "2026-10-23",
+      "dernier_controle": "2026-10-24",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     }
   },
-  "resume_enrichis": 6,
+  "resume_enrichis": 0,
   "mode_synthese": "Traduction locale Argos anglais-français — non validée cliniquement",
   "references_hors_sujet_supprimees": 0,
-  "traductions_fr_reussies": 13,
-  "traductions_fr_echecs": 5,
+  "traductions_fr_reussies": 0,
+  "traductions_fr_echecs": 4,
   "avertissement_traduction": "ValueError: chiffres modifiés ou supprimés pendant la traduction"
 }
