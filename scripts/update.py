@@ -4,7 +4,7 @@
 Sources : Europe PMC (notices indexées dans PubMed), flux RSS officiels
 Santé publique France et ECDC. Ne jamais fabriquer résumé, résultats,
 recommandations, échéances ou niveau de risque.
-Exécution quotidienne via GitHub Actions, traduction locale facultative Argos Translate ; sans API payante.
+Exécution quotidienne via GitHub Actions ; notices primaires en langue originale, sans traduction automatique.
 """
 from __future__ import annotations
 
@@ -146,7 +146,7 @@ KEYWORDS = re.compile(
     r'palud|malaria|cholera|choléra|hiv|vih|infection respiratoire|'
     r'fungal|champignon|outbreak|épidémi|epidemi)', re.I)
 
-UA = 'InfectioVeille/7.0 (+https://www.ebi.ac.uk/europepmc/webservices/rest/; public-source-metadata)'
+UA = 'InfectioVeille/8.0 (+https://www.ebi.ac.uk/europepmc/webservices/rest/; public-source-metadata)'
 
 
 def fetch(url: str, timeout: int = 20, method: str = 'GET') -> bytes:
@@ -209,74 +209,6 @@ def check_link(url: str) -> bool:
 
 def stable_id(prefix: str, source: str) -> str:
     return prefix + '-' + hashlib.sha256(source.encode('utf-8')).hexdigest()[:17]
-
-
-# Traduction locale avec Argos Translate (anglais -> français).
-# AUCUN appel vers une API payante et aucune synthèse inventée.
-# Le paquet de langue est installé séparément par GitHub Actions.
-_TRANSLATOR = None
-_TRANSLATOR_TESTED = False
-_TRANSLATION_ERROR = ''
-_TRANSLATION_SUCCESSES = 0
-_TRANSLATION_FAILURES = 0
-
-
-def _translation_model():
-    """Charge une seule fois le modèle local; ne télécharge rien pendant la collecte."""
-    global _TRANSLATOR, _TRANSLATOR_TESTED, _TRANSLATION_ERROR
-    if _TRANSLATOR_TESTED:
-        return _TRANSLATOR
-    _TRANSLATOR_TESTED = True
-    try:
-        import argostranslate.translate as translator
-        languages = {lang.code: lang for lang in translator.get_installed_languages()}
-        if 'en' not in languages or 'fr' not in languages:
-            raise RuntimeError('modèle anglais-français non installé')
-        _TRANSLATOR = languages['en'].get_translation(languages['fr'])
-    except Exception as exc:
-        _TRANSLATION_ERROR = f'{type(exc).__name__}: {str(exc)[:150]}'
-    return _TRANSLATOR
-
-
-def _numbers(text: str) -> set[str]:
-    """Normalise la notation anglaise/française des chiffres avant comparaison."""
-    pattern = r'(?<![A-Za-z])(?:\d{1,3}(?:[ \u00a0\u202f]\d{3})+|\d+)(?:[.,]\d+)?'
-    nums = set()
-    for match in re.findall(pattern, text):
-        nums.add(match.replace(' ', '').replace('\u00a0', '').replace('\u202f','').replace(',', '.'))
-    return nums
-
-
-def translate_excerpt(excerpt: str) -> str:
-    """Traduit un extrait sourcé et contrôle la conservation des nombres.
-
-    Aucun résultat, effectif ou niveau de preuve n'est créé. En cas de doute,
-    conserve la source originale plutôt qu'une traduction potentiellement fausse.
-    """
-    global _TRANSLATION_SUCCESSES, _TRANSLATION_FAILURES, _TRANSLATION_ERROR
-    original = plain(excerpt).strip()
-    if len(original) < 55:
-        return ''
-    translator = _translation_model()
-    if translator is None:
-        return ''
-    try:
-        translated = plain(translator.translate(original)).strip()
-        if len(translated) < 45 or translated == original:
-            raise ValueError('résultat de traduction vide ou inchangé')
-        source_numbers = _numbers(original)
-        target_numbers = _numbers(translated)
-        if source_numbers != target_numbers:
-            raise ValueError('chiffres modifiés ou supprimés pendant la traduction')
-        # Tests minimaux de non-dégradation : la prose doit rester lisible.
-        if len(translated) < len(original) * .40 or len(translated) > len(original)*2.4:
-            raise ValueError('longueur de traduction anormale')
-        _TRANSLATION_SUCCESSES += 1
-        return translated
-    except Exception as exc:
-        _TRANSLATION_FAILURES += 1
-        _TRANSLATION_ERROR = f'{type(exc).__name__}: {str(exc)[:150]}'
-        return ''
 
 
 class MainTextReader(HTMLParser):
@@ -355,8 +287,7 @@ def abstract_sections(raw: str) -> dict[str,str]:
 def substantive_excerpt(raw: str, kind: str='article', max_chars: int=480) -> str:
     """À défaut de synthèse IA, extrait court et traçable, non inventé.
     On privilégie résultat et conclusion dans un abstract structuré.
-    Le résultat reste exactement issu de la source. Une traduction locale
-    ultérieure est étiquetée comme automatique et non validée.
+    Le résultat reste exactement issu de la source ; aucune traduction.
     """
     sections = abstract_sections(raw) if kind == 'article' else {'body':plain(raw)}
     choices=[]
@@ -395,21 +326,16 @@ def substantive_excerpt(raw: str, kind: str='article', max_chars: int=480) -> st
 
 
 def summary_from_source(title: str, source: str, raw: str, kind: str) -> tuple[str, str]:
-    """Sélectionne 1-3 phrases factuelles puis les traduit localement en français.
+    """Retourne uniquement les phrases du document source, sans traduction.
 
-    Il s'agit d'une traduction/extraction, pas d'une synthèse critique de l'étude.
+    Une extraction ne vaut ni résumé critique ni recommandation médicale.
     """
-    txt = plain(raw)
-    if len(txt) < 100:
+    if len(plain(raw)) < 100:
         return '', ''
     excerpt = substantive_excerpt(raw, kind)
     if len(excerpt) < 70:
         return '', ''
-    french = translate_excerpt(excerpt)
-    if french and not BAD_TRANSLATION.search(french):
-        return french, 'Traduction Argos de phrases extraites (français) — non validée'
-    # Conserver le repli anglais uniquement pour une carte déjà publiée.
-    return excerpt, 'Extrait de la source primaire (anglais) — traduction indisponible'
+    return excerpt, 'Extrait de la source primaire (langue originale) — non évalué'
 
 
 def iter_feed_entries(raw: bytes) -> list[dict]:
@@ -438,12 +364,6 @@ def iter_feed_entries(raw: bytes) -> list[dict]:
 
 def collect_official(data: dict | None = None) -> tuple[list[dict], list[dict], int, list[str]]:
     news, alerts, successes, errors = [], [], 0, []
-    # Réutilise les cartes déjà traduites pour éviter des calculs répétés.
-    old = {}
-    if data:
-        for row in (data.get('nouvautes',{}).get('nouveautes',[]) + data.get('alertes',[])):
-            if row.get('lien') and row.get('date') and row.get('resume_mode','').startswith('Traduction Argos'):
-                old[(row['lien'], row['date'])] = row
     for name, zone, feed in RSS_SOURCES:
         try:
             entries = iter_feed_entries(fetch(feed))
@@ -453,30 +373,33 @@ def collect_official(data: dict | None = None) -> tuple[list[dict], list[dict], 
                 date, title, url = rss_date(e.get('date')), plain(e.get('title', '')), e.get('url', '')
                 if not date or not RSS_START <= date <= TODAY or len(title) < 8 or not KEYWORDS.search(title):
                     continue
-                if not official_url(url, name): continue
-                candidates.append((date, title, url, e.get('description','')))
-            for date, title, url, description in sorted(candidates, key=lambda a:a[0], reverse=True)[:3]:
-                if not check_link(url): continue
-                previous=old.get((url,date.isoformat()))
-                if previous:
-                    resume=previous['resume']; mode=previous['resume_mode']
-                else:
-                    primary=plain(description)
-                    if len(primary)<170 or re.search(r'learn more|read more|voir plus|en savoir plus',primary,re.I):
-                        try:
-                            page_text=extract_page_text(fetch(url,timeout=15))
-                            if len(page_text)>=130: primary=page_text
-                        except (OSError,ValueError,urllib.error.HTTPError): pass
-                    resume, mode=summary_from_source(title,name,primary,'bulletin')
-                if not resume or not mode.startswith('Traduction Argos'):
-                    # N'ajouter que les références dont l'extrait a été traduit.
+                if not official_url(url, name):
                     continue
-                is_guide = ('recommandation' in title.lower() or 'guidance' in title.lower() or name.endswith('recommandations'))
-                category = 'Recommandation' if is_guide else 'Alerte épidémio'
+                candidates.append((date, title, url, e.get('description', '')))
+            for date, title, url, description in sorted(candidates, key=lambda a: a[0], reverse=True)[:3]:
+                if not check_link(url):
+                    continue
+                primary = plain(description)
+                if len(primary) < 170 or re.search(r'learn more|read more|voir plus|en savoir plus', primary, re.I):
+                    try:
+                        page_text = extract_page_text(fetch(url, timeout=15))
+                        if len(page_text) >= 130:
+                            primary = page_text
+                    except (OSError, ValueError, urllib.error.HTTPError):
+                        pass
+                resume, mode = summary_from_source(title, name, primary, 'bulletin')
+                if not resume:
+                    continue
+                is_guide = ('recommandation' in title.lower() or 'guidance' in title.lower()
+                            or name.endswith('recommandations'))
                 entry = {
-                    'id': stable_id('auto-rss', url), 'date': date.isoformat(), 'date_detection':TODAY.isoformat(), 'titre': title,
-                    'resume': resume, 'resume_mode':mode, 'resume_original':(substantive_excerpt(primary,'bulletin') if not previous else previous.get('resume_original','')), 'langue_resume':'fr',
-                    'niveau_impact': 1, 'categorie': category, 'pathologie': 'Surveillance et recommandations',
+                    'id': stable_id('auto-rss', url), 'date': date.isoformat(),
+                    'date_detection': TODAY.isoformat(), 'titre': title,
+                    'resume': resume, 'resume_original': resume, 'resume_mode': mode,
+                    'langue_resume': 'fr' if name.startswith('Santé') else 'en',
+                    'niveau_impact': 1,
+                    'categorie': 'Recommandation' if is_guide else 'Alerte épidémio',
+                    'pathologie': 'Surveillance et recommandations',
                     'source': name, 'lien': url, 'statut': mode,
                 }
                 news.append(entry)
@@ -484,9 +407,10 @@ def collect_official(data: dict | None = None) -> tuple[list[dict], list[dict], 
                     alerts.append({
                         'id': stable_id('al-auto', url), 'titre': title, 'zone': zone,
                         'niveau': 'À qualifier', 'date': date.isoformat(),
-                        'resume': resume, 'resume_mode':mode, 'resume_original':(substantive_excerpt(primary,'bulletin') if not previous else previous.get('resume_original','')), 'langue_resume':'fr',
+                        'resume': resume, 'resume_original': resume,
+                        'resume_mode': mode, 'langue_resume': entry['langue_resume'],
                         'source': name, 'lien': url,
-                        'statut': 'Référencement automatique — niveau d’alerte non évalué'
+                        'statut': 'Référencement automatique — niveau d’alerte non évalué',
                     })
         except (OSError, ValueError, ET.ParseError, urllib.error.HTTPError) as ex:
             errors.append(f'{name} : {str(ex)[:130]}')
@@ -550,15 +474,25 @@ CONTEXT_INFECTIOUS = re.compile(
  r"candid\w*|viral|virus|bacterial|bacteremia|influenza|pneumoni\w*|covid|hiv|"
  r"hepatit\w*|mycobact\w*|tubercul\w*|pathogen\w*|sepsis|fungal|"
  r"respiratory syncytial|rsv)\b", re.I)
-# Éviter les articles périphériques : recherche de base, communication,
-# technologies éducatives et études sans résultat infectiologique clinique.
-# La liste est volontairement courte pour ne pas exclure les essais infectieux.
+# Sont exclues du panorama clinique les études purement vétérinaires,
+# zoologiques, écologiques et expérimentales, même publiées dans une revue
+# d'infectiologie. Exclusions fondées prioritairement sur le TITRE pour ne pas
+# rejeter une étude clinique qui évoque brièvement un modèle animal.
 OUT_OF_SCOPE = re.compile(
-    r'(?:\breddit\b|\bchatbot\b|\bchatbots\b|\bsocial media\b|'
+    r'(?:\breddit\b|\bchatbots?\b|\bsocial media\b|'
     r'thematic analysis of.*(?:threads|posts)|'
     r'\bpyruvate kinase\b|\bfungal metabolite\b|'
-    r'\bmouse infection model\b|\bmurine model\b|\bpreclinical\b)', re.I)
-# Formules qui n'apportent aucune information clinique vérifiable.
+    r'\bmouse infection model\b|\bmurine model\b|\bpreclinical\b|'
+    r'\btransgenic\b|\bgenetically engineered\b|'
+    r'\bplasmodium berghei\b|\bplasmodium yoelii\b|'
+    r'\b(?:penguins?|seabirds?|sea lions?|wild birds?|wildlife|wild animals)\b|'
+    r'\b(?:veterinary|veterinarian|veterinarians|animal husbandry|animal health)\b|'
+    r'\b(?:aquaculture|poultry farms?|livestock farming)\b|'
+    r'\b(?:soil|sediment|seawater|marine environment|forest ecosystem)\b|'
+    r'\b(?:environmental fungi|environmental mycobiome|environmental samples?)\b|'
+    r'\b(?:experimental vaccine model|experimental parasite model)\b)', re.I)
+# Exception délibérément non faite pour les recherches transgéniques/vaccinales
+# précliniques : utiles en recherche fondamentale, pas en veille clinique.
 LOW_INFORMATION = re.compile(
     r'(?:this (?:review|study|paper) aims? to|this (?:review|study) (?:provides|describes) '
     r'(?:a (?:structured )?approach|an overview)|'
@@ -566,11 +500,6 @@ LOW_INFORMATION = re.compile(
     r'\bneed for (?:novel|new) (?:therapeutic|treatment)|'
     r'\bunderscores? the (?:urgent )?need\b|'
     r'\bremains? a (?:major|significant|global) (?:challenge|threat)\b)', re.I)
-# Erreurs typiques réellement observées avec le modèle de traduction local.
-BAD_TRANSLATION = re.compile(
-    r'\bplasma falciparum\b|\bgestion de la candidature\b|'
-    r'\bprise en charge de la candidature\b|'
-    r'\bles utilisateurs de reddit\b|\bon a mis l.accent sur les questions\b', re.I)
 
 
 def eligible_clinical_article(title: str, abstract: str) -> bool:
@@ -583,6 +512,9 @@ def eligible_clinical_article(title: str, abstract: str) -> bool:
         return False
     if NON_CLINICAL.search(title):
         return False
+    # Une étude sur un animal réservoir peut être pertinente si elle documente
+    # explicitement un risque zoonotique humain ; mais elle n'est pas un article
+    # clinique. Choix conservateur : ne pas la publier automatiquement.
     excerpt = substantive_excerpt(abstract, 'article')
     if len(excerpt) < 90:
         return False
@@ -683,7 +615,7 @@ def collect_publications(data: dict | None = None) -> tuple[list[dict], int, lis
     """Cherche 45 jours, dédoublonne par PMID et titre, et ne retient que les
     références encore absentes du site. Priorité documentaire, pas clinique.
     L'abstract primaire sert au résumé factuel avec étiquetage de provenance ;
-    la traduction locale est toujours étiquetée non validée cliniquement.
+    sans traduction locale ni génération de conclusions cliniques.
     """
     seen_ids, seen_titles = known_publications(data or {})
     gathered, successes, errors = {}, 0, []
@@ -748,8 +680,7 @@ def collect_publications(data: dict | None = None) -> tuple[list[dict], int, lis
     output = []
     for x in chosen:
         resume, mode = summary_from_source(x['title'], x['journal'], x['abstract'], 'article')
-        if not resume or not mode.startswith('Traduction Argos'): continue
-        if BAD_TRANSLATION.search(resume): continue
+        if not resume: continue
         output.append({
             'id':'auto-pmid-'+x['pmid'], 'date':x['date'], 'date_detection': TODAY.isoformat(), 'date_type':'Date de publication indexée',
             'titre':x['title'], 'resume':resume, 'resume_original':substantive_excerpt(x['abstract'],'article'), 'resume_mode':mode,
@@ -760,7 +691,7 @@ def collect_publications(data: dict | None = None) -> tuple[list[dict], int, lis
             'revue_abregee':x['shortrev'],
             'lien':f"https://pubmed.ncbi.nlm.nih.gov/{x['pmid']}/",
             'auteur':x['author'], 'revue':x['journal'], 'type_etude':x['typ'],
-            'doi':x['doi'], 'resume_disponible':True, 'langue_resume':('fr' if mode.startswith('Traduction Argos') else 'en'),
+            'doi':x['doi'], 'resume_disponible':True, 'langue_resume':'en',
             'statut':mode,
         })
     return output, successes, errors
@@ -866,70 +797,39 @@ def fetch_pubmed_abstract(pmid: str) -> str:
     return ''
 
 
-def enrich_existing(data: dict, max_items: int = 22) -> int:
-    """Traduit progressivement les anciennes notices automatiques en anglais.
+def restore_original_english(data: dict) -> tuple[int, int]:
+    """Restaure les extraits avant traduction dans les publications existantes.
 
-    Conserve le texte source dans resume_original pour contrôle. Ne supprime
-    jamais de notice et ne modifie pas les résumés éditoriaux en français.
+    Les archives sont conservées, mais seules les cartes créées automatiquement
+    peuvent être corrigées. Aucun appel à une API ni à un traducteur externe.
+    Renvoie (restaurées, sans original). Pour ces dernières, le contenu est
+    remplacé par une invitation neutre à lire la source primaire en anglais.
     """
-    if _translation_model() is None:
-        return 0
     lists = [data.get('nouvautes', {}).get('nouveautes', []),
-             data.get('publications', []),
-             *[a.get('nouveautes', []) for a in data.get('archives', [])[:2]]]
-    groups = {}
-    for lst in lists:
-        for row in lst:
-            if not isinstance(row, dict):
+             data.get('publications', []), data.get('alertes', [])]
+    lists.extend(a.get('nouveautes', []) for a in data.get('archives', []))
+    restored, missing = 0, 0
+    for records in lists:
+        for row in records:
+            if not str(row.get('id', '')).startswith(('auto-pmid-', 'auto-rss-', 'al-auto-')):
                 continue
-            mode = str(row.get('resume_mode', ''))
-            english = row.get('langue_resume') == 'en' or mode.startswith('Extrait de la source')
-            boilerplate = bool(BOILERPLATE.search(row.get('resume', '')))
-            if not (english or boilerplate):
+            if row.get('langue_resume') != 'fr' and not str(row.get('resume_mode', '')).startswith('Traduction Argos'):
                 continue
-            pid = re.search(r'(?:auto-pmid-|pubmed\.ncbi\.nlm\.nih\.gov/)(\d+)',
-                            str(row.get('id', '')) + ' ' + str(row.get('lien', '')))
-            if pid:
-                key = ('pmid', pid.group(1))
-            elif row.get('id', '').startswith('auto-rss-') and row.get('lien', '').startswith('https://'):
-                key = ('rss', row['lien'])
-            else:
-                continue
-            groups.setdefault(key, []).append(row)
-    count = 0
-    for (kind, identifier), rows in list(groups.items())[:max_items]:
-        try:
-            original = next((r['resume'] for r in rows if len(r.get('resume', '')) > 70
-                             and not BOILERPLATE.search(r.get('resume', ''))), '')
+            original = str(row.get('resume_original') or '').strip()
             if original:
-                # La source déjà stockée est un extrait anglais, non le texte complet.
-                summary = translate_excerpt(original)
-                mode = ('Traduction Argos de phrases extraites (français) — non validée'
-                        if summary else '')
+                row['resume'] = original
+                restored += 1
             else:
-                raw = (fetch_pubmed_abstract(identifier) if kind == 'pmid'
-                       else extract_page_text(fetch(identifier, timeout=13)))
-                original = substantive_excerpt(raw, 'article' if kind == 'pmid' else 'bulletin')
-                summary = translate_excerpt(original)
-                mode = ('Traduction Argos de phrases extraites (français) — non validée'
-                        if summary else '')
-            if not summary or BAD_TRANSLATION.search(summary):
-                continue
-            for row in rows:
-                if row.get('langue_resume') == 'fr' or row.get('resume_mode','').startswith('Traduction Argos'):
-                    continue
-                if original:
-                    row['resume_original'] = original[:1200]
-                row['resume'] = summary
-                row['resume_mode'] = mode
-                row['statut'] = mode
-                row['langue_resume'] = 'fr'
-                if 'acces' in row:
-                    row['acces'] = 'Traduction automatique d’extraits de la source ; texte intégral non analysé.'
-            count += 1
-        except (OSError, ValueError, urllib.error.HTTPError, json.JSONDecodeError) as exc:
-            print(f'Avertissement traduction {identifier[:38]}: {str(exc)[:110]}', file=sys.stderr)
-    return count
+                # Ne jamais conserver une traduction erronée sous étiquette anglaise.
+                row['resume'] = 'English source excerpt unavailable; please consult the original publication.'
+                missing += 1
+            row['langue_resume'] = ('fr' if str(row.get('source','')).startswith('Santé publique France')
+                                     else 'en')
+            row['resume_mode'] = 'Extrait de la source primaire (langue originale) — non évalué'
+            row['statut'] = row['resume_mode']
+            if 'acces' in row:
+                row['acces'] = 'Extrait de la notice originale ; texte intégral non analysé automatiquement.'
+    return restored, missing
 
 
 def read_data() -> dict:
@@ -1011,6 +911,7 @@ def update_data(data: dict, news: list[dict], alerts: list[dict], n_sources: int
 
 def main() -> int:
     data = read_data()
+    restored, missing = restore_original_english(data)
     removed = clean_automatic_entries(data)
     official, alertes, ok_feeds, errs1 = collect_official(data)
     papers, ok_pmc, errs2 = collect_publications(data)
@@ -1024,21 +925,16 @@ def main() -> int:
     found = merge_by_id([], guideline_news)[:2] + merge_by_id([], official)[:2] + merge_by_id([], papers)[:6]
     found = merge_by_id([], found)[:10]
     data = update_data(data, found, alertes, ok_feeds + ok_pmc + ok_guides, errs1 + errs2 + errs3, suivi)
-    enriched = enrich_existing(data)
-    data['resume_enrichis'] = enriched
-    data['traductions_fr_reussies'] = _TRANSLATION_SUCCESSES
-    data['traductions_fr_echecs'] = _TRANSLATION_FAILURES
-    data['mode_synthese'] = ('Traduction locale Argos anglais-français — non validée cliniquement'
-                             if _translation_model() is not None else
-                             'Traduction locale indisponible ; aucune nouvelle notice automatique publiée')
-    if _TRANSLATION_ERROR:
-        data['avertissement_traduction'] = _TRANSLATION_ERROR
-        print('Avertissement traduction locale : ' + _TRANSLATION_ERROR, file=sys.stderr)
-    else:
-        data.pop('avertissement_traduction', None)
+    data['resume_enrichis'] = 0
+    data['resumes_originaux_restaures'] = restored
+    data['resumes_originaux_indisponibles'] = missing
+    data['mode_synthese'] = 'Extraits originaux sans traduction automatique (anglais pour PubMed)'
+    data.pop('avertissement_traduction', None)
+    data.pop('traductions_fr_reussies', None)
+    data.pop('traductions_fr_echecs', None)
     data['references_hors_sujet_supprimees'] = removed
     DATA.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(f'Date {TODAY} · Traductions FR {_TRANSLATION_SUCCESSES} · Flux {ok_feeds}/{len(RSS_SOURCES)} · PubMed {ok_pmc}/{len(QUERIES)} · catalogues {ok_guides}/{len(GUIDELINE_INDEXES)} · signalements {len(found)} · notices enrichies {enriched} · hors-sujet retirées {removed} · archives {len(data["archives"])}')
+    print(f'Date {TODAY} · Réf. originales restaurées {restored} · sans original {missing} · Flux {ok_feeds}/{len(RSS_SOURCES)} · PubMed {ok_pmc}/{len(QUERIES)} · catalogues {ok_guides}/{len(GUIDELINE_INDEXES)} · signalements {len(found)} · hors-sujet retirées {removed} · archives {len(data["archives"])}')
     for error in errs1 + errs2 + errs3:
         print('Avertissement : ' + error, file=sys.stderr)
     return 0
