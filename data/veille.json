@@ -2,9 +2,25 @@
   "nouvautes": {
     "semaine": "2026-10-26",
     "fin": "2026-11-01",
-    "maj": "2026-10-26",
+    "maj": "2026-10-27",
     "messages_cles": [],
     "nouveautes": [
+      {
+        "id": "auto-rss-b47d21855d7fe2eb6",
+        "date": "2026-10-19",
+        "date_detection": "2026-10-27",
+        "titre": "Ebola disease: Multi-country outbreak 2026",
+        "resume": "It was last updated on 26 October at 16:30. An outbreak of Ebola disease caused by Bundibugyo virus has been ongoing in the Democratic Republic of the Congo (DRC) since May 2026.",
+        "resume_original": "It was last updated on 26 October at 16:30. An outbreak of Ebola disease caused by Bundibugyo virus has been ongoing in the Democratic Republic of the Congo (DRC) since May 2026.",
+        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+        "langue_resume": "en",
+        "niveau_impact": 1,
+        "categorie": "Alerte épidémio",
+        "pathologie": "Surveillance et recommandations",
+        "source": "ECDC — mises à jour épidémiologiques",
+        "lien": "https://www.ecdc.europa.eu/en/ebola-disease-multi-country-outbreak-2026",
+        "statut": "Extrait de la source primaire (langue originale) — non évalué"
+      },
       {
         "id": "auto-pmid-42926014",
         "date": "2026-10-24",
@@ -165,33 +181,6 @@
         "revue": "Microbiology spectrum",
         "type_etude": "Article indexé (type non qualifié)",
         "doi": "10.1128/spectrum.01048-26",
-        "resume_disponible": true,
-        "langue_resume": "en",
-        "statut": "Extrait de la source primaire (langue originale) — non évalué"
-      },
-      {
-        "id": "auto-pmid-42914993",
-        "date": "2026-10-23",
-        "date_detection": "2026-10-26",
-        "date_type": "Date de publication indexée",
-        "titre": "Safety and immunogenicity of an adenoviral-vectored vaccine against Crimean-Congo haemorrhagic fever in the UK (CCHF01): an open-label, first-in-human, non-randomised, phase 1 clinical trial.",
-        "resume": "Solicited local adverse events occurred in 30 (65%) of 46 participants after the first vaccination and 30 (68%) of 44 after the second vaccination, and solicited systemic adverse events occurred in 39 (85%) of 46 participants after the first vaccination and 28 (64%) of 44 participants after the second vaccination. ChAdOx2 CCHF demonstrated acceptable tolerability and induced CCHFV-specific humoral immune responses in this phase 1 trial.",
-        "resume_original": "Solicited local adverse events occurred in 30 (65%) of 46 participants after the first vaccination and 30 (68%) of 44 after the second vaccination, and solicited systemic adverse events occurred in 39 (85%) of 46 participants after the first vaccination and 28 (64%) of 44 participants after the second vaccination. ChAdOx2 CCHF demonstrated acceptable tolerability and induced CCHFV-specific humoral immune responses in this phase 1 trial.",
-        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
-        "niveau_impact": 1,
-        "categorie": "Publication",
-        "pathologie": "Vaccinations",
-        "thematiques": [
-          "vacc"
-        ],
-        "source": "Pollock KM · Lancet Infect Dis · 2026; S1473-3099(26)00471-8",
-        "reference": "Pollock KM · Lancet Infect Dis · 2026; S1473-3099(26)00471-8",
-        "revue_abregee": "Lancet Infect Dis",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42914993/",
-        "auteur": "Pollock KM",
-        "revue": "The Lancet. Infectious diseases",
-        "type_etude": "Article indexé (type non qualifié)",
-        "doi": "10.1016/s1473-3099(26)00471-8",
         "resume_disponible": true,
         "langue_resume": "en",
         "statut": "Extrait de la source primaire (langue originale) — non évalué"
@@ -745,30 +734,6 @@
       "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
       "message_cle": "",
       "lien": "https://pubmed.ncbi.nlm.nih.gov/42925033/",
-      "acces": "Traduction automatique d’extraits de l’abstract ; texte intégral non relu."
-    },
-    {
-      "id": "auto-pmid-42914993",
-      "date": "2026-10-23",
-      "titre": "Safety and immunogenicity of an adenoviral-vectored vaccine against Crimean-Congo haemorrhagic fever in the UK (CCHF01): an open-label, first-in-human, non-randomised, phase 1 clinical trial.",
-      "auteur": "Pollock KM",
-      "revue": "The Lancet. Infectious diseases",
-      "revue_abregee": "Lancet Infect Dis",
-      "reference": "Pollock KM · Lancet Infect Dis · 2026; S1473-3099(26)00471-8",
-      "type": "Article indexé (type non qualifié)",
-      "pathologie": "Vaccinations",
-      "thematiques": [
-        "vacc"
-      ],
-      "doi": "10.1016/s1473-3099(26)00471-8",
-      "date_type": "Date de publication indexée",
-      "date_detection": "2026-10-26",
-      "resume": "Solicited local adverse events occurred in 30 (65%) of 46 participants after the first vaccination and 30 (68%) of 44 after the second vaccination, and solicited systemic adverse events occurred in 39 (85%) of 46 participants after the first vaccination and 28 (64%) of 44 participants after the second vaccination. ChAdOx2 CCHF demonstrated acceptable tolerability and induced CCHFV-specific humoral immune responses in this phase 1 trial.",
-      "resume_original": "Solicited local adverse events occurred in 30 (65%) of 46 participants after the first vaccination and 30 (68%) of 44 after the second vaccination, and solicited systemic adverse events occurred in 39 (85%) of 46 participants after the first vaccination and 28 (64%) of 44 participants after the second vaccination. ChAdOx2 CCHF demonstrated acceptable tolerability and induced CCHFV-specific humoral immune responses in this phase 1 trial.",
-      "langue_resume": "en",
-      "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
-      "message_cle": "",
-      "lien": "https://pubmed.ncbi.nlm.nih.gov/42914993/",
       "acces": "Traduction automatique d’extraits de l’abstract ; texte intégral non relu."
     },
     {
@@ -1452,8 +1417,8 @@
       "zone": "Europe",
       "niveau": "À qualifier",
       "date": "2026-10-19",
-      "resume": "It was last updated on 23 October at 16:45. An outbreak of Ebola disease caused by Bundibugyo virus has been ongoing in the Democratic Republic of the Congo (DRC) since May 2026.",
-      "resume_original": "It was last updated on 23 October at 16:45. An outbreak of Ebola disease caused by Bundibugyo virus has been ongoing in the Democratic Republic of the Congo (DRC) since May 2026.",
+      "resume": "It was last updated on 26 October at 16:30. An outbreak of Ebola disease caused by Bundibugyo virus has been ongoing in the Democratic Republic of the Congo (DRC) since May 2026.",
+      "resume_original": "It was last updated on 26 October at 16:30. An outbreak of Ebola disease caused by Bundibugyo virus has been ongoing in the Democratic Republic of the Congo (DRC) since May 2026.",
       "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
       "langue_resume": "en",
       "source": "ECDC — mises à jour épidémiologiques",
@@ -1481,7 +1446,7 @@
       "lien": "https://www.ecdc.europa.eu/en/public-health-events"
     }
   ],
-  "maj_auto": "2026-10-26T09:50:52+01:00",
+  "maj_auto": "2026-10-27T08:57:55+01:00",
   "sources_automatiques": [
     "Santé publique France",
     "ECDC — mises à jour épidémiologiques",
@@ -1504,13 +1469,27 @@
     "OMS – recommandations",
     "NIH – VIH opportunistes"
   ],
-  "etat_collecte": "Métadonnées actualisées automatiquement le 2026-10-26 (7 signalements, 32 sources répondantes).",
-  "derniere_tentative": "2026-10-26",
+  "etat_collecte": "Métadonnées actualisées automatiquement le 2026-10-27 (1 signalements, 15 sources répondantes).",
+  "derniere_tentative": "2026-10-27",
   "erreurs_sources": [
-    "Recommandations HAS – vaccination : <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
-    "Recommandations ISHAM – mycologie : catalogue non exploitable : 0 liens de référence",
-    "Recommandations ANRS-MIE – VIH : <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "Recommandations SFM – antibiogramme : catalogue non exploitable : 2 liens de référence"
+    "Europe PMC (Bactériémies et endocardites) : HTTP Error 503: ",
+    "Europe PMC (Bon usage des anti-infectieux) : HTTP Error 503: ",
+    "Europe PMC (Antibiorésistance) : HTTP Error 503: ",
+    "Europe PMC (Immunodéprimés et hématologie) : HTTP Error 503: ",
+    "Europe PMC (Mycologie invasive) : HTTP Error 503: ",
+    "Europe PMC (Mycologie – diagnostic et antifongiques) : HTTP Error 503: ",
+    "Europe PMC (Tuberculose et mycobactéries) : HTTP Error 503: ",
+    "Europe PMC (VIH, PrEP et IST) : HTTP Error 503: ",
+    "Europe PMC (Hépatites virales) : HTTP Error 503: ",
+    "Europe PMC (Infections ostéo-articulaires) : HTTP Error 503: ",
+    "Europe PMC (Infections respiratoires) : HTTP Error 503: ",
+    "Europe PMC (Infections urinaires et digestives) : HTTP Error 503: ",
+    "Europe PMC (Vaccinations) : HTTP Error 503: ",
+    "Europe PMC (Arboviroses et infections émergentes) : HTTP Error 503: ",
+    "Europe PMC (Pathologie du voyageur) : HTTP Error 503: ",
+    "Europe PMC (Infections associées aux soins) : HTTP Error 503: ",
+    "Europe PMC (Tularémie et zoonoses) : HTTP Error 503: ",
+    "Recommandations HAS – vaccination : <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
   ],
   "suivi_recommandations": {
     "index-1e5fe8a9fc24a27b0": {
@@ -1519,7 +1498,7 @@
       "lien": "https://www.infectiologie.com/fr/recommandations.html",
       "empreinte": "147414405c061aea450e6930490cb60baa809577f3fe8a01744c3d4b5df6d73f",
       "nombre_liens": 66,
-      "dernier_controle": "2026-10-26",
+      "dernier_controle": "2026-10-27",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -1536,7 +1515,7 @@
       "lien": "https://www.idsociety.org/practice-guideline/all-practice-guidelines/",
       "empreinte": "5131fe35cbca0e6109aa7acb35f7525a7a34b39c8302ed1ca3467ca79126df49",
       "nombre_liens": 135,
-      "dernier_controle": "2026-10-26",
+      "dernier_controle": "2026-10-27",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -1546,7 +1525,7 @@
       "lien": "https://www.escmid.org/guidelines-journals/guidelines/published-guidelines/",
       "empreinte": "56b54fc072cec0f85619512cedf89679a5f85842d95af4d719a484ff72f0d649",
       "nombre_liens": 18,
-      "dernier_controle": "2026-10-26",
+      "dernier_controle": "2026-10-27",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -1556,7 +1535,7 @@
       "lien": "https://ecil-leukaemia.com/en/resources/publications",
       "empreinte": "19539d9a63ee89ca5b464ff377e4e585cfd02cb7a4ae1ef331ae1b7ea1a7aa7d",
       "nombre_liens": 3,
-      "dernier_controle": "2026-10-26",
+      "dernier_controle": "2026-10-27",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -1566,7 +1545,7 @@
       "lien": "https://www.ecil-leukaemia.com/en/resources/resources-ecil",
       "empreinte": "0eaed879c7553a1d411fceceb4ab421a00ff853e27708ef65d5daa9dfa4f3f3c",
       "nombre_liens": 78,
-      "dernier_controle": "2026-10-26",
+      "dernier_controle": "2026-10-27",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -1576,7 +1555,7 @@
       "lien": "https://www.ecmm.info/guidelines/",
       "empreinte": "bca918d69a27c5877db4328ffa62166546d186145231e54097054a9a8603f467",
       "nombre_liens": 9,
-      "dernier_controle": "2026-10-26",
+      "dernier_controle": "2026-10-27",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -1593,7 +1572,7 @@
       "lien": "https://www.eacsociety.org/guidelines/eacs-guidelines/",
       "empreinte": "bbd24d6841ff4f5b027e0b5eb67d35773e6d400d5b7e031ca9272399331a4d13",
       "nombre_liens": 11,
-      "dernier_controle": "2026-10-26",
+      "dernier_controle": "2026-10-27",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -1603,7 +1582,7 @@
       "lien": "https://bhiva.org/clinical-guidelines/",
       "empreinte": "ea2b4cb3f594f442d2ab71173df2daafde6776e0f49414de574958db0b49a438",
       "nombre_liens": 14,
-      "dernier_controle": "2026-10-26",
+      "dernier_controle": "2026-10-27",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -1612,7 +1591,7 @@
       "zone": "France",
       "lien": "https://anrs.fr/actualites/actualites/vih-nouvelles-recommandations-de-bonne-pratique/",
       "statut": "Indisponible / analyse impossible",
-      "erreur": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+      "erreur": "Remote end closed connection without response"
     },
     "index-44b44da9c71fa240b": {
       "nom": "SF2H",
@@ -1620,7 +1599,7 @@
       "lien": "https://www.sf2h.net/publications.html",
       "empreinte": "c5121978fdff3072025edaa88c34bd4868733cc801c920cd82aaf0cd863c030c",
       "nombre_liens": 17,
-      "dernier_controle": "2026-10-26",
+      "dernier_controle": "2026-10-27",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -1637,7 +1616,7 @@
       "lien": "https://www.who.int/publications/who-guidelines",
       "empreinte": "a1ed8abd4f4f4fafdeddd6edb03020f8eb49346f5254bf6e97512814c06cbff2",
       "nombre_liens": 23,
-      "dernier_controle": "2026-10-26",
+      "dernier_controle": "2026-10-27",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -1647,14 +1626,14 @@
       "lien": "https://clinicalinfo.hiv.gov/en/guidelines",
       "empreinte": "fd96d908565af2fbf226785c3cf63375f392596ffb12f540a0435b035b47ccdf",
       "nombre_liens": 20,
-      "dernier_controle": "2026-10-26",
+      "dernier_controle": "2026-10-27",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     }
   },
   "resume_enrichis": 0,
   "mode_synthese": "Extraits originaux sans traduction automatique (anglais pour PubMed)",
-  "references_hors_sujet_supprimees": 4,
-  "resumes_originaux_restaures": 33,
+  "references_hors_sujet_supprimees": 2,
+  "resumes_originaux_restaures": 0,
   "resumes_originaux_indisponibles": 0
 }
