@@ -2,9 +2,36 @@
   "nouvautes": {
     "semaine": "2026-11-02",
     "fin": "2026-11-08",
-    "maj": "2026-11-07",
+    "maj": "2026-11-08",
     "messages_cles": [],
     "nouveautes": [
+      {
+        "id": "auto-pmid-42924460",
+        "date": "2026-10-23",
+        "date_detection": "2026-11-08",
+        "date_type": "Date de publication indexée",
+        "titre": "Feasibility and clinical outcomes of routine point-of-care screening for opportunistic infections among people with advanced HIV disease in Guyana.",
+        "resume": "We evaluated the feasibility and outcomes of implementing comprehensive Point-of-care (POC) opportunistic infections (OIs) screening among people with Advanced HIV disease (AHD) in Guyana. Only 37.5% of participants with positive results completed the disease-specific diagnostic workup, and 41.7% initiated directed treatment for the detected OI. Routine POC screening for OIs among people with AHD in Guyana is feasible and detects a high burden of OIs.",
+        "resume_original": "We evaluated the feasibility and outcomes of implementing comprehensive Point-of-care (POC) opportunistic infections (OIs) screening among people with Advanced HIV disease (AHD) in Guyana. Only 37.5% of participants with positive results completed the disease-specific diagnostic workup, and 41.7% initiated directed treatment for the detected OI. Routine POC screening for OIs among people with AHD in Guyana is feasible and detects a high burden of OIs.",
+        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+        "niveau_impact": 1,
+        "categorie": "Publication",
+        "pathologie": "VIH et PrEP",
+        "thematiques": [
+          "vih"
+        ],
+        "source": "Camiro-Zúñiga A · HIV Med · 2026",
+        "reference": "Camiro-Zúñiga A · HIV Med · 2026",
+        "revue_abregee": "HIV Med",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42924460/",
+        "auteur": "Camiro-Zúñiga A",
+        "revue": "HIV medicine",
+        "type_etude": "Article indexé (type non qualifié)",
+        "doi": "10.1111/hiv.70324",
+        "resume_disponible": true,
+        "langue_resume": "en",
+        "statut": "Extrait de la source primaire (langue originale) — non évalué"
+      },
       {
         "id": "auto-pmid-42970227",
         "date": "2026-11-02",
@@ -244,33 +271,6 @@
         "revue": "HIV medicine",
         "type_etude": "Article indexé (type non qualifié)",
         "doi": "10.1111/hiv.70338",
-        "resume_disponible": true,
-        "langue_resume": "en",
-        "statut": "Extrait de la source primaire (langue originale) — non évalué"
-      },
-      {
-        "id": "auto-pmid-42971427",
-        "date": "2026-11-02",
-        "date_detection": "2026-11-06",
-        "date_type": "Date de publication indexée",
-        "titre": "Risk of depression in individuals with syphilis: a population-based, nationwide matched cohort study in Denmark.",
-        "resume": "To examine risk of depression among individuals tested for syphilis. Seronegative individuals had an increased risk of both depression (10-year risk difference 1.2% (95% CI: 0.6-1.9%); HR 1.8 (95% CI: 1.4-2.2)) and receipt of antidepressant medication (10-year risk difference 3.1% (95% CI: 1.5-4.7%); HR 1.3 (95% CI: 1.2-1.5)) compared with the comparison cohort from the background population.",
-        "resume_original": "To examine risk of depression among individuals tested for syphilis. Seronegative individuals had an increased risk of both depression (10-year risk difference 1.2% (95% CI: 0.6-1.9%); HR 1.8 (95% CI: 1.4-2.2)) and receipt of antidepressant medication (10-year risk difference 3.1% (95% CI: 1.5-4.7%); HR 1.3 (95% CI: 1.2-1.5)) compared with the comparison cohort from the background population.",
-        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
-        "niveau_impact": 1,
-        "categorie": "Publication",
-        "pathologie": "IST",
-        "thematiques": [
-          "ist"
-        ],
-        "source": "Mariendal CB · Clin Microbiol Infect · 2026; S1198-743X(26)00608-7",
-        "reference": "Mariendal CB · Clin Microbiol Infect · 2026; S1198-743X(26)00608-7",
-        "revue_abregee": "Clin Microbiol Infect",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42971427/",
-        "auteur": "Mariendal CB",
-        "revue": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
-        "type_etude": "Article indexé (type non qualifié)",
-        "doi": "10.1016/j.cmi.2026.10.030",
         "resume_disponible": true,
         "langue_resume": "en",
         "statut": "Extrait de la source primaire (langue originale) — non évalué"
@@ -866,6 +866,30 @@
     }
   ],
   "publications": [
+    {
+      "id": "auto-pmid-42924460",
+      "date": "2026-10-23",
+      "titre": "Feasibility and clinical outcomes of routine point-of-care screening for opportunistic infections among people with advanced HIV disease in Guyana.",
+      "auteur": "Camiro-Zúñiga A",
+      "revue": "HIV medicine",
+      "revue_abregee": "HIV Med",
+      "reference": "Camiro-Zúñiga A · HIV Med · 2026",
+      "type": "Article indexé (type non qualifié)",
+      "pathologie": "VIH et PrEP",
+      "thematiques": [
+        "vih"
+      ],
+      "doi": "10.1111/hiv.70324",
+      "date_type": "Date de publication indexée",
+      "date_detection": "2026-11-08",
+      "resume": "We evaluated the feasibility and outcomes of implementing comprehensive Point-of-care (POC) opportunistic infections (OIs) screening among people with Advanced HIV disease (AHD) in Guyana. Only 37.5% of participants with positive results completed the disease-specific diagnostic workup, and 41.7% initiated directed treatment for the detected OI. Routine POC screening for OIs among people with AHD in Guyana is feasible and detects a high burden of OIs.",
+      "resume_original": "We evaluated the feasibility and outcomes of implementing comprehensive Point-of-care (POC) opportunistic infections (OIs) screening among people with Advanced HIV disease (AHD) in Guyana. Only 37.5% of participants with positive results completed the disease-specific diagnostic workup, and 41.7% initiated directed treatment for the detected OI. Routine POC screening for OIs among people with AHD in Guyana is feasible and detects a high burden of OIs.",
+      "langue_resume": "en",
+      "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+      "message_cle": "",
+      "lien": "https://pubmed.ncbi.nlm.nih.gov/42924460/",
+      "acces": "Traduction automatique d’extraits de l’abstract ; texte intégral non relu."
+    },
     {
       "id": "auto-pmid-42970227",
       "date": "2026-11-02",
@@ -3153,7 +3177,7 @@
       "lien": "https://www.ecdc.europa.eu/en/public-health-events"
     }
   ],
-  "maj_auto": "2026-11-07T09:12:40+01:00",
+  "maj_auto": "2026-11-08T09:13:01+01:00",
   "sources_automatiques": [
     "Santé publique France",
     "ECDC — mises à jour épidémiologiques",
@@ -3176,9 +3200,10 @@
     "OMS – recommandations",
     "NIH – VIH opportunistes"
   ],
-  "etat_collecte": "Métadonnées actualisées automatiquement le 2026-11-07 (6 signalements, 34 sources répondantes).",
-  "derniere_tentative": "2026-11-07",
+  "etat_collecte": "Métadonnées actualisées automatiquement le 2026-11-08 (1 signalements, 33 sources répondantes).",
+  "derniere_tentative": "2026-11-08",
   "erreurs_sources": [
+    "Europe PMC (Infections respiratoires) : The read operation timed out",
     "Recommandations ISHAM – mycologie : catalogue non exploitable : 0 liens de référence",
     "Recommandations SFM – antibiogramme : catalogue non exploitable : 2 liens de référence"
   ],
@@ -3189,7 +3214,7 @@
       "lien": "https://www.infectiologie.com/fr/recommandations.html",
       "empreinte": "147414405c061aea450e6930490cb60baa809577f3fe8a01744c3d4b5df6d73f",
       "nombre_liens": 66,
-      "dernier_controle": "2026-11-07",
+      "dernier_controle": "2026-11-08",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -3199,7 +3224,7 @@
       "lien": "https://www.has-sante.fr/jcms/c_2742985/fr/vaccination",
       "empreinte": "7654f0b870a31610a1722c79b61a459a71db1e62928b54a2e63b046779a28b41",
       "nombre_liens": 156,
-      "dernier_controle": "2026-11-07",
+      "dernier_controle": "2026-11-08",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -3209,7 +3234,7 @@
       "lien": "https://www.idsociety.org/practice-guideline/all-practice-guidelines/",
       "empreinte": "5131fe35cbca0e6109aa7acb35f7525a7a34b39c8302ed1ca3467ca79126df49",
       "nombre_liens": 135,
-      "dernier_controle": "2026-11-07",
+      "dernier_controle": "2026-11-08",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -3219,7 +3244,7 @@
       "lien": "https://www.escmid.org/guidelines-journals/guidelines/published-guidelines/",
       "empreinte": "56b54fc072cec0f85619512cedf89679a5f85842d95af4d719a484ff72f0d649",
       "nombre_liens": 18,
-      "dernier_controle": "2026-11-07",
+      "dernier_controle": "2026-11-08",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -3229,7 +3254,7 @@
       "lien": "https://ecil-leukaemia.com/en/resources/publications",
       "empreinte": "19539d9a63ee89ca5b464ff377e4e585cfd02cb7a4ae1ef331ae1b7ea1a7aa7d",
       "nombre_liens": 3,
-      "dernier_controle": "2026-11-07",
+      "dernier_controle": "2026-11-08",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -3239,7 +3264,7 @@
       "lien": "https://www.ecil-leukaemia.com/en/resources/resources-ecil",
       "empreinte": "0eaed879c7553a1d411fceceb4ab421a00ff853e27708ef65d5daa9dfa4f3f3c",
       "nombre_liens": 78,
-      "dernier_controle": "2026-11-07",
+      "dernier_controle": "2026-11-08",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -3249,7 +3274,7 @@
       "lien": "https://www.ecmm.info/guidelines/",
       "empreinte": "bca918d69a27c5877db4328ffa62166546d186145231e54097054a9a8603f467",
       "nombre_liens": 9,
-      "dernier_controle": "2026-11-07",
+      "dernier_controle": "2026-11-08",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -3266,7 +3291,7 @@
       "lien": "https://www.eacsociety.org/guidelines/eacs-guidelines/",
       "empreinte": "bbd24d6841ff4f5b027e0b5eb67d35773e6d400d5b7e031ca9272399331a4d13",
       "nombre_liens": 11,
-      "dernier_controle": "2026-11-07",
+      "dernier_controle": "2026-11-08",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -3276,7 +3301,7 @@
       "lien": "https://bhiva.org/clinical-guidelines/",
       "empreinte": "ea2b4cb3f594f442d2ab71173df2daafde6776e0f49414de574958db0b49a438",
       "nombre_liens": 14,
-      "dernier_controle": "2026-11-07",
+      "dernier_controle": "2026-11-08",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -3286,7 +3311,7 @@
       "lien": "https://anrs.fr/actualites/actualites/vih-nouvelles-recommandations-de-bonne-pratique/",
       "empreinte": "51bfbc47eaebb7ac9c47f65cbf92d8c74a060b23a9311ee720f92bead09cf1dc",
       "nombre_liens": 44,
-      "dernier_controle": "2026-11-07",
+      "dernier_controle": "2026-11-08",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -3296,7 +3321,7 @@
       "lien": "https://www.sf2h.net/publications.html",
       "empreinte": "8ad4ae115fd91b66f207ef53136a9066373f4bc561349c83e27fa5b5270513a3",
       "nombre_liens": 18,
-      "dernier_controle": "2026-11-07",
+      "dernier_controle": "2026-11-08",
       "dernier_changement": "2026-10-28",
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -3313,7 +3338,7 @@
       "lien": "https://www.who.int/publications/who-guidelines",
       "empreinte": "a1ed8abd4f4f4fafdeddd6edb03020f8eb49346f5254bf6e97512814c06cbff2",
       "nombre_liens": 23,
-      "dernier_controle": "2026-11-07",
+      "dernier_controle": "2026-11-08",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -3323,7 +3348,7 @@
       "lien": "https://clinicalinfo.hiv.gov/en/guidelines",
       "empreinte": "9e209576e6a1e546632f649fb19d212177534eec1b72afa3ed9d1873194694e5",
       "nombre_liens": 20,
-      "dernier_controle": "2026-11-07",
+      "dernier_controle": "2026-11-08",
       "dernier_changement": "2026-10-28",
       "statut": "Index vérifié – aucun changement détecté"
     }
