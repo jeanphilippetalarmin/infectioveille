@@ -2,9 +2,36 @@
   "nouvautes": {
     "semaine": "2026-11-16",
     "fin": "2026-11-22",
-    "maj": "2026-11-18",
+    "maj": "2026-11-19",
     "messages_cles": [],
     "nouveautes": [
+      {
+        "id": "auto-pmid-43044812",
+        "date": "2026-11-17",
+        "date_detection": "2026-11-19",
+        "date_type": "Date de publication indexée",
+        "titre": "Diagnostic performance of an automated qRT-PCR assay using a peripheral blood host 5-mRNA signature for active tuberculosis: a single-center prospective cohort study and external validation in public databases.",
+        "resume": "During external validation, this 5-mRNA signature retained robust discriminative ability across six public transcriptomic datasets, with AUC values ranging from 0.824 to 0.970 for distinguishing active tuberculosis from latent tuberculosis infection. This automated qRT-PCR system enables rapid detection using peripheral-blood-derived 5-mRNA TBA-Score.",
+        "resume_original": "During external validation, this 5-mRNA signature retained robust discriminative ability across six public transcriptomic datasets, with AUC values ranging from 0.824 to 0.970 for distinguishing active tuberculosis from latent tuberculosis infection. This automated qRT-PCR system enables rapid detection using peripheral-blood-derived 5-mRNA TBA-Score.",
+        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+        "niveau_impact": 1,
+        "categorie": "Publication",
+        "pathologie": "Tuberculose et mycobactéries",
+        "thematiques": [
+          "tb"
+        ],
+        "source": "Luo X · Int J Infect Dis · 2026; 109254",
+        "reference": "Luo X · Int J Infect Dis · 2026; 109254",
+        "revue_abregee": "Int J Infect Dis",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/43044812/",
+        "auteur": "Luo X",
+        "revue": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "type_etude": "Article indexé (type non qualifié)",
+        "doi": "10.1016/j.ijid.2026.109254",
+        "resume_disponible": true,
+        "langue_resume": "en",
+        "statut": "Extrait de la source primaire (langue originale) — non évalué"
+      },
       {
         "id": "auto-guide-ecfd037e980bb9bd9",
         "date_detection": "2026-11-18",
@@ -211,33 +238,6 @@
         "source": "HAS – vaccination",
         "lien": "https://www.has-sante.fr/jcms/c_2742985/fr/vaccination",
         "statut": "Index modifié — nouvelle recommandation non confirmée"
-      },
-      {
-        "id": "auto-pmid-43037396",
-        "date": "2026-11-16",
-        "date_detection": "2026-11-17",
-        "date_type": "Date de publication indexée",
-        "titre": "Characterizing malaria parasite drug response using single-cell transcriptomics.",
-        "resume": "Gene expression analysis in malaria parasites has been used to define transcriptional regulatory networks but has been used less frequently to characterize parasite response to drug treatment or to show how parasites may evade killing. We found that each treatment gave rise to different cell populations with different transcriptional profiles.",
-        "resume_original": "Gene expression analysis in malaria parasites has been used to define transcriptional regulatory networks but has been used less frequently to characterize parasite response to drug treatment or to show how parasites may evade killing. We found that each treatment gave rise to different cell populations with different transcriptional profiles.",
-        "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
-        "niveau_impact": 1,
-        "categorie": "Publication",
-        "pathologie": "Pathologie du voyageur",
-        "thematiques": [
-          "voyage"
-        ],
-        "source": "Godinez-Macias KP · mBio · 2026; e0251326",
-        "reference": "Godinez-Macias KP · mBio · 2026; e0251326",
-        "revue_abregee": "mBio",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/43037396/",
-        "auteur": "Godinez-Macias KP",
-        "revue": "mBio",
-        "type_etude": "Article indexé (type non qualifié)",
-        "doi": "10.1128/mbio.02513-26",
-        "resume_disponible": true,
-        "langue_resume": "en",
-        "statut": "Extrait de la source primaire (langue originale) — non évalué"
       }
     ],
     "type_edition": "Repérage automatisé non validé cliniquement"
@@ -1389,6 +1389,30 @@
     }
   ],
   "publications": [
+    {
+      "id": "auto-pmid-43044812",
+      "date": "2026-11-17",
+      "titre": "Diagnostic performance of an automated qRT-PCR assay using a peripheral blood host 5-mRNA signature for active tuberculosis: a single-center prospective cohort study and external validation in public databases.",
+      "auteur": "Luo X",
+      "revue": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+      "revue_abregee": "Int J Infect Dis",
+      "reference": "Luo X · Int J Infect Dis · 2026; 109254",
+      "type": "Article indexé (type non qualifié)",
+      "pathologie": "Tuberculose et mycobactéries",
+      "thematiques": [
+        "tb"
+      ],
+      "doi": "10.1016/j.ijid.2026.109254",
+      "date_type": "Date de publication indexée",
+      "date_detection": "2026-11-19",
+      "resume": "During external validation, this 5-mRNA signature retained robust discriminative ability across six public transcriptomic datasets, with AUC values ranging from 0.824 to 0.970 for distinguishing active tuberculosis from latent tuberculosis infection. This automated qRT-PCR system enables rapid detection using peripheral-blood-derived 5-mRNA TBA-Score.",
+      "resume_original": "During external validation, this 5-mRNA signature retained robust discriminative ability across six public transcriptomic datasets, with AUC values ranging from 0.824 to 0.970 for distinguishing active tuberculosis from latent tuberculosis infection. This automated qRT-PCR system enables rapid detection using peripheral-blood-derived 5-mRNA TBA-Score.",
+      "langue_resume": "en",
+      "resume_mode": "Extrait de la source primaire (langue originale) — non évalué",
+      "message_cle": "",
+      "lien": "https://pubmed.ncbi.nlm.nih.gov/43044812/",
+      "acces": "Traduction automatique d’extraits de l’abstract ; texte intégral non relu."
+    },
     {
       "id": "auto-pmid-43042629",
       "date": "2026-11-17",
@@ -4959,7 +4983,7 @@
       "lien": "https://www.ecdc.europa.eu/en/public-health-events"
     }
   ],
-  "maj_auto": "2026-11-18T09:30:16+01:00",
+  "maj_auto": "2026-11-19T09:32:30+01:00",
   "sources_automatiques": [
     "Santé publique France",
     "ECDC — mises à jour épidémiologiques",
@@ -4982,9 +5006,24 @@
     "OMS – recommandations",
     "NIH – VIH opportunistes"
   ],
-  "etat_collecte": "Métadonnées actualisées automatiquement le 2026-11-18 (8 signalements, 34 sources répondantes).",
-  "derniere_tentative": "2026-11-18",
+  "etat_collecte": "Métadonnées actualisées automatiquement le 2026-11-19 (1 signalements, 19 sources répondantes).",
+  "derniere_tentative": "2026-11-19",
   "erreurs_sources": [
+    "ECDC — recommandations : HTTP Error 429: Too Many Requests",
+    "Europe PMC (Bon usage des anti-infectieux) : The read operation timed out",
+    "Europe PMC (Antibiorésistance) : The read operation timed out",
+    "Europe PMC (Immunodéprimés et hématologie) : The read operation timed out",
+    "Europe PMC (Mycologie invasive) : The read operation timed out",
+    "Europe PMC (VIH, PrEP et IST) : The read operation timed out",
+    "Europe PMC (Hépatites virales) : HTTP Error 503: Service Temporarily Unavailable",
+    "Europe PMC (Infections ostéo-articulaires) : HTTP Error 503: Service Temporarily Unavailable",
+    "Europe PMC (Infections respiratoires) : HTTP Error 503: Service Temporarily Unavailable",
+    "Europe PMC (Infections urinaires et digestives) : HTTP Error 503: Service Temporarily Unavailable",
+    "Europe PMC (Vaccinations) : HTTP Error 503: Service Temporarily Unavailable",
+    "Europe PMC (Arboviroses et infections émergentes) : HTTP Error 503: Service Temporarily Unavailable",
+    "Europe PMC (Pathologie du voyageur) : HTTP Error 503: Service Temporarily Unavailable",
+    "Europe PMC (Infections associées aux soins) : HTTP Error 503: Service Temporarily Unavailable",
+    "Europe PMC (Tularémie et zoonoses) : HTTP Error 503: Service Temporarily Unavailable",
     "Recommandations ISHAM – mycologie : catalogue non exploitable : 0 liens de référence",
     "Recommandations SFM – antibiogramme : catalogue non exploitable : 2 liens de référence"
   ],
@@ -4995,7 +5034,7 @@
       "lien": "https://www.infectiologie.com/fr/recommandations.html",
       "empreinte": "147414405c061aea450e6930490cb60baa809577f3fe8a01744c3d4b5df6d73f",
       "nombre_liens": 66,
-      "dernier_controle": "2026-11-18",
+      "dernier_controle": "2026-11-19",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -5005,7 +5044,7 @@
       "lien": "https://www.has-sante.fr/jcms/c_2742985/fr/vaccination",
       "empreinte": "932bffc03b99f9f598981280404cf76b4d05a2627c35279c98663dfeda9fa2fc",
       "nombre_liens": 157,
-      "dernier_controle": "2026-11-18",
+      "dernier_controle": "2026-11-19",
       "dernier_changement": "2026-11-17",
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -5015,7 +5054,7 @@
       "lien": "https://www.idsociety.org/practice-guideline/all-practice-guidelines/",
       "empreinte": "5131fe35cbca0e6109aa7acb35f7525a7a34b39c8302ed1ca3467ca79126df49",
       "nombre_liens": 135,
-      "dernier_controle": "2026-11-18",
+      "dernier_controle": "2026-11-19",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -5025,7 +5064,7 @@
       "lien": "https://www.escmid.org/guidelines-journals/guidelines/published-guidelines/",
       "empreinte": "56b54fc072cec0f85619512cedf89679a5f85842d95af4d719a484ff72f0d649",
       "nombre_liens": 18,
-      "dernier_controle": "2026-11-18",
+      "dernier_controle": "2026-11-19",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -5035,7 +5074,7 @@
       "lien": "https://ecil-leukaemia.com/en/resources/publications",
       "empreinte": "19539d9a63ee89ca5b464ff377e4e585cfd02cb7a4ae1ef331ae1b7ea1a7aa7d",
       "nombre_liens": 3,
-      "dernier_controle": "2026-11-18",
+      "dernier_controle": "2026-11-19",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -5045,7 +5084,7 @@
       "lien": "https://www.ecil-leukaemia.com/en/resources/resources-ecil",
       "empreinte": "0eaed879c7553a1d411fceceb4ab421a00ff853e27708ef65d5daa9dfa4f3f3c",
       "nombre_liens": 78,
-      "dernier_controle": "2026-11-18",
+      "dernier_controle": "2026-11-19",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -5055,7 +5094,7 @@
       "lien": "https://www.ecmm.info/guidelines/",
       "empreinte": "bca918d69a27c5877db4328ffa62166546d186145231e54097054a9a8603f467",
       "nombre_liens": 9,
-      "dernier_controle": "2026-11-18",
+      "dernier_controle": "2026-11-19",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -5072,7 +5111,7 @@
       "lien": "https://www.eacsociety.org/guidelines/eacs-guidelines/",
       "empreinte": "bbd24d6841ff4f5b027e0b5eb67d35773e6d400d5b7e031ca9272399331a4d13",
       "nombre_liens": 11,
-      "dernier_controle": "2026-11-18",
+      "dernier_controle": "2026-11-19",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -5082,7 +5121,7 @@
       "lien": "https://bhiva.org/clinical-guidelines/",
       "empreinte": "ea2b4cb3f594f442d2ab71173df2daafde6776e0f49414de574958db0b49a438",
       "nombre_liens": 14,
-      "dernier_controle": "2026-11-18",
+      "dernier_controle": "2026-11-19",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -5092,7 +5131,7 @@
       "lien": "https://anrs.fr/actualites/actualites/vih-nouvelles-recommandations-de-bonne-pratique/",
       "empreinte": "51bfbc47eaebb7ac9c47f65cbf92d8c74a060b23a9311ee720f92bead09cf1dc",
       "nombre_liens": 44,
-      "dernier_controle": "2026-11-18",
+      "dernier_controle": "2026-11-19",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -5102,7 +5141,7 @@
       "lien": "https://www.sf2h.net/publications.html",
       "empreinte": "3b48c168cc8ff0dfcf4d8bb6d11227212e7ed70db2eb83e9a4a840e650bd5f24",
       "nombre_liens": 16,
-      "dernier_controle": "2026-11-18",
+      "dernier_controle": "2026-11-19",
       "dernier_changement": "2026-11-10",
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -5119,7 +5158,7 @@
       "lien": "https://www.who.int/publications/who-guidelines",
       "empreinte": "a1ed8abd4f4f4fafdeddd6edb03020f8eb49346f5254bf6e97512814c06cbff2",
       "nombre_liens": 23,
-      "dernier_controle": "2026-11-18",
+      "dernier_controle": "2026-11-19",
       "dernier_changement": null,
       "statut": "Index vérifié – aucun changement détecté"
     },
@@ -5129,9 +5168,9 @@
       "lien": "https://clinicalinfo.hiv.gov/en/guidelines",
       "empreinte": "f5d3976229c79eebbe3a3416ffddbff78301210886cb5279dea7223252eb60b8",
       "nombre_liens": 20,
-      "dernier_controle": "2026-11-18",
+      "dernier_controle": "2026-11-19",
       "dernier_changement": "2026-11-18",
-      "statut": "Modification détectée – examen humain requis"
+      "statut": "Index vérifié – aucun changement détecté"
     }
   },
   "resume_enrichis": 0,
